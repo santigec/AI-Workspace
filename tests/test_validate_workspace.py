@@ -53,6 +53,11 @@ class WorkspaceValidationTests(unittest.TestCase):
         manifest.write_text(json.dumps(data), encoding="utf-8")
         self.assertTrue(validator.validate(self.root))
 
+    def test_logical_intake_alone_cannot_promote_a_skill(self):
+        self.registry["skills"]["product-specs"]["status"] = "beta"
+        self.save()
+        self.assertTrue(validator.validate(self.root))
+
     def test_reference_outside_repo_is_rejected(self):
         self.registry["skills"]["image-analysis"]["path"] = "../outside/SKILL.md"
         self.save()

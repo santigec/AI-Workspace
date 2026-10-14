@@ -1,0 +1,43 @@
+{
+  "case_id": "mug-order-intake-001",
+  "scope": "logical_order_intake",
+  "workspace_commit": "41e85838c67ae78738bbcd38b8f45ad82089a9d8",
+  "order_sha256": "5ea34f44d79f5091a2645c06a3f503b8a3d7398477074eb152db174cd5037936",
+  "evaluation_status": "PASS",
+  "checks": {
+    "correct_workflow": true,
+    "correct_product": true,
+    "proposed_dimensions_from_catalog": true,
+    "accented_name_preserved": true,
+    "draft_allowed": true,
+    "unverified_product_warning": true,
+    "not_print_ready": true,
+    "production_not_approved": true
+  },
+  "draft_validation": {
+    "status": "DRAFT_ALLOWED",
+    "production_ready": false,
+    "product_id": "mug_standard",
+    "workflow": "mug-sublimation",
+    "effective_dimensions": {
+      "width_mm": 205,
+      "height_mm": 95
+    },
+    "dimension_source": "catalog",
+    "errors": [],
+    "warnings": [
+      "Product specifications are unverified"
+    ]
+  },
+  "production_validation": {
+    "status": "INVALID",
+    "production_ready": false,
+    "errors": [
+      "order/output/resolution_ppi: None is not of type 'integer'"
+    ],
+    "warnings": []
+  },
+  "image_generation": "NOT_RUN",
+  "layout_generation": "NOT_RUN",
+  "visual_qa": "NOT_RUN"
+}

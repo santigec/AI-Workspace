@@ -103,7 +103,8 @@ def validate(root):
                 fail(f"{name}: invalid case reference {cid}")
         if skill.get("status") in {"beta", "stable"}:
             cids = skill.get("evaluation_cases", [])
-            if not cids or any(indexed_cases.get(cid, {}).get("status") != "PASS" for cid in cids):
+            behavioral = [cid for cid in cids if indexed_cases.get(cid, {}).get("scope", "behavioral") == "behavioral"]
+            if not behavioral or any(indexed_cases.get(cid, {}).get("status") != "PASS" for cid in cids):
                 fail(f"{name}: promotion requires passing evaluation evidence")
         if path:
             text = path.read_text(encoding="utf-8")

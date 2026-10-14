@@ -1,5 +1,12 @@
 # Historial
 
+## Prueba lógica de pedido — 2026-10-14 (develop)
+
+- Registrado mug-order-intake-001 sobre la base 0.2.1: orden, producto y workflow resueltos; borrador permitido y producción incompleta rechazada.
+- Evidencia sin datos operativos de cliente; orden y ficha completas conservadas fuera del repositorio.
+- Las pruebas lógicas por sí solas no habilitan promoción beta/stable.
+- Generación, layout y QA visual siguen NOT_RUN.
+
 ## 0.2.1 — Tribe orders foundation (develop)
 
 - Catálogos de tazas, tomatodos, camisetas, stickers y agendas: cuatro variantes propuestas y tres registros pendientes.

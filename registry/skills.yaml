@@ -156,7 +156,9 @@
       "status": "alpha",
       "requires_before": [],
       "recommends_next": [],
-      "evaluation_cases": []
+      "evaluation_cases": [
+        "mug-order-intake-001"
+      ]
     },
     "sql-review": {
       "domain": "software-office",

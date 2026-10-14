@@ -9,7 +9,7 @@ Repositorio central para capacidades de IA reutilizables. Versión de desarrollo
 - **image-studio/**: análisis, generación, edición y preparación de imágenes.
 - **software-office/**: SQL, diseño de sistemas y comunicación técnica.
 - **experiments/**: pruebas antes de promover una capacidad a estable.
-- **evals/**: 12 escenarios de evaluación y plantilla de evidencia.
+- **evals/**: 12 escenarios visuales/técnicos pendientes y una prueba lógica real ejecutada.
 - **registry/**: versiones, propietarios, estados y dependencias de los 16 skills.
 - **workflows/**: sublimación, edición de imagen y diseño de sistemas.
 - **standards/**: contratos y evaluación; los estándares generales siguen en shared/standards.
@@ -51,7 +51,7 @@ python scripts/validate_workspace.py
 python -m unittest discover -s tests
 ```
 
-Estos controles validan estructura y consistencia. Los 12 casos de comportamiento están NOT_RUN; no se han usado imágenes reales ni aprobado productos para producción.
+Estos controles validan estructura y consistencia. Los 12 casos originales de comportamiento están NOT_RUN; una [prueba lógica real de pedido](evals/tribe/mug-sublimation/result-001.md) pasó la validación de entrada. No se ha generado arte ni aprobado un producto para producción.
 develop contiene la base v0.2; main mantiene la última versión publicada. El siguiente paso es ejecutar los casos con archivos y especificaciones reales, guardar evidencia y corregir los skills antes de promoverlos.
 
 ## Pedidos de Tribe

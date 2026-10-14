@@ -27,6 +27,7 @@ Los casos iniciales son escenarios de prueba derivados de necesidades del domini
 ## Promoción
 
 Alpha: instrucciones revisadas y controles estructurales.
+Las pruebas con scope logical_order_intake verifican modelado y validación de entrada. Un PASS de ese alcance no cuenta como evaluación de comportamiento del arte ni basta para promover un skill.
 Beta: casos normales y negativos ejecutados, con evidencia revisable y fallos corregidos.
 Stable: casos representativos reales documentados y repetibles, incluidos límites críticos del dominio, revisados por el responsable. Define cobertura según el riesgo; no uses una cantidad arbitraria de pruebas para inferir calidad.
 

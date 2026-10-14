@@ -72,6 +72,15 @@
       "skill": "sql-review",
       "path": "evals/software-office/sql-review/case-003.md",
       "status": "NOT_RUN"
+    },
+    {
+      "id": "mug-order-intake-001",
+      "skill": "product-specs",
+      "workflow": "mug-sublimation",
+      "scope": "logical_order_intake",
+      "path": "evals/tribe/mug-sublimation/case-001.md",
+      "status": "PASS",
+      "result_path": "evals/tribe/mug-sublimation/result-001.md"
     }
   ]
 }

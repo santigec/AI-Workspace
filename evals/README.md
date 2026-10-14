@@ -1,6 +1,6 @@
 # Casos de evaluación
 
-Todos los casos están **NOT_RUN**. No se han añadido imágenes de clientes ni se ha simulado evidencia de producción.
+Los 12 casos originales están **NOT_RUN**. Se ejecutó una [prueba lógica real de entrada](tribe/mug-sublimation/result-001.md) con resultado PASS; no incluye generación ni QA visual y no habilita promoción de skills. Los pedidos operativos permanecen fuera del repositorio.
 
 - [Análisis de imagen](image-studio/image-analysis/expected-results.md): skill común en shared, evaluado como entrada de Image Studio.
 - [Sublimación](tribe/sublimation-layout/expected-results.md).
