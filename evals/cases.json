@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "id": "image-analysis-001",
+      "skill": "image-analysis",
+      "path": "evals/image-studio/image-analysis/case-001.md",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "image-analysis-002",
+      "skill": "image-analysis",
+      "path": "evals/image-studio/image-analysis/case-002.md",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "image-analysis-003",
+      "skill": "image-analysis",
+      "path": "evals/image-studio/image-analysis/case-003.md",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "sublimation-layout-001",
+      "skill": "sublimation-layout",
+      "path": "evals/tribe/sublimation-layout/case-001.md",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "sublimation-layout-002",
+      "skill": "sublimation-layout",
+      "path": "evals/tribe/sublimation-layout/case-002.md",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "sublimation-layout-003",
+      "skill": "sublimation-layout",
+      "path": "evals/tribe/sublimation-layout/case-003.md",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "print-ready-qa-001",
+      "skill": "print-ready-qa",
+      "path": "evals/image-studio/print-ready-qa/case-001.md",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "print-ready-qa-002",
+      "skill": "print-ready-qa",
+      "path": "evals/image-studio/print-ready-qa/case-002.md",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "print-ready-qa-003",
+      "skill": "print-ready-qa",
+      "path": "evals/image-studio/print-ready-qa/case-003.md",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "sql-review-001",
+      "skill": "sql-review",
+      "path": "evals/software-office/sql-review/case-001.md",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "sql-review-002",
+      "skill": "sql-review",
+      "path": "evals/software-office/sql-review/case-002.md",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "sql-review-003",
+      "skill": "sql-review",
+      "path": "evals/software-office/sql-review/case-003.md",
+      "status": "NOT_RUN"
+    }
+  ]
+}

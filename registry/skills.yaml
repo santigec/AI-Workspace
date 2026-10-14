@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "workspace_version": "0.2.0",
+  "skills": {
+    "image-analysis": {
+      "domain": "shared",
+      "owner": "shared",
+      "path": "shared/skills/image-analysis/SKILL.md",
+      "version": "0.2.0",
+      "status": "alpha",
+      "requires_before": [],
+      "recommends_next": [
+        "image-editing",
+        "transparent-png",
+        "product-specs",
+        "resize-to-print"
+      ],
+      "evaluation_cases": [
+        "image-analysis-001",
+        "image-analysis-002",
+        "image-analysis-003"
+      ]
+    },
+    "research": {
+      "domain": "shared",
+      "owner": "shared",
+      "path": "shared/skills/research/SKILL.md",
+      "version": "0.1.0",
+      "status": "alpha",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": []
+    },
+    "professional-writing": {
+      "domain": "shared",
+      "owner": "shared",
+      "path": "shared/skills/professional-writing/SKILL.md",
+      "version": "0.1.0",
+      "status": "alpha",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": []
+    },
+    "presentation": {
+      "domain": "shared",
+      "owner": "shared",
+      "path": "shared/skills/presentation/SKILL.md",
+      "version": "0.1.0",
+      "status": "alpha",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": []
+    },
+    "image-generation": {
+      "domain": "image-studio",
+      "owner": "image-studio",
+      "path": "image-studio/skills/image-generation/SKILL.md",
+      "version": "0.1.0",
+      "status": "alpha",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": []
+    },
+    "image-editing": {
+      "domain": "image-studio",
+      "owner": "image-studio",
+      "path": "image-studio/skills/image-editing/SKILL.md",
+      "version": "0.1.0",
+      "status": "alpha",
+      "requires_before": [
+        "image-analysis"
+      ],
+      "recommends_next": [],
+      "evaluation_cases": []
+    },
+    "preserve-original-art": {
+      "domain": "image-studio",
+      "owner": "image-studio",
+      "path": "image-studio/skills/preserve-original-art/SKILL.md",
+      "version": "0.1.0",
+      "status": "alpha",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": []
+    },
+    "resize-to-print": {
+      "domain": "image-studio",
+      "owner": "image-studio",
+      "path": "image-studio/skills/resize-to-print/SKILL.md",
+      "version": "0.1.0",
+      "status": "alpha",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": []
+    },
+    "transparent-png": {
+      "domain": "image-studio",
+      "owner": "image-studio",
+      "path": "image-studio/skills/transparent-png/SKILL.md",
+      "version": "0.1.0",
+      "status": "alpha",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": []
+    },
+    "print-ready-qa": {
+      "domain": "image-studio",
+      "owner": "image-studio",
+      "path": "image-studio/skills/print-ready-qa/SKILL.md",
+      "version": "0.2.0",
+      "status": "alpha",
+      "requires_before": [
+        "product-specs"
+      ],
+      "recommends_next": [],
+      "evaluation_cases": [
+        "print-ready-qa-001",
+        "print-ready-qa-002",
+        "print-ready-qa-003"
+      ]
+    },
+    "sublimation-layout": {
+      "domain": "tribe",
+      "owner": "tribe",
+      "path": "tribe/skills/sublimation-layout/SKILL.md",
+      "version": "0.2.0",
+      "status": "alpha",
+      "requires_before": [
+        "image-analysis",
+        "product-specs"
+      ],
+      "recommends_next": [
+        "print-ready-qa"
+      ],
+      "evaluation_cases": [
+        "sublimation-layout-001",
+        "sublimation-layout-002",
+        "sublimation-layout-003"
+      ]
+    },
+    "dtf-layout": {
+      "domain": "tribe",
+      "owner": "tribe",
+      "path": "tribe/skills/dtf-layout/SKILL.md",
+      "version": "0.1.0",
+      "status": "alpha",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": []
+    },
+    "product-specs": {
+      "domain": "tribe",
+      "owner": "tribe",
+      "path": "tribe/skills/product-specs/SKILL.md",
+      "version": "0.1.0",
+      "status": "alpha",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": []
+    },
+    "sql-review": {
+      "domain": "software-office",
+      "owner": "software-office",
+      "path": "software-office/skills/sql-review/SKILL.md",
+      "version": "0.1.0",
+      "status": "alpha",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": [
+        "sql-review-001",
+        "sql-review-002",
+        "sql-review-003"
+      ]
+    },
+    "system-design": {
+      "domain": "software-office",
+      "owner": "software-office",
+      "path": "software-office/skills/system-design/SKILL.md",
+      "version": "0.1.0",
+      "status": "alpha",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": []
+    },
+    "technical-presentation": {
+      "domain": "software-office",
+      "owner": "software-office",
+      "path": "software-office/skills/technical-presentation/SKILL.md",
+      "version": "0.1.0",
+      "status": "alpha",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": []
+    }
+  },
+  "workflows": {
+    "sublimation": {
+      "path": "workflows/tribe/sublimation.md",
+      "status": "alpha",
+      "steps": [
+        "image-analysis",
+        "product-specs",
+        "sublimation-layout",
+        "print-ready-qa"
+      ]
+    },
+    "image-edit": {
+      "path": "workflows/image-studio/image-edit.md",
+      "status": "alpha",
+      "steps": [
+        "image-analysis",
+        "preserve-original-art",
+        "image-editing",
+        "resize-to-print",
+        "print-ready-qa"
+      ],
+      "conditional_steps": [
+        "resize-to-print",
+        "print-ready-qa"
+      ]
+    },
+    "system-design": {
+      "path": "workflows/software-office/system-design.md",
+      "status": "alpha",
+      "steps": [
+        "system-design",
+        "professional-writing",
+        "technical-presentation"
+      ],
+      "conditional_steps": [
+        "professional-writing",
+        "technical-presentation"
+      ]
+    }
+  }
+}
