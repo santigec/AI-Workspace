@@ -5,6 +5,8 @@
 Usa mug-sublimation con product.id de mug_standard y [schema de pedido](../../tribe/schemas/order-schema.yaml).
 Consulta [catálogo](../../tribe/knowledge/product-catalog/README.md), [principios](../../tribe/standards/design-principles.md) y [resiliencia](../../tribe/policies/non-blocking-generation.md).
 No identifiques modelo solo por capacidad o apariencia.
+Entrada de chat: [mug-sublimation SKILL.md](../../tribe/skills/mug-sublimation/SKILL.md). Las referencias pueden orientar contenido, estilo o fondo; no son obligatorias para arte nuevo.
+El fondo es parte del pedido: transparent, solid o themed con background_description. Mantener el lienzo solicitado al cambiar fondo. PNG puede incluir fondo opaco; no equivale a transparencia.
 
 ## Borrador
 

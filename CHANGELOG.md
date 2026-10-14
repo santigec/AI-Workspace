@@ -1,5 +1,13 @@
 # Historial
 
+## 0.2.2 — Chat mug design (develop)
+
+- Nuevo skill mug-sublimation 0.1.0 y punto de entrada de Codex en .agents/skills.
+- Fondos themed con descripción y referencias de contenido, estilo o fondo desde el chat.
+- Ejemplo de pedido con fondo temático, guía de invocación desde otro chat y cuatro pruebas nuevas.
+- PNG admite fondo transparente u opaco; las dimensiones físicas permanecen independientes del fondo.
+- Archivos de diseños reales conservados fuera del repositorio.
+
 ## Prueba lógica de pedido — 2026-10-14 (develop)
 
 - Registrado mug-order-intake-001 sobre la base 0.2.1: orden, producto y workflow resueltos; borrador permitido y producción incompleta rechazada.

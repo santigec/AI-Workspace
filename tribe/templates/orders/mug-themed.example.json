@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "order_id": "order-2026-10-14-004",
+  "domain": "tribe",
+  "mode": "draft",
+  "workspace_ref": null,
+  "workflow": "mug-sublimation",
+  "product": {
+    "id": "mug_standard"
+  },
+  "requested_dimensions": {
+    "width_mm": 205,
+    "height_mm": 95
+  },
+  "theme": {
+    "name": "Dinosaurios infantiles"
+  },
+  "content": {
+    "main_name": "Cliente Demo",
+    "additional_text": null
+  },
+  "artwork": {
+    "operation": "generate",
+    "source": null,
+    "reference_images": [
+      {
+        "source": "chat:background-reference-1",
+        "role": "background"
+      }
+    ]
+  },
+  "style": {
+    "tone": [
+      "professional",
+      "clean"
+    ],
+    "preserve_typography": true,
+    "preserve_graphic_details": true
+  },
+  "output": {
+    "format": "png",
+    "background": "themed",
+    "resolution_ppi": 300,
+    "background_description": "Paisaje de selva infantil, cielo azul y vegetación; nombre y personajes legibles."
+  },
+  "constraints": [
+    {
+      "key": "flat_and_continuous",
+      "value": true,
+      "priority": "hard"
+    },
+    {
+      "key": "avoid_distortion",
+      "value": true,
+      "priority": "hard"
+    },
+    {
+      "key": "secondary_decoration_position",
+      "value": "adaptable",
+      "priority": "soft"
+    },
+    {
+      "key": "background",
+      "value": "themed",
+      "priority": "hard"
+    }
+  ],
+  "resilience": {
+    "allow_draft_on_missing_specs": true,
+    "adaptable_elements": [
+      "distribution",
+      "secondary_decorations",
+      "scale"
+    ]
+  }
+}

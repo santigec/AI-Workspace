@@ -11,6 +11,7 @@ python -m unittest discover -s tests
 ```
 
 workflow referencia un workflow del registro, no un skill. Las restricciones hard nunca se relajan por resiliencia.
+output.background admite transparent, solid y themed; themed requiere background_description. artwork.reference_images es opcional y clasifica cada adjunto como content, style o background. No sustituye artwork.source cuando se edita un original.
 workspace_ref debe ser un commit completo para producción; se compara con HEAD. En borradores puede ser null. El validador rechaza producción con cambios en archivos versionados.
 La validación comprueba schema, catálogo, producto/workflow, dimensiones, salida y contradicciones reconocidas. Restricciones descriptivas requieren revisión del ejecutor.
 La disponibilidad del original, fidelidad, transparencia, texto, zonas excluidas y QA se comprueban en ejecución.

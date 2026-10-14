@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "workspace_version": "0.2.1",
+  "workspace_version": "0.2.2",
   "skills": {
     "image-analysis": {
       "domain": "shared",
@@ -192,6 +192,18 @@
       "status": "alpha",
       "requires_before": [],
       "recommends_next": [],
+      "evaluation_cases": []
+    },
+    "mug-sublimation": {
+      "domain": "tribe",
+      "owner": "tribe",
+      "path": "tribe/skills/mug-sublimation/SKILL.md",
+      "version": "0.1.0",
+      "status": "alpha",
+      "requires_before": [],
+      "recommends_next": [
+        "print-ready-qa"
+      ],
       "evaluation_cases": []
     }
   },

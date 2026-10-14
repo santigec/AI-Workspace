@@ -265,7 +265,8 @@
                 {
                   "enum": [
                     "transparent",
-                    "solid"
+                    "solid",
+                    "themed"
                   ]
                 },
                 {
@@ -411,7 +412,8 @@
                   "background": {
                     "enum": [
                       "transparent",
-                      "solid"
+                      "solid",
+                      "themed"
                     ]
                   },
                   "mirror": {

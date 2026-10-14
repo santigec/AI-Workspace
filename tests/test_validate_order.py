@@ -50,6 +50,26 @@ class OrderValidationTests(unittest.TestCase):
         self.order["output"]["resolution_ppi"] = -300
         self.assertEqual("INVALID", orders.validate_order(self.order)["status"])
 
+    def test_themed_background_with_description_is_allowed(self):
+        self.order["output"].update(background="themed", background_description="Selva infantil con cielo azul")
+        self.order["artwork"]["reference_images"] = [{"source": "chat:reference-1", "role": "background"}]
+        result = orders.validate_order(self.order)
+        self.assertEqual("DRAFT_ALLOWED", result["status"])
+        self.assertEqual({"width_mm": 205, "height_mm": 95}, result["effective_dimensions"])
+
+    def test_themed_background_without_description_is_invalid(self):
+        self.order["output"]["background"] = "themed"
+        self.assertEqual("INVALID", orders.validate_order(self.order)["status"])
+
+    def test_themed_background_does_not_override_transparency_constraint(self):
+        self.order["output"].update(background="themed", background_description="Selva")
+        self.order["constraints"].append({"key": "background", "value": "transparent", "priority": "hard"})
+        self.assertEqual("INVALID", orders.validate_order(self.order)["status"])
+
+    def test_unknown_reference_role_is_invalid(self):
+        self.order["artwork"]["reference_images"] = [{"source": "chat:reference-1", "role": "unknown"}]
+        self.assertEqual("INVALID", orders.validate_order(self.order)["status"])
+
     def test_marking_catalog_verified_without_spec_is_rejected(self):
         with tempfile.TemporaryDirectory(prefix="tribe-validation-", dir=ROOT.parent) as temp:
             self.assertEqual(Path(temp).resolve().parent, ROOT.parent.resolve())

@@ -1,6 +1,6 @@
 # AI Workspace
 
-Repositorio central para capacidades de IA reutilizables. Versión de desarrollo: **0.2.1 — Tribe orders foundation**.
+Repositorio central para capacidades de IA reutilizables. Versión de desarrollo: **0.2.2 — Chat mug design**.
 
 ## Áreas
 
@@ -40,7 +40,7 @@ Usa [la ficha de producto](tribe/templates/product-spec.md). Confirma dimensione
 Editar → probar con un caso real → revisar → commit → GitHub → instalar la versión estable en el entorno elegido.
 
 Lee [la guía de skills](shared/standards/skill-writing-guide.md) y [las reglas de calidad](shared/standards/quality-rules.md).
-Los 16 skills conservan estado alpha. image-analysis, sublimation-layout y print-ready-qa tienen contratos en versión 0.2.0; product-specs integra el catálogo en 0.2.1. El registro indica la versión de cada skill.
+Los 17 skills conservan estado alpha. image-analysis, sublimation-layout y print-ready-qa tienen contratos en versión 0.2.0; product-specs integra el catálogo en 0.2.1. mug-sublimation 0.1.0 es la entrada desde chat. El registro indica la versión de cada skill.
 
 Consulta [el registro](registry/skills.yaml), [los contratos](standards/skill-contract.md) y [la guía de evaluación](standards/evaluation-guide.md).
 
@@ -77,3 +77,9 @@ python -m unittest discover -s tests
 ```
 
 INPUT_READY valida entradas. PRINT_READY exige un archivo realmente generado y QA posterior.
+
+## Invocar el diseño desde otro chat
+
+Consulta [prompts y acceso](docs/chat-invocation.md). El skill de entrada mug-sublimation está en .agents/skills para descubrimiento de Codex dentro de este checkout; su definición de dominio está en tribe/skills.
+La entrada permite imágenes opcionales y fondo transparente, sólido o temático. El fondo no cambia las dimensiones del lienzo.
+Ejemplo: "Usa mug-sublimation: taza 205 × 95 mm para Sebastián, dinosaurios infantiles, fondo temático como el adjunto. Genera y muestra PNG plano y continuo".
