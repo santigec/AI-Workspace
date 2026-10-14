@@ -20,6 +20,13 @@ Para themed exige background_description y usa las referencias de fondo si se ad
 Si se solicita añadir fondo a una versión existente, edita esa imagen preservando los elementos principales. Mantén las dimensiones y evita deformación.
 No elimines el fondo por defecto. No cambies transparent a themed ni viceversa sin que lo indique el pedido.
 
+## Superficie blanca
+
+Cuando el pedido diga superficie blanca para el arte plano, usa output.background solid y background_description "Lienzo blanco opaco", manteniendo ancho y alto. No equivale a un mockup de taza.
+Conserva fondos internos y colores que formen parte del diseño; añade blanco alrededor del arte, no sustituye automáticamente sus zonas negras o de color.
+Si el usuario habla del material de la taza blanca y exige PNG transparente, distingue sustrato físico de fondo del archivo; conserva la transparencia solicitada.
+Al usar una captura comercial como referencia, elimina precio, ficha, cursor y UI salvo que esos elementos formen parte del arte solicitado. No añadas nombres de pedidos anteriores a un nuevo diseño si no se solicitan.
+
 ## Ejecución y entrega
 
 Modela la orden conforme al [schema](../../schemas/order-schema.yaml). Guarda pedidos y archivos reales fuera de Git.

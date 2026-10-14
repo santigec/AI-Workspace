@@ -1,5 +1,12 @@
 # Historial
 
+## 0.2.3 — Superficie blanca (develop)
+
+- mug-sublimation 0.1.1 interpreta superficie blanca como lienzo opaco del tamaño solicitado.
+- Diferencia fondo blanco del archivo y sustrato físico blanco.
+- Preserva fondos internos del arte y elimina elementos de captura comercial.
+- Evita arrastrar nombres de pedidos anteriores a un nuevo diseño.
+
 ## 0.2.2 — Chat mug design (develop)
 
 - Nuevo skill mug-sublimation 0.1.0 y punto de entrada de Codex en .agents/skills.
