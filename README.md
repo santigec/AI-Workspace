@@ -1,6 +1,6 @@
 # AI Workspace
 
-Repositorio central para capacidades de IA reutilizables. Versión de desarrollo: **0.2.0 — Evaluation foundation**.
+Repositorio central para capacidades de IA reutilizables. Versión de desarrollo: **0.2.1 — Tribe orders foundation**.
 
 ## Áreas
 
@@ -40,7 +40,7 @@ Usa [la ficha de producto](tribe/templates/product-spec.md). Confirma dimensione
 Editar → probar con un caso real → revisar → commit → GitHub → instalar la versión estable en el entorno elegido.
 
 Lee [la guía de skills](shared/standards/skill-writing-guide.md) y [las reglas de calidad](shared/standards/quality-rules.md).
-Los 16 skills conservan estado alpha. image-analysis, sublimation-layout y print-ready-qa tienen contratos de entrada, salida y terminación en versión 0.2.0. Los otros skills siguen en 0.1.0.
+Los 16 skills conservan estado alpha. image-analysis, sublimation-layout y print-ready-qa tienen contratos en versión 0.2.0; product-specs integra el catálogo en 0.2.1. El registro indica la versión de cada skill.
 
 Consulta [el registro](registry/skills.yaml), [los contratos](standards/skill-contract.md) y [la guía de evaluación](standards/evaluation-guide.md).
 
@@ -53,3 +53,27 @@ python -m unittest discover -s tests
 
 Estos controles validan estructura y consistencia. Los 12 casos de comportamiento están NOT_RUN; no se han usado imágenes reales ni aprobado productos para producción.
 develop contiene la base v0.2; main mantiene la última versión publicada. El siguiente paso es ejecutar los casos con archivos y especificaciones reales, guardar evidencia y corregir los skills antes de promoverlos.
+
+## Pedidos de Tribe
+
+AI-Workspace almacena conocimiento, skills y reglas. Un pedido es una ejecución que consume esa base; no necesita otro repositorio por diseño.
+Los pedidos reales, outputs y logs pertenecen a un futuro design-runner separado. Este repositorio contiene solo ejemplos sintéticos; todavía no ejecuta pedidos ni genera arte por sí mismo.
+
+- [Catálogo de productos](tribe/knowledge/product-catalog/README.md): cuatro variantes con medidas propuestas y tres familias pendientes.
+- [Schema de pedidos](tribe/schemas/README.md): producto, workflow, contenido, salida, restricciones hard/soft y referencia al commit.
+- [Principios de diseño](tribe/standards/design-principles.md) y [generación no bloqueante](tribe/policies/non-blocking-generation.md).
+- Workflows: [taza](workflows/tribe/mug-sublimation.md), [tomatodo](workflows/tribe/tumbler-sublimation.md) y [camiseta DTF](workflows/tribe/dtf-shirt.md).
+
+Invocación manual: "Usa tumbler-sublimation con tumbler_600ml, modo draft, esta temática y las restricciones del pedido".
+Todos los productos están unverified. La resiliencia permite un borrador claramente identificado; no relaja restricciones hard ni certifica impresión.
+
+Para validar catálogo y pedidos, instala jsonschema (probado con 4.26.0):
+
+```console
+python -m pip install -r requirements-dev.txt
+python scripts/validate_order.py
+python scripts/validate_order.py tribe/templates/orders/tumbler-draft.example.json
+python -m unittest discover -s tests
+```
+
+INPUT_READY valida entradas. PRINT_READY exige un archivo realmente generado y QA posterior.

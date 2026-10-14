@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "products": [
+    {
+      "id": "sticker_pending",
+      "label": "Sticker: formato pendiente",
+      "family": "sticker",
+      "technique": "unspecified",
+      "width_mm": null,
+      "height_mm": null,
+      "proposal_source": "Familia solicitada; medidas y requisitos pendientes.",
+      "supplier": null,
+      "model": null,
+      "verification": {
+        "status": "unverified",
+        "source": null,
+        "verified_by": null,
+        "verified_at": null
+      },
+      "production": {
+        "print_area": null,
+        "safe_margin_mm": null,
+        "bleed_mm": null,
+        "resolution_ppi": null,
+        "color_profile": null,
+        "format": null,
+        "background": null,
+        "mirror": null,
+        "excluded_zones": []
+      },
+      "style_defaults": [
+        "professional",
+        "clean"
+      ],
+      "workflow": null
+    }
+  ]
+}

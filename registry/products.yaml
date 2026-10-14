@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "catalog_schema": "tribe/schemas/product-catalog.schema.json",
+  "order_schema": "tribe/schemas/order-schema.yaml",
+  "catalogs": [
+    "tribe/knowledge/product-catalog/mugs.yaml",
+    "tribe/knowledge/product-catalog/tumblers.yaml",
+    "tribe/knowledge/product-catalog/shirts.yaml",
+    "tribe/knowledge/product-catalog/stickers.yaml",
+    "tribe/knowledge/product-catalog/notebooks.yaml"
+  ]
+}

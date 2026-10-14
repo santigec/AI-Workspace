@@ -7,10 +7,12 @@ La validación estructural comprueba registro, rutas, dependencias y referencias
 Ejecuta desde la raíz:
 ```console
 python scripts/validate_workspace.py
+python -m pip install -r requirements-dev.txt
+python scripts/validate_order.py
 python -m unittest discover -s tests
 ```
 
-El validador usa solo la biblioteca estándar de Python 3. El registro es JSON, una sintaxis válida de YAML 1.2, para evitar una dependencia de parsing.
+El validador de estructura usa solo la biblioteca estándar de Python 3. Los schemas de productos y pedidos usan jsonschema; instala requirements-dev.txt antes de ejecutar la suite completa. El registro es JSON, una sintaxis válida de YAML 1.2.
 
 ## Ejecutar un caso
 

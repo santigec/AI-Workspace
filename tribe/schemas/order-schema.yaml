@@ -1,0 +1,335 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "order_id",
+    "domain",
+    "mode",
+    "workspace_ref",
+    "workflow",
+    "product",
+    "requested_dimensions",
+    "theme",
+    "content",
+    "artwork",
+    "style",
+    "output",
+    "constraints",
+    "resilience"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "order_id": {
+      "type": "string",
+      "pattern": "^order-[0-9]{4}-[0-9]{2}-[0-9]{2}-[0-9]{3,}$"
+    },
+    "domain": {
+      "const": "tribe"
+    },
+    "mode": {
+      "enum": [
+        "draft",
+        "production"
+      ]
+    },
+    "workspace_ref": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "workflow": {
+      "type": "string",
+      "minLength": 1
+    },
+    "product": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "requested_dimensions": {
+      "anyOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "width_mm",
+            "height_mm"
+          ],
+          "properties": {
+            "width_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "height_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            }
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "theme": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "content": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "main_name",
+        "additional_text"
+      ],
+      "properties": {
+        "main_name": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "additional_text": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "artwork": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "operation",
+        "source"
+      ],
+      "properties": {
+        "operation": {
+          "enum": [
+            "generate",
+            "edit"
+          ]
+        },
+        "source": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "style": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "tone",
+        "preserve_typography",
+        "preserve_graphic_details"
+      ],
+      "properties": {
+        "tone": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "preserve_typography": {
+          "type": "boolean"
+        },
+        "preserve_graphic_details": {
+          "type": "boolean"
+        }
+      }
+    },
+    "output": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "format",
+        "background",
+        "resolution_ppi"
+      ],
+      "properties": {
+        "format": {
+          "enum": [
+            "png",
+            "pdf",
+            "svg"
+          ]
+        },
+        "background": {
+          "enum": [
+            "transparent",
+            "solid"
+          ]
+        },
+        "resolution_ppi": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "key",
+          "value",
+          "priority"
+        ],
+        "properties": {
+          "key": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "value": {
+            "type": [
+              "string",
+              "number",
+              "boolean"
+            ]
+          },
+          "priority": {
+            "enum": [
+              "hard",
+              "soft"
+            ]
+          }
+        }
+      }
+    },
+    "resilience": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "allow_draft_on_missing_specs",
+        "adaptable_elements"
+      ],
+      "properties": {
+        "allow_draft_on_missing_specs": {
+          "type": "boolean"
+        },
+        "adaptable_elements": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "background",
+              "distribution",
+              "scale",
+              "secondary_decorations"
+            ]
+          },
+          "uniqueItems": true
+        }
+      }
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Tribe design order",
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "mode": {
+            "const": "production"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "workspace_ref": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{40}$"
+          },
+          "output": {
+            "properties": {
+              "resolution_ppi": {
+                "type": "integer",
+                "minimum": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "artwork": {
+            "properties": {
+              "operation": {
+                "const": "edit"
+              }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "artwork": {
+            "properties": {
+              "source": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

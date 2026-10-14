@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "order_id": "order-2026-10-14-002",
+  "domain": "tribe",
+  "mode": "draft",
+  "workspace_ref": null,
+  "workflow": "tumbler-sublimation",
+  "product": {
+    "id": "tumbler_600ml"
+  },
+  "requested_dimensions": {
+    "width_mm": 232,
+    "height_mm": 142
+  },
+  "theme": {
+    "name": "Jardín botánico de demostración"
+  },
+  "content": {
+    "main_name": "Cliente Demo",
+    "additional_text": null
+  },
+  "artwork": {
+    "operation": "generate",
+    "source": null
+  },
+  "style": {
+    "tone": [
+      "professional",
+      "clean"
+    ],
+    "preserve_typography": true,
+    "preserve_graphic_details": true
+  },
+  "output": {
+    "format": "png",
+    "background": "transparent",
+    "resolution_ppi": 300
+  },
+  "constraints": [
+    {
+      "key": "flat_and_continuous",
+      "value": true,
+      "priority": "hard"
+    },
+    {
+      "key": "avoid_distortion",
+      "value": true,
+      "priority": "hard"
+    },
+    {
+      "key": "secondary_decoration_position",
+      "value": "adaptable",
+      "priority": "soft"
+    }
+  ],
+  "resilience": {
+    "allow_draft_on_missing_specs": true,
+    "adaptable_elements": [
+      "distribution",
+      "secondary_decorations",
+      "scale"
+    ]
+  }
+}

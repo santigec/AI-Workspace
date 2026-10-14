@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "workspace_version": "0.2.0",
+  "workspace_version": "0.2.1",
   "skills": {
     "image-analysis": {
       "domain": "shared",
@@ -152,7 +152,7 @@
       "domain": "tribe",
       "owner": "tribe",
       "path": "tribe/skills/product-specs/SKILL.md",
-      "version": "0.1.0",
+      "version": "0.2.1",
       "status": "alpha",
       "requires_before": [],
       "recommends_next": [],
@@ -230,6 +230,59 @@
       "conditional_steps": [
         "professional-writing",
         "technical-presentation"
+      ]
+    },
+    "mug-sublimation": {
+      "path": "workflows/tribe/mug-sublimation.md",
+      "status": "alpha",
+      "steps": [
+        "product-specs",
+        "image-analysis",
+        "image-generation",
+        "image-editing",
+        "sublimation-layout",
+        "resize-to-print",
+        "print-ready-qa"
+      ],
+      "conditional_steps": [
+        "image-analysis",
+        "image-generation",
+        "image-editing"
+      ]
+    },
+    "tumbler-sublimation": {
+      "path": "workflows/tribe/tumbler-sublimation.md",
+      "status": "alpha",
+      "steps": [
+        "product-specs",
+        "image-analysis",
+        "image-generation",
+        "image-editing",
+        "sublimation-layout",
+        "resize-to-print",
+        "print-ready-qa"
+      ],
+      "conditional_steps": [
+        "image-analysis",
+        "image-generation",
+        "image-editing"
+      ]
+    },
+    "dtf-shirt": {
+      "path": "workflows/tribe/dtf-shirt.md",
+      "status": "alpha",
+      "steps": [
+        "product-specs",
+        "image-analysis",
+        "image-generation",
+        "image-editing",
+        "dtf-layout",
+        "print-ready-qa"
+      ],
+      "conditional_steps": [
+        "image-analysis",
+        "image-generation",
+        "image-editing"
       ]
     }
   }

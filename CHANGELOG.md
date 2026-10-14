@@ -1,5 +1,15 @@
 # Historial
 
+## 0.2.1 — Tribe orders foundation (develop)
+
+- Catálogos de tazas, tomatodos, camisetas, stickers y agendas: cuatro variantes propuestas y tres registros pendientes.
+- Schema de producto y pedido; ejemplos sintéticos de taza y tomatodo.
+- Principios de diseño y política de resiliencia con separación entre borrador y producción.
+- Workflows de mug-sublimation, tumbler-sublimation y dtf-shirt.
+- product-specs 0.2.1 consulta el catálogo y conserva su estado alpha.
+- Validación JSON Schema y de consistencia de pedidos; producción requiere catálogo verificado y commit coincidente.
+- No se crea design-runner ni se declara generación o QA de arte.
+
 ## 0.2.0 — Evaluation foundation (develop)
 
 - Registro de 16 skills con versión, propietario, estado alpha y relaciones entre etapas.

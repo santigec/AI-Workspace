@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "products": [
+    {
+      "id": "mug_standard",
+      "label": "Taza estándar (propuesta)",
+      "family": "mug",
+      "technique": "sublimation",
+      "width_mm": 205,
+      "height_mm": 95,
+      "proposal_source": "Propuesta del texto del usuario; pendiente de cotejar con proveedor y producto físico.",
+      "supplier": null,
+      "model": null,
+      "verification": {
+        "status": "unverified",
+        "source": null,
+        "verified_by": null,
+        "verified_at": null
+      },
+      "production": {
+        "print_area": null,
+        "safe_margin_mm": null,
+        "bleed_mm": null,
+        "resolution_ppi": null,
+        "color_profile": null,
+        "format": null,
+        "background": null,
+        "mirror": null,
+        "excluded_zones": []
+      },
+      "style_defaults": [
+        "professional",
+        "clean",
+        "flat_and_continuous"
+      ],
+      "workflow": "mug-sublimation"
+    }
+  ]
+}
