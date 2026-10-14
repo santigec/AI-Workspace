@@ -29,6 +29,11 @@ Al usar una captura comercial como referencia, elimina precio, ficha, cursor y U
 
 ## Ejecución y entrega
 
+Para un diseño envolvente de taza, adapta la composición al ancho y alto solicitados; no basta colocar un póster vertical en el centro de un lienzo horizontal con grandes vacíos laterales.
+Si la referencia es vertical y se permite adaptación, redistribuye texto e ilustración proporcionalmente y extiende elementos secundarios para aprovechar el ancho. Con superficie blanca conserva el blanco como base; no implica dejar los laterales vacíos.
+Si se exige mantener exactamente la composición original, no la redistribuyas: explica el espacio lateral necesario y ofrece una alternativa. Nunca estires el original para llenar.
+Revisa que el resultado se perciba como una banda horizontal para taza, además de verificar las dimensiones físicas del archivo de entrega.
+
 Modela la orden conforme al [schema](../../schemas/order-schema.yaml). Guarda pedidos y archivos reales fuera de Git.
 Consulta product-specs. Para arte nuevo usa image-generation; para edición image-analysis e image-editing. Inspecciona el resultado real y conserva el original.
 Genera y muestra la imagen cuando se solicite diseño; devolver solo una orden no completa esa solicitud. Si la herramienta no está disponible, explica el bloqueo.

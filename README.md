@@ -1,6 +1,6 @@
 # AI Workspace
 
-Repositorio central para capacidades de IA reutilizables. Versión de desarrollo: **0.2.3 — Superficie blanca**.
+Repositorio central para capacidades de IA reutilizables. Versión de desarrollo: **0.2.4 — Composición horizontal para taza**.
 
 ## Áreas
 
@@ -40,7 +40,7 @@ Usa [la ficha de producto](tribe/templates/product-spec.md). Confirma dimensione
 Editar → probar con un caso real → revisar → commit → GitHub → instalar la versión estable en el entorno elegido.
 
 Lee [la guía de skills](shared/standards/skill-writing-guide.md) y [las reglas de calidad](shared/standards/quality-rules.md).
-Los 17 skills conservan estado alpha. image-analysis, sublimation-layout y print-ready-qa tienen contratos en versión 0.2.0; product-specs integra el catálogo en 0.2.1. mug-sublimation 0.1.1 es la entrada desde chat. El registro indica la versión de cada skill.
+Los 17 skills conservan estado alpha. image-analysis, sublimation-layout y print-ready-qa tienen contratos en versión 0.2.0; product-specs integra el catálogo en 0.2.1. mug-sublimation 0.1.2 es la entrada desde chat. El registro indica la versión de cada skill.
 
 Consulta [el registro](registry/skills.yaml), [los contratos](standards/skill-contract.md) y [la guía de evaluación](standards/evaluation-guide.md).
 

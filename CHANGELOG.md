@@ -1,5 +1,11 @@
 # Historial
 
+## 0.2.4 — Composición horizontal para taza (develop)
+
+- mug-sublimation 0.1.2 diferencia tamaño del lienzo y adaptación de la composición.
+- Referencias verticales se redistribuyen para aprovechar el ancho cuando el pedido permite adaptación; se preservan proporciones.
+- Superficie blanca define la base, no exige grandes vacíos laterales.
+
 ## 0.2.3 — Superficie blanca (develop)
 
 - mug-sublimation 0.1.1 interpreta superficie blanca como lienzo opaco del tamaño solicitado.

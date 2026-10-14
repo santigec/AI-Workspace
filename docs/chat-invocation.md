@@ -29,6 +29,7 @@ Indica los datos de producción que falten sin impedir un borrador útil.
 
 Para transparencia cambia Fondo a transparente; para color uniforme usa sólido y describe el color.
 Para superficie blanca escribe: "Lienzo blanco opaco de 205 × 95 mm; conserva los fondos internos del dibujo y elimina la ficha y precio de la captura". Esto se modela como background solid con background_description "Lienzo blanco opaco".
+Para aprovechar el ancho de la taza añade: "Adapta la composición completa al formato horizontal; redistribuye texto e ilustración sin estirarlos. No centres un póster vertical dejando grandes vacíos laterales".
 Si no hay referencias, genera arte nuevo con la descripción. Si debe conservarse un original, adjúntalo.
 
 ## Invocación corta con skill descubierto
