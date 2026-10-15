@@ -8,3 +8,5 @@ Los 12 casos originales están **NOT_RUN**. Se ejecutó una [prueba lógica real
 - [Revisión SQL](software-office/sql-review/expected-results.md).
 
 Usa [la guía](../standards/evaluation-guide.md) y [la plantilla de resultados](result-template.md). No marques un caso como ejecutado sin adjuntar su evidencia.
+
+Tomatodo 500 ml: [caso de formato](tribe/tumbler-sublimation/case-001.md) y [caso de capacidad y adaptación](tribe/tumbler-sublimation/case-002.md). Ambos NOT_RUN; requieren diseño real y revisión visual.

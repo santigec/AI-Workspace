@@ -1,6 +1,6 @@
 # AI Workspace
 
-Repositorio central para capacidades de IA reutilizables. Versión de desarrollo: **0.2.4 — Composición horizontal para taza**.
+Repositorio central para capacidades de IA reutilizables. Versión de desarrollo: **0.2.5 — Tomatodo 500 ml**.
 
 ## Áreas
 
@@ -40,7 +40,7 @@ Usa [la ficha de producto](tribe/templates/product-spec.md). Confirma dimensione
 Editar → probar con un caso real → revisar → commit → GitHub → instalar la versión estable en el entorno elegido.
 
 Lee [la guía de skills](shared/standards/skill-writing-guide.md) y [las reglas de calidad](shared/standards/quality-rules.md).
-Los 17 skills conservan estado alpha. image-analysis, sublimation-layout y print-ready-qa tienen contratos en versión 0.2.0; product-specs integra el catálogo en 0.2.1. mug-sublimation 0.1.2 es la entrada desde chat. El registro indica la versión de cada skill.
+Los 18 skills conservan estado alpha. image-analysis, sublimation-layout y print-ready-qa tienen contratos en versión 0.2.0; product-specs integra el catálogo en 0.2.1. mug-sublimation 0.1.2 es la entrada desde chat. El registro indica la versión de cada skill.
 
 Consulta [el registro](registry/skills.yaml), [los contratos](standards/skill-contract.md) y [la guía de evaluación](standards/evaluation-guide.md).
 
@@ -83,3 +83,11 @@ INPUT_READY valida entradas. PRINT_READY exige un archivo realmente generado y Q
 Consulta [prompts y acceso](docs/chat-invocation.md). El skill de entrada mug-sublimation está en .agents/skills para descubrimiento de Codex dentro de este checkout; su definición de dominio está en tribe/skills.
 La entrada permite imágenes opcionales y fondo transparente, sólido o temático. El fondo no cambia las dimensiones del lienzo.
 Ejemplo: "Usa mug-sublimation: taza 205 × 95 mm para Sebastián, dinosaurios infantiles, fondo temático como el adjunto. Genera y muestra PNG plano y continuo".
+
+
+## Tomatodo de 500 ml
+
+Usa [tumbler-sublimation](tribe/skills/tumbler-sublimation/SKILL.md): lienzo confirmado por el usuario de **232 mm de ancho × 125 mm de alto**, arte plano y continuo para impresión y sublimación.
+Las reglas de taza se reutilizan con una composición propia para la proporción 232:125; no se estira el diseño de 205 × 95 mm.
+Referencias opcionales, texto solicitado y fondo blanco, transparente o temático forman parte del pedido. Consulta [el ejemplo](tribe/templates/orders/tumbler-500ml.example.json).
+Las dimensiones del lienzo están definidas para este flujo; el catálogo sigue sin aprobación completa de producción. Los dos nuevos casos visuales están NOT_RUN.

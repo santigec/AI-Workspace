@@ -1,5 +1,12 @@
 # Historial
 
+## 0.2.5 — Tomatodo 500 ml (develop)
+
+- Skill tumbler-sublimation 0.1.0 con entrada de Codex y lienzo 232 × 125 mm confirmado por el usuario.
+- Composición plana y continua adaptada al espacio del tomatodo, referencias opcionales y fondo configurable.
+- Ejemplo estructurado de 500 ml y casos de evaluación de capacidad, tamaño y redistribución.
+- No se extrapola la confirmación de dimensiones a otros parámetros de producción ni a todas las capacidades.
+
 ## 0.2.4 — Composición horizontal para taza (develop)
 
 - mug-sublimation 0.1.2 diferencia tamaño del lienzo y adaptación de la composición.

@@ -81,6 +81,22 @@
       "path": "evals/tribe/mug-sublimation/case-001.md",
       "status": "PASS",
       "result_path": "evals/tribe/mug-sublimation/result-001.md"
+    },
+    {
+      "id": "tumbler-sublimation-001",
+      "skill": "tumbler-sublimation",
+      "workflow": "tumbler-sublimation",
+      "scope": "behavioral",
+      "path": "evals/tribe/tumbler-sublimation/case-001.md",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "tumbler-sublimation-002",
+      "skill": "tumbler-sublimation",
+      "workflow": "tumbler-sublimation",
+      "scope": "behavioral",
+      "path": "evals/tribe/tumbler-sublimation/case-002.md",
+      "status": "NOT_RUN"
     }
   ]
 }

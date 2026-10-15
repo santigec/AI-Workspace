@@ -50,6 +50,27 @@ class OrderValidationTests(unittest.TestCase):
         self.order["output"]["resolution_ppi"] = -300
         self.assertEqual("INVALID", orders.validate_order(self.order)["status"])
 
+    def test_tumbler_500ml_uses_its_dimensions_not_mug_dimensions(self):
+        self.order["workflow"] = "tumbler-sublimation"
+        self.order["product"]["id"] = "tumbler_500ml"
+        self.order["requested_dimensions"] = None
+        result = orders.validate_order(self.order)
+        self.assertEqual("DRAFT_ALLOWED", result["status"])
+        self.assertEqual({"width_mm": 232, "height_mm": 125}, result["effective_dimensions"])
+        self.assertFalse(result["production_ready"])
+
+    def test_tumbler_500ml_background_changes_preserve_dimensions(self):
+        example = json.loads((ROOT / "tribe/templates/orders/tumbler-500ml.example.json").read_text(encoding="utf-8"))
+        for background in ("transparent", "solid", "themed"):
+            with self.subTest(background=background):
+                example["output"]["background"] = background
+                for constraint in example["constraints"]:
+                    if constraint["key"] == "background":
+                        constraint["value"] = background
+                result = orders.validate_order(example)
+                self.assertEqual("DRAFT_ALLOWED", result["status"])
+                self.assertEqual({"width_mm": 232, "height_mm": 125}, result["effective_dimensions"])
+
     def test_themed_background_with_description_is_allowed(self):
         self.order["output"].update(background="themed", background_description="Selva infantil con cielo azul")
         self.order["artwork"]["reference_images"] = [{"source": "chat:reference-1", "role": "background"}]

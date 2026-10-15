@@ -3,12 +3,12 @@
   "products": [
     {
       "id": "tumbler_500ml",
-      "label": "Tomatodo 500 ml (propuesta)",
+      "label": "Tomatodo 500 ml — lienzo 232 × 125 mm",
       "family": "tumbler",
       "technique": "sublimation",
       "width_mm": 232,
       "height_mm": 125,
-      "proposal_source": "Propuesta del texto del usuario; pendiente de cotejar con proveedor y producto físico.",
+      "proposal_source": "Usuario, 2026-10-15: confirma lienzo plano y continuo de 232 mm de ancho × 125 mm de alto para su flujo de tomatodo 500 ml. Resto de especificaciones de producción pendiente.",
       "supplier": null,
       "model": null,
       "verification": {

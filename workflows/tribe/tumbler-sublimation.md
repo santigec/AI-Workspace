@@ -5,6 +5,11 @@
 Usa tumbler-sublimation con product.id de tumbler_500ml, tumbler_600ml o tumbler_750ml y [schema de pedido](../../tribe/schemas/order-schema.yaml).
 Consulta [catálogo](../../tribe/knowledge/product-catalog/README.md), [principios](../../tribe/standards/design-principles.md) y [resiliencia](../../tribe/policies/non-blocking-generation.md).
 No identifiques modelo solo por capacidad o apariencia.
+Entrada desde chat: [tumbler-sublimation SKILL.md](../../tribe/skills/tumbler-sublimation/SKILL.md).
+Para 500 ml usa tumbler_500ml y **232 mm de ancho × 125 mm de alto**, tamaño de diseño confirmado por el usuario el 2026-10-15.
+La imagen es plana y continua para impresión y posterior sublimación. Adapta el reparto gráfico al lienzo 232:125, sin estirar el formato de taza.
+Fondo y referencias se toman del pedido; blanco, transparente o temático no cambian dimensiones. Evita grandes vacíos laterales salvo que el diseño los requiera o el usuario pida encaje exacto del original.
+Modelo, unión, márgenes, espejo y posibles compensaciones cónicas requieren su especificación; no se infieren de la capacidad.
 
 ## Borrador
 

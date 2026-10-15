@@ -1,5 +1,21 @@
 # Usar mug-sublimation desde otro chat
 
+## Tomatodo 500 ml
+
+Usa tribe/skills/tumbler-sublimation/SKILL.md y sus referencias. En Codex con el checkout accesible:
+
+```text
+$tumbler-sublimation
+Tomatodo de 500 ml: 232 mm de ancho × 125 mm de alto.
+Temática y texto: [indicar].
+Fondo: [blanco / transparente / temático y descripción].
+Usa las imágenes adjuntas como referencias si las hay.
+Genera y muestra arte plano, continuo y horizontal para impresión y sublimación.
+Adapta la composición al espacio sin deformar elementos y entrega PNG descargable.
+```
+
+El skill tiene entrada de descubrimiento en .agents/skills/tumbler-sublimation. ChatGPT requiere el skill instalado o los archivos accesibles; escribir el nombre no lo instala.
+
 ## Con el repositorio accesible
 
 Abre o conecta AI-Workspace y selecciona develop. Para reproducir una versión, usa el commit indicado en lugar de depender de la punta de una rama.
