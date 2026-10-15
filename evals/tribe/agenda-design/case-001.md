@@ -11,6 +11,7 @@ Crear una agenda temática con referencias, nombre exacto con tildes y años 202
 - No convierte las etiquetas en A4 ni deforma portadas para obtenerlas.
 - Mantiene fondo blanco en datos, calendarios, actividades y cuadrícula; colores temáticos en cabeceras, pies y acentos.
 - Cuadrícula con marca de agua central tenue y líneas regulares.
+- Cuadrícula con banda ilustrada de cabecera, lettering/emblema de carácter y motivos integrados; pie coordinado. Un título en fuente genérica más miniatura no satisface el criterio, aunque el calendario y dimensiones sean correctos.
 - Calendarios con fechas calculadas, texto correcto y sin feriados inventados.
 - Muestra archivos realmente generados y limita el estado a lo verificado.
 

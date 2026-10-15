@@ -4,6 +4,7 @@
 - Personalización solicitada y texto comprobado:
 - Portadas y etiquetas: sin «Agenda», años o eslóganes no solicitados; etiquetas vivas y acordes a referencia/estilo.
 - Cuadrícula: solo nombre solicitado y elementos temáticos en cabecera/pie; sin títulos funcionales o campos no pedidos.
+- Cuadrícula: cabecera ilustrada con lettering/emblema y motivos integrados, pie coordinado y acentos proporcionados; no texto genérico con miniatura aislada. Área blanca de escritura conservada.
 - Calendarios: título «Calendario» y año correcto, con composición temática profesional.
 - Datos importantes: sin frases decorativas ni personalización del nombre; campos personales vacíos salvo solicitud explícita de rellenado.
 - Años y comienzo de semana:

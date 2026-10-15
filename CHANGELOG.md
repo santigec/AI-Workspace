@@ -1,5 +1,11 @@
 # Historial
 
+## 0.3.4 — Cabeceras ilustradas y tipografía temática (develop)
+
+- agenda-design 0.1.4: cabecera de cuadrícula como banda gráfica elaborada con lettering/emblema y motivos integrados; fuente genérica más miniatura resulta insuficiente.
+- Pie coordinado y acentos laterales proporcionados, preservando escritura en blanco y marca de agua tenue.
+- QA y evaluación visual incorporan el criterio; los motivos concretos se eligen por temática.
+
 ## 0.3.3 — Ficha de datos sin prellenado (develop)
 
 - agenda-design 0.1.3: hoja «Datos importantes» sin frases decorativas ni nombre personalizado.

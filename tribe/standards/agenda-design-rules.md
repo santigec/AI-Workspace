@@ -4,6 +4,7 @@ Mantén identidad temática y calidad en todas las piezas, con jerarquía según
 Cabeceras y pies comparten motivos, paleta y tipografía; no compiten con el área de escritura.
 
 Cuadrícula: cabecera/pie exclusivamente temáticos, con nombre solicitado, personajes y emblemas/logos disponibles. Sin títulos funcionales, frases ni campos Tema/Fecha por defecto. Conserva la marca de agua central y la tipografía temática.
+La cabecera de cuadrícula requiere una banda gráfica compuesta, con lettering/emblema de carácter y motivos integrados; texto común en negrita/cursiva más miniatura aislada es insuficiente. Coordina un pie elaborado y acentos laterales proporcionados. Para K-pop pueden usarse cintas musicales, estrellas, luces y lettering angular; otros temas requieren sus propios recursos. No cubrir el fondo de escritura ni añadir eslóganes para llenar espacio.
 Calendarios: título explícito «Calendario» seguido del año, con módulos mensuales atractivos y legibles.
 Datos importantes: sin frases decorativas ni nombre personalizado en cabecera/pie. Todos los campos personales vacíos, incluido el nombre; personalizar portadas no autoriza rellenar esta hoja. Conservar etiquetas funcionales, espacios de escritura y motivos temáticos.
 Portadas: temática y nombre solicitado, sin palabra «Agenda», año ni eslóganes por defecto. Etiquetas: más vivas, con composición propia, color y contraste adaptados al carácter solicitado o de la referencia (armónico, vibrante, deportivo, masculino, femenino, etc.). No inferir género a partir del nombre.
