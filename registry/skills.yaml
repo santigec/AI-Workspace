@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "workspace_version": "0.3.1",
+  "workspace_version": "0.3.2",
   "skills": {
     "image-analysis": {
       "domain": "shared",
@@ -253,7 +253,7 @@
       "domain": "tribe",
       "owner": "tribe",
       "path": "tribe/skills/agenda-design/SKILL.md",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "status": "alpha",
       "requires_before": [],
       "recommends_next": [

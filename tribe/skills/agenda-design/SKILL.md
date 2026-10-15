@@ -34,18 +34,21 @@ La etiqueta de 205 × 165 mm no es A4. La de 205 × 95 mm es una etiqueta de emp
 
 Define una identidad común: paleta, tipografías, personajes/motivos, tratamiento gráfico y jerarquía. Cada pieza adapta su composición al propósito y espacio; no estires una portada para producir las otras.
 Arte creativo, profesional, limpio, legible y adecuado a la temática. Conserva tipografía e identidad del original cuando se exija; para nombres personalizados respeta escritura, acentos y coherencia tipográfica. Si no hay nombre solicitado, no inventes uno: conserva motivos de la temática.
+Portadas: por defecto solo temática y nombre si se solicita. No añadir «Agenda», año, eslóganes o títulos genéricos salvo petición explícita. Mantén protagonismo de personajes, emblemas y elementos originales del tema.
+Etiquetas: composición propia más viva y atractiva, con contraste, color y motivos reconocibles. Adapta la energía a la referencia y al estilo solicitado (armónico, vibrante, deportivo, masculino, femenino u otro), sin deducir género por el nombre ni imponer colores estereotipados. Conserva armonía y tipografía temática; no traslades la austeridad de las hojas interiores a las etiquetas. Sin «Agenda», años o eslóganes por defecto.
 Clasifica referencias de contenido, estilo o fondo. Si se adjunta una captura, no copies UI, precio ni ficha comercial. Para fidelidad exacta usa edición apropiada o declara límites.
 No agregues marcas de corte, espiral, botella ni mockup al arte plano final. No inventes sangrado, tamaño de lomo o compensación de encuadernación.
 
 ## Interiores de bajo consumo
 
 La base blanca debe sentirse diseñada y profesional a tamaño real, no vacía. Usa jerarquía editorial, secciones claramente agrupadas, módulos útiles, filetes finos y motivos temáticos visibles en cabecera, pie o márgenes. No resuelvas todas las hojas con un título, un personaje diminuto y líneas aisladas. Evalúa la composición de cada hoja por separado, además de la vista del conjunto.
-Distribuye el contenido según su función: datos por grupos de identificación/contacto/emergencia, calendario con doce módulos mensuales legibles, actividades con periodo, prioridades y seguimiento, y cuadrícula con tema/fecha y área amplia de escritura. Los reversos pueden contener objetivos, recuerdos o reflexiones con ilustración proporcionada. Estos son recursos de composición, no páginas adicionales obligatorias ni campos personales que deban rellenarse inventando datos.
+Distribuye el contenido según su función: datos por grupos de identificación/contacto/emergencia, calendario con doce módulos mensuales legibles y actividades con periodo, prioridades y seguimiento. Los reversos pueden contener objetivos, recuerdos o reflexiones con ilustración proporcionada. Estos son recursos de composición, no páginas adicionales obligatorias ni campos personales que deban rellenarse inventando datos.
 Evita añadir adornos solo para llenar espacio: cada bloque debe mejorar la lectura, la organización o el reconocimiento temático. Conserva áreas de escritura cómodas, blancos intencionales y contraste suficiente de líneas y textos. Un fondo blanco de bajo consumo no exige una composición mínima ni tipografía diminuta.
 
 Datos, calendarios, actividades y cuadrícula tienen **base blanca sin fondo sólido de color**. El color temático se concentra en cabeceras, pies y acentos pequeños; el área de escritura queda despejada.
 Los reversos interiores también conservan base blanca, con ilustración y motivos temáticos bien distribuidos. Las portadas exteriores pueden tener fondo temático completo.
 La cuadrícula lleva siempre un motivo central de la temática como marca de agua tenue, sin tapar líneas ni escritura. Opacidad sugerida 4–8 %, ajustada según la muestra impresa. No pongas una ilustración saturada a página completa.
+En hojas cuadriculadas, cabeceras y pies son gráficos y temáticos: personajes, logos/emblemas disponibles y nombre solo si se pidió. No añadir títulos informativos («Ideas y apuntes», «Ideas que toman forma»), eslóganes, campos «Tema/Fecha» ni descripciones funcionales por defecto. Mantén el carácter y tipografía del tema con acabado profesional.
 Datos: campos útiles de nombre, contacto y contacto de emergencia; no inventes datos personales.
 Actividades: columnas Fecha, Actividad, Prioridad, Estado y Notas como punto de partida, ajustables a la actividad real; filas con espacio para escribir.
 Cuadrícula y líneas deben ser geométricamente regulares y finas. Usa herramientas deterministas para tablas, líneas, tipografía y maquetación cuando estén disponibles; no confíes esos detalles a una imagen generativa.
@@ -53,6 +56,7 @@ Cuadrícula y líneas deben ser geométricamente regulares y finas. Usa herramie
 ## Calendarios exactos
 
 Calcula días, semanas, meses y años bisiestos con una biblioteca de fechas o código verificado. Para español usa nombres de meses y días correctos; semana comienza en lunes por defecto, configurable por pedido.
+El título visible debe ser «Calendario» y el año correspondiente, por ejemplo «Calendario 2026»; no sustituirlo por «Mi año». Compón una cabecera atractiva y temática sin restar legibilidad a los doce meses.
 No uses cifras de calendario dibujadas por el modelo de imágenes como fuente de verdad. Genera ilustraciones aparte y compón texto y fechas mediante maquetación determinista.
 El [planificador](../../../scripts/build_agenda_plan.py) valida el pedido y exporta datos de calendario y un manifiesto de piezas; **no genera imágenes ni archivos de impresión**.
 No inventes feriados: solicita país/región si se necesitan.

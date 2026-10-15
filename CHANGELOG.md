@@ -1,5 +1,11 @@
 # Historial
 
+## 0.3.2 — Identidad temática de agendas (develop)
+
+- agenda-design 0.1.2: cuadrícula con cabecera/pie temáticos y nombre solicitado, sin títulos informativos ni campos por defecto.
+- Calendarios titulados «Calendario» y año; portadas sin «Agenda», año o eslóganes salvo petición explícita.
+- Etiquetas más vivas y con estilo adaptado al tema/referencia, sin inferir género por el nombre.
+
 ## 0.3.1 — Composición profesional de interiores de agenda (develop)
 
 - agenda-design 0.1.1: exige jerarquía editorial, módulos útiles y presencia temática proporcionada en los interiores blancos.
