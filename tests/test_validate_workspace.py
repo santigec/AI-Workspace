@@ -17,7 +17,7 @@ class WorkspaceValidationTests(unittest.TestCase):
         assert Path(self.temp.name).resolve().parent == ROOT.parent.resolve()
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name) / "repo"
-        shutil.copytree(ROOT, self.root, ignore=shutil.ignore_patterns(".git", "__pycache__"))
+        shutil.copytree(ROOT, self.root, ignore=shutil.ignore_patterns(".git", "__pycache__", "design-runs", ".venv", "outputs"))
         self.registry_path = self.root / "registry/skills.yaml"
         self.registry = json.loads(self.registry_path.read_text(encoding="utf-8"))
 

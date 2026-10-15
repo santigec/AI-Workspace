@@ -2,7 +2,9 @@
 
 Tomatodo 750 ml: [tumbler-750ml-sublimation](tribe/skills/tumbler-750ml-sublimation/SKILL.md), **232 × 182 mm**, arte plano y continuo. [Ejemplo de orden](tribe/templates/orders/tumbler-750ml.example.json).
 
-Repositorio central para capacidades de IA reutilizables. Versión de desarrollo: **0.3.4 — Cabeceras ilustradas y tipografía temática**.
+Repositorio central para capacidades de IA reutilizables. Versión de desarrollo: **0.4.1 — Memoria Engram entre equipos**.
+
+Para usar dos equipos con GitHub: [guía de configuración y sincronización](docs/two-computers.md). Leer [estado para continuar](continuity/STATE.md). Se sincronizan skills y memoria `.engram` del proyecto `ai-workspace`; diseños y archivos pesados quedan locales.
 
 ## Áreas
 

@@ -1,5 +1,13 @@
 # Historial
 
+## 0.4.1 — Conocimiento y memoria Engram entre equipos (develop)
+
+- Prioridad corregida por el usuario: skills, decisiones y memoria; trabajos pesados excluidos.
+- Engram ai-workspace con temas duraderos e índice de skills, exportados a .engram mediante Git normal.
+- Sincronización importa/exporta memoria, con modo --memory-only y protección de cambios locales.
+- Instalador Windows con verificación SHA-256 y guía para el segundo equipo.
+- Incorporación pesada v0.4.0 retirada del historial a petición expresa; diseños locales conservados.
+
 ## 0.3.4 — Cabeceras ilustradas y tipografía temática (develop)
 
 - agenda-design 0.1.4: cabecera de cuadrícula como banda gráfica elaborada con lettering/emblema y motivos integrados; fuente genérica más miniatura resulta insuficiente.

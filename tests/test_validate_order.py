@@ -129,7 +129,7 @@ class OrderValidationTests(unittest.TestCase):
         with tempfile.TemporaryDirectory(prefix="tribe-validation-", dir=ROOT.parent) as temp:
             self.assertEqual(Path(temp).resolve().parent, ROOT.parent.resolve())
             root = Path(temp) / "repo"
-            shutil.copytree(ROOT, root, ignore=shutil.ignore_patterns(".git", "__pycache__"))
+            shutil.copytree(ROOT, root, ignore=shutil.ignore_patterns(".git", "__pycache__", "design-runs", ".venv", "outputs"))
             catalog = root / "tribe/knowledge/product-catalog/mugs.yaml"
             data = json.loads(catalog.read_text(encoding="utf-8"))
             data["products"][0]["verification"]["status"] = "verified"
@@ -141,7 +141,7 @@ class OrderValidationTests(unittest.TestCase):
         with tempfile.TemporaryDirectory(prefix="tribe-validation-", dir=ROOT.parent) as temp:
             self.assertEqual(Path(temp).resolve().parent, ROOT.parent.resolve())
             root = Path(temp) / "repo"
-            shutil.copytree(ROOT, root, ignore=shutil.ignore_patterns(".git", "__pycache__"))
+            shutil.copytree(ROOT, root, ignore=shutil.ignore_patterns(".git", "__pycache__", "design-runs", ".venv", "outputs"))
             catalog = root / "tribe/knowledge/product-catalog/mugs.yaml"
             data = json.loads(catalog.read_text(encoding="utf-8"))
             product = data["products"][0]

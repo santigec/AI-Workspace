@@ -12,3 +12,9 @@ Thumbs.db
 outputs/
 /orders/
 /logs/
+/.tools/
+.engram/*.db
+.engram/*.db-*
+.engram/*.sqlite*
+/design-runs/
+/continuity/design-manifest.json
