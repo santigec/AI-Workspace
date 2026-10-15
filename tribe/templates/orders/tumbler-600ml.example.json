@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "order_id": "order-2026-10-15-002",
+  "domain": "tribe",
+  "mode": "draft",
+  "workspace_ref": null,
+  "workflow": "tumbler-sublimation",
+  "product": {
+    "id": "tumbler_600ml"
+  },
+  "requested_dimensions": {
+    "width_mm": 232,
+    "height_mm": 142
+  },
+  "theme": {
+    "name": "Naturaleza de demostración"
+  },
+  "content": {
+    "main_name": "Nombre Demo",
+    "additional_text": null
+  },
+  "artwork": {
+    "operation": "generate",
+    "source": null,
+    "reference_images": [
+      {
+        "source": "chat:background-reference-1",
+        "role": "background"
+      }
+    ]
+  },
+  "style": {
+    "tone": [
+      "professional",
+      "clean"
+    ],
+    "preserve_typography": true,
+    "preserve_graphic_details": true
+  },
+  "output": {
+    "format": "png",
+    "background": "themed",
+    "resolution_ppi": 300,
+    "background_description": "Paisaje continuo, temática del pedido y composición ajustada al tomatodo de 600 ml."
+  },
+  "constraints": [
+    {
+      "key": "flat_and_continuous",
+      "value": true,
+      "priority": "hard"
+    },
+    {
+      "key": "avoid_distortion",
+      "value": true,
+      "priority": "hard"
+    },
+    {
+      "key": "secondary_decoration_position",
+      "value": "adaptable",
+      "priority": "soft"
+    },
+    {
+      "key": "background",
+      "value": "themed",
+      "priority": "hard"
+    }
+  ],
+  "resilience": {
+    "allow_draft_on_missing_specs": true,
+    "adaptable_elements": [
+      "distribution",
+      "secondary_decorations",
+      "scale"
+    ]
+  }
+}

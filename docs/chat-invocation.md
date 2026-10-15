@@ -1,5 +1,20 @@
 # Usar mug-sublimation desde otro chat
 
+## Tomatodo 600 ml
+
+Para 600 ml, usa la entrada específica:
+
+```text
+$tumbler-600ml-sublimation
+Tomatodo 600 ml: 232 mm de ancho × 142 mm de alto.
+Temática y texto: [indicar].
+Fondo: [blanco / transparente / temático].
+Usa las referencias adjuntas. Genera y muestra arte plano y continuo,
+adaptado a esta altura sin deformaciones, listo para revisar y descargar.
+```
+
+El skill de entrada es tumbler-600ml-sublimation; la orden usa workflow tumbler-sublimation y producto tumbler_600ml.
+
 ## Tomatodo 500 ml
 
 Usa tribe/skills/tumbler-sublimation/SKILL.md y sus referencias. En Codex con el checkout accesible:

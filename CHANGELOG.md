@@ -1,5 +1,11 @@
 # Historial
 
+## 0.2.6 — Entrada tomatodo 600 ml (develop)
+
+- Skill tumbler-600ml-sublimation 0.1.0: arte plano y continuo de 232 × 142 mm.
+- Reglas comunes tumbler-sublimation 0.1.1 resuelven dimensiones por capacidad; 500 ml conserva 232 × 125 mm.
+- Catálogo y ejemplo explícitos para 600 ml, con comprobaciones de fondo, dimensiones y diferenciación de capacidad.
+
 ## 0.2.5 — Tomatodo 500 ml (develop)
 
 - Skill tumbler-sublimation 0.1.0 con entrada de Codex y lienzo 232 × 125 mm confirmado por el usuario.

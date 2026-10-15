@@ -1,6 +1,6 @@
 ---
 name: tumbler-sublimation
-description: Crea o adapta diseños planos y continuos para tomatodos; para 500 ml usa lienzo de 232 × 125 mm y las referencias del chat.
+description: Crea o adapta diseños planos y continuos para tomatodos según capacidad; 500 ml a 232 × 125 mm y 600 ml a 232 × 142 mm.
 ---
 
 # Tumbler sublimation en AI-Workspace

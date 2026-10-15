@@ -1,6 +1,6 @@
 # AI Workspace
 
-Repositorio central para capacidades de IA reutilizables. Versión de desarrollo: **0.2.5 — Tomatodo 500 ml**.
+Repositorio central para capacidades de IA reutilizables. Versión de desarrollo: **0.2.6 — Entrada tomatodo 600 ml**.
 
 ## Áreas
 
@@ -40,7 +40,7 @@ Usa [la ficha de producto](tribe/templates/product-spec.md). Confirma dimensione
 Editar → probar con un caso real → revisar → commit → GitHub → instalar la versión estable en el entorno elegido.
 
 Lee [la guía de skills](shared/standards/skill-writing-guide.md) y [las reglas de calidad](shared/standards/quality-rules.md).
-Los 18 skills conservan estado alpha. image-analysis, sublimation-layout y print-ready-qa tienen contratos en versión 0.2.0; product-specs integra el catálogo en 0.2.1. mug-sublimation 0.1.2 es la entrada desde chat. El registro indica la versión de cada skill.
+Los 19 skills conservan estado alpha. image-analysis, sublimation-layout y print-ready-qa tienen contratos en versión 0.2.0; product-specs integra el catálogo en 0.2.1. mug-sublimation 0.1.2 es la entrada desde chat. El registro indica la versión de cada skill.
 
 Consulta [el registro](registry/skills.yaml), [los contratos](standards/skill-contract.md) y [la guía de evaluación](standards/evaluation-guide.md).
 
@@ -91,3 +91,10 @@ Usa [tumbler-sublimation](tribe/skills/tumbler-sublimation/SKILL.md): lienzo con
 Las reglas de taza se reutilizan con una composición propia para la proporción 232:125; no se estira el diseño de 205 × 95 mm.
 Referencias opcionales, texto solicitado y fondo blanco, transparente o temático forman parte del pedido. Consulta [el ejemplo](tribe/templates/orders/tumbler-500ml.example.json).
 Las dimensiones del lienzo están definidas para este flujo; el catálogo sigue sin aprobación completa de producción. Los dos nuevos casos visuales están NOT_RUN.
+
+
+## Entrada específica: tomatodo 600 ml
+
+[tumbler-600ml-sublimation](tribe/skills/tumbler-600ml-sublimation/SKILL.md) selecciona **232 × 142 mm**, plano y continuo.
+Usa el workflow común tumbler-sublimation con product.id tumbler_600ml. La entrada específica no cambia el formato de la orden; evita confundir su altura con 125 mm de 500 ml.
+Invoca con $tumbler-600ml-sublimation en Codex con el repositorio accesible. [Ejemplo de orden](tribe/templates/orders/tumbler-600ml.example.json).

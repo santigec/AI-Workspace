@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "workspace_version": "0.2.5",
+  "workspace_version": "0.2.6",
   "skills": {
     "image-analysis": {
       "domain": "shared",
@@ -210,7 +210,7 @@
       "domain": "tribe",
       "owner": "tribe",
       "path": "tribe/skills/tumbler-sublimation/SKILL.md",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "status": "alpha",
       "requires_before": [],
       "recommends_next": [
@@ -219,6 +219,20 @@
       "evaluation_cases": [
         "tumbler-sublimation-001",
         "tumbler-sublimation-002"
+      ]
+    },
+    "tumbler-600ml-sublimation": {
+      "domain": "tribe",
+      "owner": "tribe",
+      "path": "tribe/skills/tumbler-600ml-sublimation/SKILL.md",
+      "version": "0.1.0",
+      "status": "alpha",
+      "requires_before": [],
+      "recommends_next": [
+        "print-ready-qa"
+      ],
+      "evaluation_cases": [
+        "tumbler-600ml-sublimation-001"
       ]
     }
   },
