@@ -105,6 +105,14 @@
       "scope": "behavioral",
       "path": "evals/tribe/tumbler-600ml-sublimation/case-001.md",
       "status": "NOT_RUN"
+    },
+    {
+      "id": "tumbler-750ml-sublimation-001",
+      "skill": "tumbler-750ml-sublimation",
+      "workflow": "tumbler-sublimation",
+      "scope": "behavioral",
+      "path": "evals/tribe/tumbler-750ml-sublimation/case-001.md",
+      "status": "NOT_RUN"
     }
   ]
 }

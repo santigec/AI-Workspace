@@ -51,7 +51,7 @@ class OrderValidationTests(unittest.TestCase):
         self.assertEqual("INVALID", orders.validate_order(self.order)["status"])
 
     def test_tumbler_capacities_have_distinct_heights(self):
-        for capacity, height in (("500ml", 125), ("600ml", 142)):
+        for capacity, height in (("500ml", 125), ("600ml", 142), ("750ml", 182)):
             with self.subTest(capacity=capacity):
                 self.order["workflow"] = "tumbler-sublimation"
                 self.order["product"]["id"] = "tumbler_" + capacity
@@ -71,6 +71,18 @@ class OrderValidationTests(unittest.TestCase):
                 result = orders.validate_order(example)
                 self.assertEqual("DRAFT_ALLOWED", result["status"])
                 self.assertEqual({"width_mm": 232, "height_mm": 142}, result["effective_dimensions"])
+
+    def test_tumbler_750ml_background_does_not_change_size(self):
+        example = json.loads((ROOT / "tribe/templates/orders/tumbler-750ml.example.json").read_text(encoding="utf-8"))
+        for background in ("transparent", "solid", "themed"):
+            with self.subTest(background=background):
+                example["output"]["background"] = background
+                for constraint in example["constraints"]:
+                    if constraint["key"] == "background":
+                        constraint["value"] = background
+                result = orders.validate_order(example)
+                self.assertEqual("DRAFT_ALLOWED", result["status"])
+                self.assertEqual({"width_mm": 232, "height_mm": 182}, result["effective_dimensions"])
 
     def test_tumbler_500ml_uses_its_dimensions_not_mug_dimensions(self):
         self.order["workflow"] = "tumbler-sublimation"

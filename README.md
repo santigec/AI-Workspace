@@ -1,6 +1,8 @@
 # AI Workspace
 
-Repositorio central para capacidades de IA reutilizables. Versión de desarrollo: **0.2.6 — Entrada tomatodo 600 ml**.
+Tomatodo 750 ml: [tumbler-750ml-sublimation](tribe/skills/tumbler-750ml-sublimation/SKILL.md), **232 × 182 mm**, arte plano y continuo. [Ejemplo de orden](tribe/templates/orders/tumbler-750ml.example.json).
+
+Repositorio central para capacidades de IA reutilizables. Versión de desarrollo: **0.2.7 — Entrada tomatodo 750 ml**.
 
 ## Áreas
 
@@ -40,7 +42,7 @@ Usa [la ficha de producto](tribe/templates/product-spec.md). Confirma dimensione
 Editar → probar con un caso real → revisar → commit → GitHub → instalar la versión estable en el entorno elegido.
 
 Lee [la guía de skills](shared/standards/skill-writing-guide.md) y [las reglas de calidad](shared/standards/quality-rules.md).
-Los 19 skills conservan estado alpha. image-analysis, sublimation-layout y print-ready-qa tienen contratos en versión 0.2.0; product-specs integra el catálogo en 0.2.1. mug-sublimation 0.1.2 es la entrada desde chat. El registro indica la versión de cada skill.
+Los 20 skills conservan estado alpha. image-analysis, sublimation-layout y print-ready-qa tienen contratos en versión 0.2.0; product-specs integra el catálogo en 0.2.1. mug-sublimation 0.1.2 es la entrada desde chat. El registro indica la versión de cada skill.
 
 Consulta [el registro](registry/skills.yaml), [los contratos](standards/skill-contract.md) y [la guía de evaluación](standards/evaluation-guide.md).
 

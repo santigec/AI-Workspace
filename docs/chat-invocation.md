@@ -1,5 +1,20 @@
 # Usar mug-sublimation desde otro chat
 
+## Tomatodo 750 ml
+
+```text
+$tumbler-750ml-sublimation
+Tomatodo 750 ml: 232 mm de ancho × 182 mm de alto.
+Temática y texto: [indicar].
+Fondo: [blanco / transparente / temático].
+Usa las referencias adjuntas si las hay.
+Genera y muestra arte plano y continuo para impresión y sublimación.
+Adapta la composición a toda la superficie sin estirar el dibujo.
+Entrega el PNG descargable.
+```
+
+La entrada selecciona producto tumbler_750ml y workflow común tumbler-sublimation. Requiere el repositorio accesible o el skill instalado.
+
 ## Tomatodo 600 ml
 
 Para 600 ml, usa la entrada específica:

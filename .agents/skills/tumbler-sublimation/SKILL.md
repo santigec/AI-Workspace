@@ -1,6 +1,6 @@
 ---
 name: tumbler-sublimation
-description: Crea o adapta diseños planos y continuos para tomatodos según capacidad; 500 ml a 232 × 125 mm y 600 ml a 232 × 142 mm.
+description: Crea o adapta diseños planos y continuos para tomatodos según capacidad; 500 ml a 232 × 125 mm, 600 ml a 232 × 142 mm y 750 ml a 232 × 182 mm.
 ---
 
 # Tumbler sublimation en AI-Workspace

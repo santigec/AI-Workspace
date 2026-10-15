@@ -1,5 +1,12 @@
 # Historial
 
+## 0.2.7 — Entrada tomatodo 750 ml (develop)
+
+- Skill tumbler-750ml-sublimation 0.1.0: lienzo plano y continuo de 232 × 182 mm.
+- Reglas comunes de tomatodos 0.1.2 distinguen 500, 600 y 750 ml y adaptan la composición a cada proporción.
+- Catálogo, ejemplo, entrada de Codex y caso visual pendiente para 750 ml.
+- Pruebas de selección de altura para las tres capacidades y conservación de tamaño al cambiar fondo.
+
 ## 0.2.6 — Entrada tomatodo 600 ml (develop)
 
 - Skill tumbler-600ml-sublimation 0.1.0: arte plano y continuo de 232 × 142 mm.
