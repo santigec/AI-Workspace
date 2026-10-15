@@ -39,6 +39,10 @@ No agregues marcas de corte, espiral, botella ni mockup al arte plano final. No 
 
 ## Interiores de bajo consumo
 
+La base blanca debe sentirse diseñada y profesional a tamaño real, no vacía. Usa jerarquía editorial, secciones claramente agrupadas, módulos útiles, filetes finos y motivos temáticos visibles en cabecera, pie o márgenes. No resuelvas todas las hojas con un título, un personaje diminuto y líneas aisladas. Evalúa la composición de cada hoja por separado, además de la vista del conjunto.
+Distribuye el contenido según su función: datos por grupos de identificación/contacto/emergencia, calendario con doce módulos mensuales legibles, actividades con periodo, prioridades y seguimiento, y cuadrícula con tema/fecha y área amplia de escritura. Los reversos pueden contener objetivos, recuerdos o reflexiones con ilustración proporcionada. Estos son recursos de composición, no páginas adicionales obligatorias ni campos personales que deban rellenarse inventando datos.
+Evita añadir adornos solo para llenar espacio: cada bloque debe mejorar la lectura, la organización o el reconocimiento temático. Conserva áreas de escritura cómodas, blancos intencionales y contraste suficiente de líneas y textos. Un fondo blanco de bajo consumo no exige una composición mínima ni tipografía diminuta.
+
 Datos, calendarios, actividades y cuadrícula tienen **base blanca sin fondo sólido de color**. El color temático se concentra en cabeceras, pies y acentos pequeños; el área de escritura queda despejada.
 Los reversos interiores también conservan base blanca, con ilustración y motivos temáticos bien distribuidos. Las portadas exteriores pueden tener fondo temático completo.
 La cuadrícula lleva siempre un motivo central de la temática como marca de agua tenue, sin tapar líneas ni escritura. Opacidad sugerida 4–8 %, ajustada según la muestra impresa. No pongas una ilustración saturada a página completa.

@@ -1,5 +1,11 @@
 # Historial
 
+## 0.3.1 — Composición profesional de interiores de agenda (develop)
+
+- agenda-design 0.1.1: exige jerarquía editorial, módulos útiles y presencia temática proporcionada en los interiores blancos.
+- Datos agrupados, meses delimitados, prioridades/seguimiento y reversos con función propia como pautas adaptables.
+- QA individual a tamaño real además de la vista del conjunto; bajo consumo de tinta no implica páginas vacías.
+
 ## 0.3.0 — Agendas temáticas A4 (develop)
 
 - agenda-design 0.1.0: nueve modelos A4 vertical y dos etiquetas de 205 × 165 y 205 × 95 mm.

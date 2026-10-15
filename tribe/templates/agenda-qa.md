@@ -8,6 +8,8 @@
 - Etiquetas: 205 × 165 mm y 205 × 95 mm.
 - Píxeles y resolución efectiva de cada archivo:
 - Coherencia temática, tipográfica y de color:
+- Composición profesional por hoja: jerarquía, agrupación funcional, motivos temáticos visibles y blancos intencionales; sin sensación de plantilla vacía ni decoración de relleno.
+- Legibilidad revisada a tamaño real y en vista individual, además del conjunto; escritura cómoda, líneas con contraste suficiente y personajes proporcionados.
 - Datos/calendarios/actividades/cuadrícula: base blanca y escritura legible.
 - Cuadrícula: líneas regulares, marca de agua central tenue, cabecera y pie temáticos.
 - Actividades: columnas y filas útiles para escribir.
