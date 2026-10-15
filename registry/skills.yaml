@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "workspace_version": "0.2.7",
+  "workspace_version": "0.3.0",
   "skills": {
     "image-analysis": {
       "domain": "shared",
@@ -248,6 +248,21 @@
       "evaluation_cases": [
         "tumbler-750ml-sublimation-001"
       ]
+    },
+    "agenda-design": {
+      "domain": "tribe",
+      "owner": "tribe",
+      "path": "tribe/skills/agenda-design/SKILL.md",
+      "version": "0.1.0",
+      "status": "alpha",
+      "requires_before": [],
+      "recommends_next": [
+        "print-ready-qa"
+      ],
+      "evaluation_cases": [
+        "agenda-design-001",
+        "agenda-design-002"
+      ]
     }
   },
   "workflows": {
@@ -338,6 +353,25 @@
       ],
       "conditional_steps": [
         "image-analysis",
+        "image-generation",
+        "image-editing"
+      ]
+    },
+    "agenda-design": {
+      "path": "workflows/tribe/agenda-design.md",
+      "status": "alpha",
+      "steps": [
+        "product-specs",
+        "image-analysis",
+        "professional-writing",
+        "image-generation",
+        "image-editing",
+        "resize-to-print",
+        "print-ready-qa"
+      ],
+      "conditional_steps": [
+        "image-analysis",
+        "professional-writing",
         "image-generation",
         "image-editing"
       ]

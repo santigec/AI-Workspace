@@ -9,6 +9,7 @@ Ejecuta desde la raíz:
 python scripts/validate_workspace.py
 python -m pip install -r requirements-dev.txt
 python scripts/validate_order.py
+python scripts/build_agenda_plan.py tribe/templates/orders/agenda-a4.example.json
 python -m unittest discover -s tests
 ```
 

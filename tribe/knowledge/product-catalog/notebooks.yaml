@@ -33,6 +33,39 @@
         "clean"
       ],
       "workflow": null
+    },
+    {
+      "id": "agenda_a4",
+      "label": "Agenda temática A4 vertical — conjunto de páginas y etiquetas",
+      "family": "notebook",
+      "technique": "unspecified",
+      "width_mm": 210,
+      "height_mm": 297,
+      "proposal_source": "Usuario, 2026-10-15: confirma A4 vertical para páginas, calendarios separados 2026/2027 e interiores blancos. Etiquetas 205 × 165 y 205 × 95 mm en agenda-specs.json; encuadernación y parámetros de imprenta pendientes.",
+      "supplier": null,
+      "model": null,
+      "verification": {
+        "status": "unverified",
+        "source": null,
+        "verified_by": null,
+        "verified_at": null
+      },
+      "production": {
+        "print_area": null,
+        "safe_margin_mm": null,
+        "bleed_mm": null,
+        "resolution_ppi": null,
+        "color_profile": null,
+        "format": null,
+        "background": null,
+        "mirror": null,
+        "excluded_zones": []
+      },
+      "style_defaults": [
+        "professional",
+        "clean"
+      ],
+      "workflow": "agenda-design"
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 Tomatodo 750 ml: [tumbler-750ml-sublimation](tribe/skills/tumbler-750ml-sublimation/SKILL.md), **232 × 182 mm**, arte plano y continuo. [Ejemplo de orden](tribe/templates/orders/tumbler-750ml.example.json).
 
-Repositorio central para capacidades de IA reutilizables. Versión de desarrollo: **0.2.7 — Entrada tomatodo 750 ml**.
+Repositorio central para capacidades de IA reutilizables. Versión de desarrollo: **0.3.0 — Agendas temáticas A4**.
 
 ## Áreas
 
@@ -12,7 +12,7 @@ Repositorio central para capacidades de IA reutilizables. Versión de desarrollo
 - **software-office/**: SQL, diseño de sistemas y comunicación técnica.
 - **experiments/**: pruebas antes de promover una capacidad a estable.
 - **evals/**: 12 escenarios visuales/técnicos pendientes y una prueba lógica real ejecutada.
-- **registry/**: versiones, propietarios, estados y dependencias de los 16 skills.
+- **registry/**: versiones, propietarios, estados y dependencias de los skills registrados.
 - **workflows/**: sublimación, edición de imagen y diseño de sistemas.
 - **standards/**: contratos y evaluación; los estándares generales siguen en shared/standards.
 
@@ -42,7 +42,7 @@ Usa [la ficha de producto](tribe/templates/product-spec.md). Confirma dimensione
 Editar → probar con un caso real → revisar → commit → GitHub → instalar la versión estable en el entorno elegido.
 
 Lee [la guía de skills](shared/standards/skill-writing-guide.md) y [las reglas de calidad](shared/standards/quality-rules.md).
-Los 20 skills conservan estado alpha. image-analysis, sublimation-layout y print-ready-qa tienen contratos en versión 0.2.0; product-specs integra el catálogo en 0.2.1. mug-sublimation 0.1.2 es la entrada desde chat. El registro indica la versión de cada skill.
+Los 21 skills conservan estado alpha. image-analysis, sublimation-layout y print-ready-qa tienen contratos en versión 0.2.0; product-specs integra el catálogo en 0.2.1. mug-sublimation 0.1.2 es la entrada desde chat. El registro indica la versión de cada skill.
 
 Consulta [el registro](registry/skills.yaml), [los contratos](standards/skill-contract.md) y [la guía de evaluación](standards/evaluation-guide.md).
 
@@ -100,3 +100,18 @@ Las dimensiones del lienzo están definidas para este flujo; el catálogo sigue 
 [tumbler-600ml-sublimation](tribe/skills/tumbler-600ml-sublimation/SKILL.md) selecciona **232 × 142 mm**, plano y continuo.
 Usa el workflow común tumbler-sublimation con product.id tumbler_600ml. La entrada específica no cambia el formato de la orden; evita confundir su altura con 125 mm de 500 ml.
 Invoca con $tumbler-600ml-sublimation en Codex con el repositorio accesible. [Ejemplo de orden](tribe/templates/orders/tumbler-600ml.example.json).
+
+
+## Agendas temáticas
+
+[agenda-design](tribe/skills/agenda-design/SKILL.md) crea el conjunto de nueve modelos A4 vertical (210 × 297 mm) y dos etiquetas (205 × 165 y 205 × 95 mm).
+Portadas y reversos mantienen la identidad; datos, calendarios, actividades y cuadrícula tienen base blanca, cabeceras/pies temáticos y escritura legible. La cuadrícula incorpora marca de agua central tenue.
+Los años se resuelven desde la fecha del usuario; el ejemplo usa 2026 y 2027. Los calendarios se calculan, no se confían a texto dibujado por el modelo de imágenes.
+
+Planificar y comprobar fechas, sin generar imágenes:
+
+```console
+python scripts/build_agenda_plan.py tribe/templates/orders/agenda-a4.example.json --out outputs/agenda-plan.json
+```
+
+El plan no es arte final ni aprobación de impresión. Los dos casos visuales de agenda están NOT_RUN.

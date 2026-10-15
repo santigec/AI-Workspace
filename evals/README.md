@@ -1,5 +1,7 @@
 # Casos de evaluación
 
+Agendas: [conjunto completo](tribe/agenda-design/case-001.md) y [años y personalización](tribe/agenda-design/case-002.md), ambos NOT_RUN para comportamiento visual. Las pruebas de fechas y manifiesto son comprobaciones de código, no generación de agenda.
+
 Los 12 casos originales están **NOT_RUN**. Se ejecutó una [prueba lógica real de entrada](tribe/mug-sublimation/result-001.md) con resultado PASS; no incluye generación ni QA visual y no habilita promoción de skills. Los pedidos operativos permanecen fuera del repositorio.
 
 - [Análisis de imagen](image-studio/image-analysis/expected-results.md): skill común en shared, evaluado como entrada de Image Studio.

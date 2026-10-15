@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "order_id": "order-2026-10-15-006",
+  "workflow": "agenda-design",
+  "product_id": "agenda_a4",
+  "theme": {
+    "description": "Naturaleza botánica, creativa, profesional y limpia",
+    "reference_images": []
+  },
+  "personalization": {
+    "name": null,
+    "exact_text": []
+  },
+  "calendar_years": [
+    2026,
+    2027
+  ],
+  "week_starts_on": "monday",
+  "page": {
+    "size": "A4",
+    "orientation": "portrait",
+    "width_mm": 210,
+    "height_mm": 297
+  },
+  "print": {
+    "resolution_ppi": null,
+    "bleed_mm": null,
+    "binding_margin_mm": null,
+    "requested_formats": [
+      "png",
+      "pdf"
+    ]
+  },
+  "interiors": {
+    "background": "white",
+    "full_color_background": false,
+    "grid_mm": 5,
+    "line_spacing_mm": 7,
+    "central_thematic_watermark": true,
+    "watermark_opacity": 0.06,
+    "themed_header_footer": true
+  }
+}

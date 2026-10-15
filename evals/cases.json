@@ -113,6 +113,22 @@
       "scope": "behavioral",
       "path": "evals/tribe/tumbler-750ml-sublimation/case-001.md",
       "status": "NOT_RUN"
+    },
+    {
+      "id": "agenda-design-001",
+      "skill": "agenda-design",
+      "workflow": "agenda-design",
+      "scope": "behavioral",
+      "path": "evals/tribe/agenda-design/case-001.md",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "agenda-design-002",
+      "skill": "agenda-design",
+      "workflow": "agenda-design",
+      "scope": "behavioral",
+      "path": "evals/tribe/agenda-design/case-002.md",
+      "status": "NOT_RUN"
     }
   ]
 }

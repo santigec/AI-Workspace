@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "profiles": {
+    "a4_portrait": {
+      "width_mm": 210,
+      "height_mm": 297
+    },
+    "agenda_label": {
+      "width_mm": 205,
+      "height_mm": 165
+    },
+    "packaging_label": {
+      "width_mm": 205,
+      "height_mm": 95
+    }
+  },
+  "components": [
+    {
+      "id": "front_cover",
+      "label": "Portada frontal",
+      "profile": "a4_portrait",
+      "low_ink": false
+    },
+    {
+      "id": "back_cover",
+      "label": "Portada posterior",
+      "profile": "a4_portrait",
+      "low_ink": false
+    },
+    {
+      "id": "inside_front_cover",
+      "label": "Reverso interior de portada frontal",
+      "profile": "a4_portrait",
+      "low_ink": true
+    },
+    {
+      "id": "inside_back_cover",
+      "label": "Reverso interior de portada posterior",
+      "profile": "a4_portrait",
+      "low_ink": true
+    },
+    {
+      "id": "personal_data",
+      "label": "Datos importantes",
+      "profile": "a4_portrait",
+      "low_ink": true,
+      "fields": [
+        "Nombre completo",
+        "Teléfono",
+        "Correo",
+        "Contacto de emergencia",
+        "Teléfono de emergencia"
+      ]
+    },
+    {
+      "id": "calendar_current",
+      "label": "Calendario del primer año",
+      "profile": "a4_portrait",
+      "low_ink": true
+    },
+    {
+      "id": "calendar_next",
+      "label": "Calendario del segundo año",
+      "profile": "a4_portrait",
+      "low_ink": true
+    },
+    {
+      "id": "important_activities",
+      "label": "Actividades importantes",
+      "profile": "a4_portrait",
+      "low_ink": true,
+      "columns": [
+        "Fecha",
+        "Actividad",
+        "Prioridad",
+        "Estado",
+        "Notas"
+      ],
+      "ruling": "lined"
+    },
+    {
+      "id": "grid_page",
+      "label": "Hoja cuadriculada",
+      "profile": "a4_portrait",
+      "low_ink": true,
+      "ruling": "grid",
+      "central_thematic_watermark": true
+    },
+    {
+      "id": "agenda_label",
+      "label": "Etiqueta principal de agenda",
+      "profile": "agenda_label",
+      "low_ink": false
+    },
+    {
+      "id": "packaging_label",
+      "label": "Etiqueta complementaria de empaque",
+      "profile": "packaging_label",
+      "low_ink": false
+    }
+  ],
+  "notes": [
+    "Los nueve modelos A4 son verticales por confirmación del usuario el 2026-10-15.",
+    "Calcular años según la fecha del usuario salvo elección explícita.",
+    "Medidas de etiquetas confirmadas por el usuario; márgenes y parámetros de encuadernación pendientes por pedido.",
+    "El tamaño de cuadrícula, espaciado de líneas y opacidad del ejemplo son defaults de diseño ajustables, no especificaciones universales de imprenta."
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "type": "object",
+  "required": [
+    "schema_version",
+    "order_id",
+    "workflow",
+    "product_id",
+    "theme",
+    "personalization",
+    "calendar_years",
+    "week_starts_on",
+    "page",
+    "print",
+    "interiors"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "order_id": {
+      "type": "string",
+      "pattern": "^order-[0-9]{4}-[0-9]{2}-[0-9]{2}-[0-9]{3,}$"
+    },
+    "workflow": {
+      "const": "agenda-design"
+    },
+    "product_id": {
+      "const": "agenda_a4"
+    },
+    "theme": {
+      "type": "object",
+      "required": [
+        "description",
+        "reference_images"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reference_images": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "source",
+              "role"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "source": {
+                "type": "string",
+                "minLength": 1
+              },
+              "role": {
+                "enum": [
+                  "content",
+                  "style",
+                  "background"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "personalization": {
+      "type": "object",
+      "required": [
+        "name",
+        "exact_text"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "anyOf": [
+            {
+              "type": "string",
+              "minLength": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "exact_text": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "calendar_years": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "uniqueItems": true,
+      "items": {
+        "type": "integer",
+        "minimum": 1900,
+        "maximum": 9998
+      }
+    },
+    "week_starts_on": {
+      "enum": [
+        "monday",
+        "sunday"
+      ]
+    },
+    "page": {
+      "type": "object",
+      "required": [
+        "size",
+        "orientation",
+        "width_mm",
+        "height_mm"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "size": {
+          "const": "A4"
+        },
+        "orientation": {
+          "const": "portrait"
+        },
+        "width_mm": {
+          "const": 210
+        },
+        "height_mm": {
+          "const": 297
+        }
+      }
+    },
+    "print": {
+      "type": "object",
+      "required": [
+        "resolution_ppi",
+        "bleed_mm",
+        "binding_margin_mm",
+        "requested_formats"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "resolution_ppi": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "bleed_mm": {
+          "anyOf": [
+            {
+              "type": "number",
+              "minimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "binding_margin_mm": {
+          "anyOf": [
+            {
+              "type": "number",
+              "minimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "requested_formats": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "png",
+              "pdf"
+            ]
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        }
+      }
+    },
+    "interiors": {
+      "type": "object",
+      "required": [
+        "background",
+        "full_color_background",
+        "grid_mm",
+        "line_spacing_mm",
+        "central_thematic_watermark",
+        "watermark_opacity",
+        "themed_header_footer"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "background": {
+          "const": "white"
+        },
+        "full_color_background": {
+          "const": false
+        },
+        "grid_mm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "line_spacing_mm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "central_thematic_watermark": {
+          "const": true
+        },
+        "watermark_opacity": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "maximum": 0.08
+        },
+        "themed_header_footer": {
+          "const": true
+        }
+      }
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Pedido de agenda temática A4",
+  "description": "Planificación de piezas, no aprobación de producción."
+}

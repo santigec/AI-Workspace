@@ -1,5 +1,23 @@
 # Usar mug-sublimation desde otro chat
 
+## Agenda temática A4
+
+```text
+$agenda-design
+Usa la temática de la imagen adjunta.
+Nombre: [indicar solo si se personaliza].
+Genera el conjunto de agenda A4 vertical:
+portadas frontal y posterior, ambos reversos interiores,
+datos, calendarios 2026 y 2027 en páginas separadas,
+actividades con líneas/columnas y hoja cuadriculada.
+Interiores blancos de bajo consumo, cabeceras/pies temáticos
+y marca de agua central tenue en la cuadrícula.
+Incluye etiqueta 205 × 165 mm y empaque 205 × 95 mm.
+Mantén identidad y tipografía; muestra y entrega cada pieza.
+```
+
+Si no se indican años, el skill usa actual y siguiente según la fecha del usuario. El ejemplo 2026/2027 no es permanente.
+
 ## Tomatodo 750 ml
 
 ```text

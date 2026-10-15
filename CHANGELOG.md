@@ -1,5 +1,13 @@
 # Historial
 
+## 0.3.0 — Agendas temáticas A4 (develop)
+
+- agenda-design 0.1.0: nueve modelos A4 vertical y dos etiquetas de 205 × 165 y 205 × 95 mm.
+- Portadas, reversos interiores, datos importantes, calendarios de dos años, actividades con líneas/columnas y cuadrícula con marca de agua central.
+- Interiores blancos de bajo consumo, cabeceras/pies y acentos acordes a la temática, tipografía y personalización coherentes.
+- Schema y ejemplo de pedido; planificador con calendarios calculados y años configurables, sin generar artefactos visuales.
+- Pruebas de fechas, años bisiestos, formatos y política de tinta; evaluaciones visuales pendientes.
+
 ## 0.2.7 — Entrada tomatodo 750 ml (develop)
 
 - Skill tumbler-750ml-sublimation 0.1.0: lienzo plano y continuo de 232 × 182 mm.
