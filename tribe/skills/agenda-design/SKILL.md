@@ -49,7 +49,7 @@ Datos, calendarios, actividades y cuadrícula tienen **base blanca sin fondo só
 Los reversos interiores también conservan base blanca, con ilustración y motivos temáticos bien distribuidos. Las portadas exteriores pueden tener fondo temático completo.
 La cuadrícula lleva siempre un motivo central de la temática como marca de agua tenue, sin tapar líneas ni escritura. Opacidad sugerida 4–8 %, ajustada según la muestra impresa. No pongas una ilustración saturada a página completa.
 En hojas cuadriculadas, cabeceras y pies son gráficos y temáticos: personajes, logos/emblemas disponibles y nombre solo si se pidió. No añadir títulos informativos («Ideas y apuntes», «Ideas que toman forma»), eslóganes, campos «Tema/Fecha» ni descripciones funcionales por defecto. Mantén el carácter y tipografía del tema con acabado profesional.
-Datos: campos útiles de nombre, contacto y contacto de emergencia; no inventes datos personales.
+Datos: título «Datos importantes», sin subtítulos motivacionales, frases decorativas ni nombre personalizado en cabecera/pie. Campos útiles de nombre, contacto y contacto de emergencia con espacios vacíos para completar a mano. No prellenar el nombre aunque se haya solicitado para portadas o etiquetas; solo completar datos si el usuario pide explícitamente rellenar la ficha.
 Actividades: columnas Fecha, Actividad, Prioridad, Estado y Notas como punto de partida, ajustables a la actividad real; filas con espacio para escribir.
 Cuadrícula y líneas deben ser geométricamente regulares y finas. Usa herramientas deterministas para tablas, líneas, tipografía y maquetación cuando estén disponibles; no confíes esos detalles a una imagen generativa.
 

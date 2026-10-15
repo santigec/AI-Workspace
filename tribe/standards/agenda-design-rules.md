@@ -5,6 +5,7 @@ Cabeceras y pies comparten motivos, paleta y tipografía; no compiten con el ár
 
 Cuadrícula: cabecera/pie exclusivamente temáticos, con nombre solicitado, personajes y emblemas/logos disponibles. Sin títulos funcionales, frases ni campos Tema/Fecha por defecto. Conserva la marca de agua central y la tipografía temática.
 Calendarios: título explícito «Calendario» seguido del año, con módulos mensuales atractivos y legibles.
+Datos importantes: sin frases decorativas ni nombre personalizado en cabecera/pie. Todos los campos personales vacíos, incluido el nombre; personalizar portadas no autoriza rellenar esta hoja. Conservar etiquetas funcionales, espacios de escritura y motivos temáticos.
 Portadas: temática y nombre solicitado, sin palabra «Agenda», año ni eslóganes por defecto. Etiquetas: más vivas, con composición propia, color y contraste adaptados al carácter solicitado o de la referencia (armónico, vibrante, deportivo, masculino, femenino, etc.). No inferir género a partir del nombre.
 
 Calidad editorial de los interiores: blanco intencional, jerarquía clara, módulos proporcionados y temática reconocible a tamaño real. Evita páginas resueltas solo con título, personaje diminuto y líneas dispersas. Agrupa datos en secciones, delimita meses, organiza prioridades y seguimiento, y dota a los reversos de una composición propia. La decoración debe mejorar identidad y organización sin restar espacio útil. Revisa cada hoja individualmente y como conjunto; una vista reducida no basta para juzgar legibilidad.

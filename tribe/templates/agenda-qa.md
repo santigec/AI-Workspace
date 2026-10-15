@@ -5,6 +5,7 @@
 - Portadas y etiquetas: sin «Agenda», años o eslóganes no solicitados; etiquetas vivas y acordes a referencia/estilo.
 - Cuadrícula: solo nombre solicitado y elementos temáticos en cabecera/pie; sin títulos funcionales o campos no pedidos.
 - Calendarios: título «Calendario» y año correcto, con composición temática profesional.
+- Datos importantes: sin frases decorativas ni personalización del nombre; campos personales vacíos salvo solicitud explícita de rellenado.
 - Años y comienzo de semana:
 - Inventario: frontal, posterior, interior frontal, interior posterior, datos, dos calendarios, actividades, cuadrícula, etiqueta principal y empaque.
 - A4: 210 × 297 mm en las nueve piezas base.

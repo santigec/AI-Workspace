@@ -2,7 +2,7 @@
 
 Tomatodo 750 ml: [tumbler-750ml-sublimation](tribe/skills/tumbler-750ml-sublimation/SKILL.md), **232 × 182 mm**, arte plano y continuo. [Ejemplo de orden](tribe/templates/orders/tumbler-750ml.example.json).
 
-Repositorio central para capacidades de IA reutilizables. Versión de desarrollo: **0.3.2 — Identidad temática de agendas**.
+Repositorio central para capacidades de IA reutilizables. Versión de desarrollo: **0.3.3 — Ficha de datos sin prellenado**.
 
 ## Áreas
 

@@ -1,5 +1,10 @@
 # Historial
 
+## 0.3.3 — Ficha de datos sin prellenado (develop)
+
+- agenda-design 0.1.3: hoja «Datos importantes» sin frases decorativas ni nombre personalizado.
+- Campos personales vacíos para completar a mano; personalización de portadas/etiquetas no implica rellenar datos.
+
 ## 0.3.2 — Identidad temática de agendas (develop)
 
 - agenda-design 0.1.2: cuadrícula con cabecera/pie temáticos y nombre solicitado, sin títulos informativos ni campos por defecto.
