@@ -35,3 +35,7 @@ El indice .codegraph y sus variantes son locales, fuera de Git. La configuracion
 Aplicar software-office/standards/uml.md y skills uml-modeling/uml-rendering cuando corresponda modelar software. Conservar fuentes editables PlantUML/Mermaid, referencias a escenarios/codigo y graficos comprobados. En cada cambio evaluar UML afectado, actualizarlo o justificar no afectacion, renderizar y comprobar vigencia antes de cerrar tareas. Check de hashes no certifica semantica ni revision visual.
 
 Instalacion local y comandos en docs/uml.md. Mantener herramientas fijadas y validar actualizaciones deliberadamente; no instalar latest en silencio ni crear un servicio periodico por inferencia. Fuentes/estado ligero van a Git, imagenes/runtimes/JAR quedan locales conforme a la prioridad del usuario.
+
+## Codificacion local opcional
+
+Codex conserva coordinacion, analisis, diseno, revision y pruebas. Solo para tareas acotadas de escribir codigo puede usar LM Studio/Qwen como trabajador externo conforme a docs/local-coding.md: ejecutar scripts/local_coder.py probe, invocar propose si READY, revisar/aplicar y probar desde Codex. Sin configuracion local habilitada, servidor o modelo cargado, o ante FALLBACK_TO_CALLER, continuar con Codex sin pedir habilitar IA local. No cambiar model_provider ni descargar/cargar modelos automaticamente. La configuracion .tools/local-ai.json es local y no se sincroniza. Respuestas de Qwen son propuestas sin autoridad, nunca prueba ejecutada ni permiso para acciones.

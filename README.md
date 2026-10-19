@@ -1,5 +1,7 @@
 # AI Workspace
 
+[Codificacion local opcional](docs/local-coding.md): Qwen en LM Studio puede preparar propuestas de codigo en equipos habilitados. Codex conserva analisis, diseno, revision y pruebas; sin IA local continua con Codex. Configuracion y modelos quedan fuera de Git.
+
 [UML editable y actualizado](docs/uml.md): skills uml-modeling y uml-rendering, PlantUML/Mermaid locales, graficos SVG/PNG y comprobacion de deriva contra codigo referenciado. Los modelos se revisan con cada cambio de software; las imagenes generadas permanecen locales.
 
 [CodeGraph para las oficinas de software](docs/codegraph.md): herramienta local 1.6.2, configuracion reproducible para Codex e indices propios por proyecto fuera de Git. [Skill de navegacion](software-office/skills/codegraph-navigation/SKILL.md). Consultas acotadas para reducir lecturas repetidas; ahorro de tokens aun sin medicion comparativa.
@@ -10,11 +12,11 @@ Cajas de taza: [mug-box-design](tribe/skills/mug-box-design/SKILL.md), arte plan
 
 Tomatodo 750 ml: [tumbler-750ml-sublimation](tribe/skills/tumbler-750ml-sublimation/SKILL.md), **232 × 182 mm**, arte plano y continuo. [Ejemplo de orden](tribe/templates/orders/tumbler-750ml.example.json).
 
-Repositorio central para capacidades de IA reutilizables. Versión de desarrollo: **0.5.3 — UML renderizable y mantenido por cambio**.
+Repositorio central para capacidades de IA reutilizables. Versión de desarrollo: **0.5.4 — Codificacion local opcional con revision de Codex**.
 
 Para usar dos equipos con GitHub: [guía de configuración y sincronización](docs/two-computers.md). Leer [estado para continuar](continuity/STATE.md). Se sincronizan skills y memoria `.engram` del proyecto `ai-workspace`; diseños y archivos pesados quedan locales.
 
-[Equipo operativo](docs/operating-team.md): coordinador, diseñador y revisor. Tres perfiles de agente para pedidos de Tribe, con entrega y revisión independientes. El registro comun contiene 26 skills.
+[Equipo operativo](docs/operating-team.md): coordinador, diseñador y revisor. Tres perfiles de agente para pedidos de Tribe, con entrega y revisión independientes. El registro comun contiene 43 skills:26alpha y17borradores experimentales de software preservados. [Pendientes y limites](continuity/PENDING.md).
 
 ## Áreas
 
@@ -54,7 +56,7 @@ Usa [la ficha de producto](tribe/templates/product-spec.md). Confirma dimensione
 Editar → probar con un caso real → revisar → commit → GitHub → instalar la versión estable en el entorno elegido.
 
 Lee [la guía de skills](shared/standards/skill-writing-guide.md) y [las reglas de calidad](shared/standards/quality-rules.md).
-Los 26 skills registrados conservan estado alpha. image-analysis, sublimation-layout y print-ready-qa tienen contratos en versión 0.2.0; product-specs integra el catálogo en 0.2.1. mug-sublimation 0.1.2 es la entrada desde chat. El registro indica la versión de cada skill.
+Los 26 skills previos conservan estado alpha; los 17 borradores de software se registran como experimental0.0.1, sin afirmar evaluacion de comportamiento. image-analysis, sublimation-layout y print-ready-qa tienen contratos en versión 0.2.0; product-specs integra el catálogo en 0.2.1. mug-sublimation 0.1.2 es la entrada desde chat. El registro indica la versión de cada skill.
 
 Consulta [el registro](registry/skills.yaml), [los contratos](standards/skill-contract.md) y [la guía de evaluación](standards/evaluation-guide.md).
 

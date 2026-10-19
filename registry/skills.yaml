@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "workspace_version": "0.5.3",
+  "workspace_version": "0.5.4",
   "skills": {
     "image-analysis": {
       "domain": "shared",
@@ -340,6 +340,176 @@
         "uml-rendering-001",
         "uml-rendering-002"
       ]
+    },
+    "angular-development": {
+      "domain": "software-office",
+      "owner": "software-office",
+      "path": "software-office/skills/angular-development/SKILL.md",
+      "version": "0.0.1",
+      "status": "experimental",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": []
+    },
+    "angular-testing": {
+      "domain": "software-office",
+      "owner": "software-office",
+      "path": "software-office/skills/angular-testing/SKILL.md",
+      "version": "0.0.1",
+      "status": "experimental",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": []
+    },
+    "api-contract-testing": {
+      "domain": "software-office",
+      "owner": "software-office",
+      "path": "software-office/skills/api-contract-testing/SKILL.md",
+      "version": "0.0.1",
+      "status": "experimental",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": []
+    },
+    "java-spring-boot": {
+      "domain": "software-office",
+      "owner": "software-office",
+      "path": "software-office/skills/java-spring-boot/SKILL.md",
+      "version": "0.0.1",
+      "status": "experimental",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": []
+    },
+    "java-unit-testing": {
+      "domain": "software-office",
+      "owner": "software-office",
+      "path": "software-office/skills/java-unit-testing/SKILL.md",
+      "version": "0.0.1",
+      "status": "experimental",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": []
+    },
+    "performance-testing": {
+      "domain": "software-office",
+      "owner": "software-office",
+      "path": "software-office/skills/performance-testing/SKILL.md",
+      "version": "0.0.1",
+      "status": "experimental",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": []
+    },
+    "production-release": {
+      "domain": "software-office",
+      "owner": "software-office",
+      "path": "software-office/skills/production-release/SKILL.md",
+      "version": "0.0.1",
+      "status": "experimental",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": []
+    },
+    "requirements-engineering": {
+      "domain": "software-office",
+      "owner": "software-office",
+      "path": "software-office/skills/requirements-engineering/SKILL.md",
+      "version": "0.0.1",
+      "status": "experimental",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": []
+    },
+    "security-testing": {
+      "domain": "software-office",
+      "owner": "software-office",
+      "path": "software-office/skills/security-testing/SKILL.md",
+      "version": "0.0.1",
+      "status": "experimental",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": []
+    },
+    "software-acceptance": {
+      "domain": "software-office",
+      "owner": "software-office",
+      "path": "software-office/skills/software-acceptance/SKILL.md",
+      "version": "0.0.1",
+      "status": "experimental",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": []
+    },
+    "software-estimation": {
+      "domain": "software-office",
+      "owner": "software-office",
+      "path": "software-office/skills/software-estimation/SKILL.md",
+      "version": "0.0.1",
+      "status": "experimental",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": []
+    },
+    "software-lifecycle": {
+      "domain": "software-office",
+      "owner": "software-office",
+      "path": "software-office/skills/software-lifecycle/SKILL.md",
+      "version": "0.0.1",
+      "status": "experimental",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": []
+    },
+    "spring-data-jpa": {
+      "domain": "software-office",
+      "owner": "software-office",
+      "path": "software-office/skills/spring-data-jpa/SKILL.md",
+      "version": "0.0.1",
+      "status": "experimental",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": []
+    },
+    "spring-integration-testing": {
+      "domain": "software-office",
+      "owner": "software-office",
+      "path": "software-office/skills/spring-integration-testing/SKILL.md",
+      "version": "0.0.1",
+      "status": "experimental",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": []
+    },
+    "spring-security": {
+      "domain": "software-office",
+      "owner": "software-office",
+      "path": "software-office/skills/spring-security/SKILL.md",
+      "version": "0.0.1",
+      "status": "experimental",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": []
+    },
+    "test-evidence": {
+      "domain": "software-office",
+      "owner": "software-office",
+      "path": "software-office/skills/test-evidence/SKILL.md",
+      "version": "0.0.1",
+      "status": "experimental",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": []
+    },
+    "test-planning": {
+      "domain": "software-office",
+      "owner": "software-office",
+      "path": "software-office/skills/test-planning/SKILL.md",
+      "version": "0.0.1",
+      "status": "experimental",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": []
     }
   },
   "workflows": {
