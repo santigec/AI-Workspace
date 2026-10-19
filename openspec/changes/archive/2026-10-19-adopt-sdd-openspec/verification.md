@@ -20,6 +20,8 @@ Entorno Windows, Node v24.19.0, OpenSpec 1.14.3. Telemetria del CLI desactivada 
 
 La copia de validacion contiene los archivos controlados por Git y el nuevo alcance preparado en el indice; excluye node_modules, .tools y los 18 borradores de skills anteriores sin registrar. Esos borradores siguen presentes en el checkout principal: el validador completo de ese checkout reporta 18 skills no registrados, sin errores nuevos de SDD. No se ha ocultado ni resuelto esa integracion pendiente.
 
+Tras publicar la base en ffb621a se completaron las tareas y se archivo el cambio con el CLI real, consolidando cinco requisitos en openspec/specs/software-sdd/spec.md. El CLI genero un Purpose provisional; se reemplazo por el proposito real antes de repetir validacion estricta de la especificacion vigente y de las tareas archivadas.
+
 ## Trazabilidad
 
 | Requisito | Implementacion revisada | Verificacion |
