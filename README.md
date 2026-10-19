@@ -1,5 +1,7 @@
 # AI Workspace
 
+Cajas de taza: [mug-box-design](tribe/skills/mug-box-design/SKILL.md), arte plano y continuo **150 × 200 mm**, centro inferior libre, artes inferiores laterales, tema principal a 120 mm desde la base y borde temático. [Invocación y workflow](workflows/tribe/mug-box-design.md). Skill alpha 0.1.0; evaluaciones visuales pendientes.
+
 Tomatodo 750 ml: [tumbler-750ml-sublimation](tribe/skills/tumbler-750ml-sublimation/SKILL.md), **232 × 182 mm**, arte plano y continuo. [Ejemplo de orden](tribe/templates/orders/tumbler-750ml.example.json).
 
 Repositorio central para capacidades de IA reutilizables. Versión de desarrollo: **0.5.0 — Primer equipo operativo de Tribe**.

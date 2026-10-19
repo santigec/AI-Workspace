@@ -129,6 +129,18 @@
       "scope": "behavioral",
       "path": "evals/tribe/agenda-design/case-002.md",
       "status": "NOT_RUN"
+    },
+    {
+      "id": "mug-box-design-001",
+      "skill": "mug-box-design",
+      "path": "evals/tribe/mug-box-design/case-001.md",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "mug-box-design-002",
+      "skill": "mug-box-design",
+      "path": "evals/tribe/mug-box-design/case-002.md",
+      "status": "NOT_RUN"
     }
   ]
 }

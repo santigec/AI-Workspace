@@ -14,6 +14,8 @@ El hilo principal coordina brief -> ejecución -> revisión independiente y corr
 Prueba de tres delegaciones reales completada el 2026-10-19: revisión de una hoja cuadriculada K-pop existente, sin editar/generar. Coordinador entregó brief, diseñador midió/inspeccionó y revisor verificó independientemente: PASS digital de esa pieza sin correcciones obligatorias. Informe: evals/teams/operating-team-2026-10-19.md. No valida descubrimiento nativo de perfiles, otras diez piezas ni impresión. Tres TOML parseados, estructura del workspace y 43 pruebas técnicas PASS.
 
 ## Conocimiento
+
+- Ampliación local 2026-10-19: mug-box-design 0.1.0 para cajas de taza 150 × 200 mm, composición plana continua, artes inferiores laterales y reserva central inferior sin protagonistas (solo fondo discreto). Tema anclado a 120 mm desde base/80 mm desde arriba, borde completo temático, paleta y lettering del tema. Reserva exacta y plantilla física pendientes por pedido; dos casos visuales NOT_RUN. Registro local ampliado; no confundir los cambios sin publicar con la versión v0.5.0.
 - 21 skills de dominio, wrappers .agents/skills no contados dos veces. Todos alpha. Registro registry/skills.yaml. Agenda-design0.1.4, última revisión visual v0.3.4.
 - Engram guarda decisiones, correcciones e índice de skills; las instrucciones completas permanecen en SKILL.md. continuity/memory-topics.json es la instantánea de carga inicial; no resembrar de rutina si las memorias evolucionaron.
 - Taza205x95mm. Tomatodo500ml232x125mm,600ml232x142mm,750ml232x182mm. Arte plano continuo adaptado.

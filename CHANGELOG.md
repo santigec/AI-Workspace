@@ -1,5 +1,11 @@
 # Historial
 
+## Sin publicar — Caja de taza
+
+- mug-box-design 0.1.0: arte plano y continuo de 150 × 200 mm, reserva inferior central, artes inferiores laterales, tipografía y borde temáticos.
+- Referencia de tema principal a 120 mm desde la base (80 mm desde arriba); extensión de reserva ajustable a la plantilla física.
+- Entrada de descubrimiento, workflow, checklist y dos evaluaciones visuales pendientes. No se ha generado ni aprobado arte de producción.
+
 ## 0.5.0 — Primer equipo operativo de Tribe (develop)
 
 - Perfiles coordinador, disenador y revisor en .codex/agents, sin imponer modelos ni permisos diferentes a la sesión.
