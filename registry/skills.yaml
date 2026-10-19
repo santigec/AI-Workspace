@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "workspace_version": "0.5.2",
+  "workspace_version": "0.5.3",
   "skills": {
     "image-analysis": {
       "domain": "shared",
@@ -283,7 +283,7 @@
       "domain": "software-office",
       "owner": "software-office",
       "path": "software-office/skills/sdd-openspec/SKILL.md",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "status": "alpha",
       "requires_before": [],
       "recommends_next": [
@@ -307,6 +307,38 @@
       "evaluation_cases": [
         "codegraph-navigation-001",
         "codegraph-navigation-002"
+      ]
+    },
+    "uml-modeling": {
+      "domain": "software-office",
+      "owner": "software-office",
+      "path": "software-office/skills/uml-modeling/SKILL.md",
+      "version": "0.1.0",
+      "status": "alpha",
+      "requires_before": [
+        "sdd-openspec"
+      ],
+      "recommends_next": [
+        "uml-rendering"
+      ],
+      "evaluation_cases": [
+        "uml-modeling-001",
+        "uml-modeling-002"
+      ]
+    },
+    "uml-rendering": {
+      "domain": "software-office",
+      "owner": "software-office",
+      "path": "software-office/skills/uml-rendering/SKILL.md",
+      "version": "0.1.0",
+      "status": "alpha",
+      "requires_before": [
+        "uml-modeling"
+      ],
+      "recommends_next": [],
+      "evaluation_cases": [
+        "uml-rendering-001",
+        "uml-rendering-002"
       ]
     }
   },
@@ -447,13 +479,17 @@
         "codegraph-navigation",
         "research",
         "system-design",
+        "uml-modeling",
+        "uml-rendering",
         "technical-presentation"
       ],
       "conditional_steps": [
         "codegraph-navigation",
         "research",
         "system-design",
-        "technical-presentation"
+        "technical-presentation",
+        "uml-modeling",
+        "uml-rendering"
       ]
     }
   }

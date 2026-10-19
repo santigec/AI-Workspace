@@ -1,0 +1,7 @@
+stateDiagram-v2
+    [*] --> Borrador
+    Borrador --> Confirmado: confirmar
+    Confirmado --> Finalizado: completar
+    Borrador --> Cancelado: cancelar
+    Finalizado --> [*]
+    Cancelado --> [*]

@@ -18,3 +18,4 @@ rules:
   tasks:
     - Vincular requisitos con implementacion, pruebas reales y evidencia; justificar verificaciones no aplicables.
     - Preparar notas de liberacion, configuracion sin secretos y rollback proporcional; no desplegar por inferencia.
+    - Evaluar UML afectado, actualizar fuentes y referencias, renderizar y comprobar vigencia o justificar no afectacion.

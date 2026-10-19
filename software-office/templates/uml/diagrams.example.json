@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "diagrams": [
+    {"id": "example-use-cases", "engine": "plantuml", "scope": "example", "source": "software-office/templates/uml/use-cases.puml", "code_refs": []},
+    {"id": "example-classes", "engine": "plantuml", "scope": "example", "source": "software-office/templates/uml/classes.puml", "code_refs": []},
+    {"id": "example-sequence", "engine": "plantuml", "scope": "example", "source": "software-office/templates/uml/sequence.puml", "code_refs": []},
+    {"id": "example-activity", "engine": "plantuml", "scope": "example", "source": "software-office/templates/uml/activity.puml", "code_refs": []},
+    {"id": "example-states", "engine": "plantuml", "scope": "example", "source": "software-office/templates/uml/states.puml", "code_refs": []},
+    {"id": "example-components", "engine": "plantuml", "scope": "example", "source": "software-office/templates/uml/components.puml", "code_refs": []},
+    {"id": "example-deployment", "engine": "plantuml", "scope": "example", "source": "software-office/templates/uml/deployment.puml", "code_refs": []},
+    {"id": "example-mermaid-classes", "engine": "mermaid", "scope": "example", "source": "software-office/templates/uml/classes.mmd", "code_refs": []},
+    {"id": "example-mermaid-sequence", "engine": "mermaid", "scope": "example", "source": "software-office/templates/uml/sequence.mmd", "code_refs": []},
+    {"id": "example-mermaid-states", "engine": "mermaid", "scope": "example", "source": "software-office/templates/uml/states.mmd", "code_refs": []}
+  ]
+}

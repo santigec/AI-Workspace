@@ -29,3 +29,9 @@ OpenSpec valido no equivale a pruebas de aplicacion ni aceptacion o autorizacion
 Para proyectos de software, leer software-office/standards/codegraph.md. Si CodeGraph esta disponible e indexado, usar consultas estructurales con projectPath de la aplicacion y maxFiles acotado; reutilizar contexto suficiente ya devuelto. Usar rg/lecturas dirigidas para texto exacto, formatos no soportados, fragmentos faltantes o evidencia contradictoria. Comprobar avisos de deriva; relaciones estaticas no sustituyen pruebas.
 
 El indice .codegraph y sus variantes son locales, fuera de Git. La configuracion de este equipo no se instala automaticamente en otros: seguir docs/codegraph.md, configurar Codex y generar indice por proyecto. No afirmar ahorro de tokens sin medicion comparable, ni acceso de subagentes al MCP por el solo hecho de darles instrucciones.
+
+## UML mantenido con cada cambio
+
+Aplicar software-office/standards/uml.md y skills uml-modeling/uml-rendering cuando corresponda modelar software. Conservar fuentes editables PlantUML/Mermaid, referencias a escenarios/codigo y graficos comprobados. En cada cambio evaluar UML afectado, actualizarlo o justificar no afectacion, renderizar y comprobar vigencia antes de cerrar tareas. Check de hashes no certifica semantica ni revision visual.
+
+Instalacion local y comandos en docs/uml.md. Mantener herramientas fijadas y validar actualizaciones deliberadamente; no instalar latest en silencio ni crear un servicio periodico por inferencia. Fuentes/estado ligero van a Git, imagenes/runtimes/JAR quedan locales conforme a la prioridad del usuario.

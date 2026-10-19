@@ -48,6 +48,7 @@ En el AGENTS.md del producto registrar la ruta accesible de AI-Workspace, commit
 | Indice | init en la aplicacion; local e ignorado por Git |
 | OpenSpec | Configuracion y artefactos del producto; no hereda automaticamente los de AI-Workspace |
 | Engram | Consultar proyecto correcto e importar/exportar explicitamente |
+| UML | Fuentes/inventario del producto, renderizadores locales y revision de modelos por cambio; ver docs/uml.md |
 
 ## Comprobar instalacion y pruebas
 

@@ -1,0 +1,13 @@
+sequenceDiagram
+    actor Usuario
+    participant Interfaz
+    participant Servicio
+    Usuario->>Interfaz: consultar(id)
+    Interfaz->>Servicio: consultar(id)
+    alt Encontrado
+        Servicio-->>Interfaz: resultado
+        Interfaz-->>Usuario: mostrar
+    else Ausente
+        Servicio-->>Interfaz: error
+        Interfaz-->>Usuario: informar ausencia
+    end

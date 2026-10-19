@@ -1,0 +1,20 @@
+@startuml
+title Ejemplo - Consulta con alternativa de error
+skinparam backgroundColor white
+skinparam shadowing false
+actor Usuario
+participant Interfaz
+participant Servicio
+database Repositorio
+Usuario -> Interfaz : consultar(id)
+Interfaz -> Servicio : consultar(id)
+Servicio -> Repositorio : buscar(id)
+Repositorio --> Servicio : resultado
+alt encontrado
+  Servicio --> Interfaz : pedido
+  Interfaz --> Usuario : mostrar pedido
+else no encontrado
+  Servicio --> Interfaz : error de dominio
+  Interfaz --> Usuario : informar ausencia
+end
+@enduml

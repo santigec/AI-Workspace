@@ -17,3 +17,4 @@ rules:
   tasks:
     - Relacionar tareas con requisitos, estimacion F2, pruebas y evidencia de la version candidata.
     - Incluir revision de aceptacion F4 y preparacion de produccion F5 sin marcar firmas inexistentes.
+    - Evaluar UML afectado, actualizar fuentes y referencias, renderizar y comprobar vigencia o justificar no afectacion.

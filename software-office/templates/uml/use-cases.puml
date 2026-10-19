@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+title Ejemplo - Casos de uso (no es una aplicacion implementada)
+left to right direction
+skinparam backgroundColor white
+skinparam shadowing false
+actor Usuario
+rectangle "Sistema de ejemplo" {
+  usecase "Consultar pedido" as Consultar
+  usecase "Actualizar pedido" as Actualizar
+}
+Usuario --> Consultar
+Usuario --> Actualizar
+@enduml

@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "diagrams": {
+    "example-use-cases": {
+      "inputs": {
+        "source": "software-office/templates/uml/use-cases.puml",
+        "engine": "plantuml",
+        "scope": "example",
+        "source_sha256": "bff8dd33320b4299ec876f8c429a8362d1e843401b6748016c8d13cf7c667f5f",
+        "code_refs": {},
+        "toolchain_sha256": "f5fa60781caf32d8e25f40dbd4aadfa6382a601d19b67ee9cfaa5c1bc742407f"
+      },
+      "artifacts": {
+        "svg": {
+          "path": "outputs/uml/example-use-cases.svg",
+          "sha256": "812420374bc5451adbe6ed212496d88baef5dd48ed509190e9eb8ef1cf62f01c"
+        },
+        "png": {
+          "path": "outputs/uml/example-use-cases.png",
+          "sha256": "e12b14c68e223d1a1fdfb29953876b3ce94cd8c06dd6669c027e4fed8213772a"
+        }
+      },
+      "review_note": "",
+      "semantic_review": "REQUIRED",
+      "visual_review": "REQUIRED"
+    },
+    "example-classes": {
+      "inputs": {
+        "source": "software-office/templates/uml/classes.puml",
+        "engine": "plantuml",
+        "scope": "example",
+        "source_sha256": "e0025ed16cbde8802952548cc2e3b4477ecf3fab7f43ce1c5d7eb064f57372ef",
+        "code_refs": {},
+        "toolchain_sha256": "f5fa60781caf32d8e25f40dbd4aadfa6382a601d19b67ee9cfaa5c1bc742407f"
+      },
+      "artifacts": {
+        "svg": {
+          "path": "outputs/uml/example-classes.svg",
+          "sha256": "5c9dd96e24d7761784c44da40f25165a2d97b4a3f3d2b2efaeb80cfde8a85c31"
+        },
+        "png": {
+          "path": "outputs/uml/example-classes.png",
+          "sha256": "30c34c8b122b2d68a1f80720e266b5c270e99a2f3a926ed2b3747e6af3d4dedf"
+        }
+      },
+      "review_note": "",
+      "semantic_review": "REQUIRED",
+      "visual_review": "REQUIRED"
+    },
+    "example-sequence": {
+      "inputs": {
+        "source": "software-office/templates/uml/sequence.puml",
+        "engine": "plantuml",
+        "scope": "example",
+        "source_sha256": "f47550361a9a7e08647d3d75f762996c8c88efea041038112f3f2c84c48a11aa",
+        "code_refs": {},
+        "toolchain_sha256": "f5fa60781caf32d8e25f40dbd4aadfa6382a601d19b67ee9cfaa5c1bc742407f"
+      },
+      "artifacts": {
+        "svg": {
+          "path": "outputs/uml/example-sequence.svg",
+          "sha256": "d5d910b7654b1a6e09b023fb4bf03d0452e31f2b716bb41c6cba127929183550"
+        },
+        "png": {
+          "path": "outputs/uml/example-sequence.png",
+          "sha256": "81bda15ccb3d3d34d950b91627eb5af4ae303d0c787a4b7801bd717bbe90a36e"
+        }
+      },
+      "review_note": "",
+      "semantic_review": "REQUIRED",
+      "visual_review": "REQUIRED"
+    },
+    "example-activity": {
+      "inputs": {
+        "source": "software-office/templates/uml/activity.puml",
+        "engine": "plantuml",
+        "scope": "example",
+        "source_sha256": "30944c341bfe20ad87fc8dceffcfdaf1fb08871a4382fc2c9eb97621e3801bc0",
+        "code_refs": {},
+        "toolchain_sha256": "f5fa60781caf32d8e25f40dbd4aadfa6382a601d19b67ee9cfaa5c1bc742407f"
+      },
+      "artifacts": {
+        "svg": {
+          "path": "outputs/uml/example-activity.svg",
+          "sha256": "fda97e1fa08687186afec9e41950f12161c7271b7b7a78cd47b785da123b15d6"
+        },
+        "png": {
+          "path": "outputs/uml/example-activity.png",
+          "sha256": "288093e3bb8678c093422f27f83ed9f180cd79449b532c0c65afe4d141411427"
+        }
+      },
+      "review_note": "",
+      "semantic_review": "REQUIRED",
+      "visual_review": "REQUIRED"
+    },
+    "example-states": {
+      "inputs": {
+        "source": "software-office/templates/uml/states.puml",
+        "engine": "plantuml",
+        "scope": "example",
+        "source_sha256": "31e64090d22bc79c455e4a8d4e0dfa86987f4acb4c1a7f5ccaefea67fbd58031",
+        "code_refs": {},
+        "toolchain_sha256": "f5fa60781caf32d8e25f40dbd4aadfa6382a601d19b67ee9cfaa5c1bc742407f"
+      },
+      "artifacts": {
+        "svg": {
+          "path": "outputs/uml/example-states.svg",
+          "sha256": "7219301cce57373aaaa1bdf57cc31882b796173e7d1c02b4a45997601a099502"
+        },
+        "png": {
+          "path": "outputs/uml/example-states.png",
+          "sha256": "5f44179a5340f13f9acf0c1e0962f1b9a4d58be15b43b86eaeaf848c1f5f8e6a"
+        }
+      },
+      "review_note": "",
+      "semantic_review": "REQUIRED",
+      "visual_review": "REQUIRED"
+    },
+    "example-components": {
+      "inputs": {
+        "source": "software-office/templates/uml/components.puml",
+        "engine": "plantuml",
+        "scope": "example",
+        "source_sha256": "f90b5786ba080fb5af10eb8092186079772ebb7ee55302e25012b2575c6bb5f8",
+        "code_refs": {},
+        "toolchain_sha256": "f5fa60781caf32d8e25f40dbd4aadfa6382a601d19b67ee9cfaa5c1bc742407f"
+      },
+      "artifacts": {
+        "svg": {
+          "path": "outputs/uml/example-components.svg",
+          "sha256": "93a2dcc42a3d7571bb425a33f5f70f7457826efdc2ba169ca4dc48ab196a8c83"
+        },
+        "png": {
+          "path": "outputs/uml/example-components.png",
+          "sha256": "1183eeb6e5409fc32a17df0a23f0eb03d56166d1a3f4556ae6aacc187c04d52c"
+        }
+      },
+      "review_note": "",
+      "semantic_review": "REQUIRED",
+      "visual_review": "REQUIRED"
+    },
+    "example-deployment": {
+      "inputs": {
+        "source": "software-office/templates/uml/deployment.puml",
+        "engine": "plantuml",
+        "scope": "example",
+        "source_sha256": "d69c5f4585b75699c9972c21a1595eee4291d1239a73c3947a4e740e1d6b7b92",
+        "code_refs": {},
+        "toolchain_sha256": "f5fa60781caf32d8e25f40dbd4aadfa6382a601d19b67ee9cfaa5c1bc742407f"
+      },
+      "artifacts": {
+        "svg": {
+          "path": "outputs/uml/example-deployment.svg",
+          "sha256": "8f59e7016ecbc24d22034e1436499c9b97803a0f3deb4283eb5183bf0ab85114"
+        },
+        "png": {
+          "path": "outputs/uml/example-deployment.png",
+          "sha256": "5b536cad52d5810e1572ad3f3fec40722c4cea847c22d1f789890ef82b60a016"
+        }
+      },
+      "review_note": "",
+      "semantic_review": "REQUIRED",
+      "visual_review": "REQUIRED"
+    },
+    "example-mermaid-classes": {
+      "inputs": {
+        "source": "software-office/templates/uml/classes.mmd",
+        "engine": "mermaid",
+        "scope": "example",
+        "source_sha256": "88cb0b1bd9860eba3a78043746ee7a8b37613965d055fb0eb66fb18dd6bd32a3",
+        "code_refs": {},
+        "toolchain_sha256": "f5fa60781caf32d8e25f40dbd4aadfa6382a601d19b67ee9cfaa5c1bc742407f"
+      },
+      "artifacts": {
+        "svg": {
+          "path": "outputs/uml/example-mermaid-classes.svg",
+          "sha256": "6d610325cf35bdef433926c8935b98acb2f492c2d7cd80aa36b7c931dc1a4224"
+        },
+        "png": {
+          "path": "outputs/uml/example-mermaid-classes.png",
+          "sha256": "b1666bebcee7ad4645bae0d3a704780e04bdd909790632d34bef7a9367539048"
+        }
+      },
+      "review_note": "",
+      "semantic_review": "REQUIRED",
+      "visual_review": "REQUIRED"
+    },
+    "example-mermaid-sequence": {
+      "inputs": {
+        "source": "software-office/templates/uml/sequence.mmd",
+        "engine": "mermaid",
+        "scope": "example",
+        "source_sha256": "d62d461396471711d02c3316e2c55a3185ceb9edd40350e5406b2ebbaa775e3a",
+        "code_refs": {},
+        "toolchain_sha256": "f5fa60781caf32d8e25f40dbd4aadfa6382a601d19b67ee9cfaa5c1bc742407f"
+      },
+      "artifacts": {
+        "svg": {
+          "path": "outputs/uml/example-mermaid-sequence.svg",
+          "sha256": "255277c969c6373e884ae8b7446dd6510b87bf2c5c2eda8f708e7d30b2c8ad22"
+        },
+        "png": {
+          "path": "outputs/uml/example-mermaid-sequence.png",
+          "sha256": "bb9aaf87acfe1da3eaf18e0c463994de3eb319c56a66c12c6deb0fc5baa38734"
+        }
+      },
+      "review_note": "",
+      "semantic_review": "REQUIRED",
+      "visual_review": "REQUIRED"
+    },
+    "example-mermaid-states": {
+      "inputs": {
+        "source": "software-office/templates/uml/states.mmd",
+        "engine": "mermaid",
+        "scope": "example",
+        "source_sha256": "14d67d1e39dc202c60ef5a1fac172a13d678696efa20780e7461a506e2293ceb",
+        "code_refs": {},
+        "toolchain_sha256": "f5fa60781caf32d8e25f40dbd4aadfa6382a601d19b67ee9cfaa5c1bc742407f"
+      },
+      "artifacts": {
+        "svg": {
+          "path": "outputs/uml/example-mermaid-states.svg",
+          "sha256": "ff88e0d5f0bbe0170de8363dd95a6bfa6afe96c2c46c9421682578d218179b2b"
+        },
+        "png": {
+          "path": "outputs/uml/example-mermaid-states.png",
+          "sha256": "ba9145360cb74527202bee39fc6e61ace52fa71256dbabd8febb8afac9ebdba1"
+        }
+      },
+      "review_note": "",
+      "semantic_review": "REQUIRED",
+      "visual_review": "REQUIRED"
+    }
+  }
+}

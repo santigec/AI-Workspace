@@ -1,0 +1,12 @@
+@startuml
+!pragma layout smetana
+title Ejemplo - Ciclo de vida propuesto
+skinparam backgroundColor white
+skinparam shadowing false
+[*] --> Borrador
+Borrador --> Confirmado : confirmar [datos validos]
+Confirmado --> Finalizado : completar
+Borrador --> Cancelado : cancelar
+Cancelado --> [*]
+Finalizado --> [*]
+@enduml

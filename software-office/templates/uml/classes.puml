@@ -1,0 +1,17 @@
+@startuml
+!pragma layout smetana
+title Ejemplo - Modelo de dominio propuesto
+skinparam backgroundColor white
+skinparam shadowing false
+class Pedido {
+  +confirmar()
+}
+class LineaPedido {
+  cantidad: Integer
+}
+Pedido "1" *-- "1..*" LineaPedido : contiene
+note bottom of Pedido
+  Multiplicidades ilustrativas;
+  no representan reglas de una aplicacion real.
+end note
+@enduml

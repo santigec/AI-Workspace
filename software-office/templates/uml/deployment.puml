@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+title Ejemplo - Despliegue propuesto
+skinparam backgroundColor white
+skinparam shadowing false
+node "Cliente" {
+  artifact Navegador
+}
+node "Servidor de aplicacion" {
+  artifact Aplicacion
+}
+database "Almacen de datos" as Datos
+Navegador --> Aplicacion : HTTPS
+Aplicacion --> Datos : protocolo por definir
+@enduml

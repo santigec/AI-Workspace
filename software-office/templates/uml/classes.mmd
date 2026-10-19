@@ -1,0 +1,10 @@
+classDiagram
+    direction LR
+    class Pedido {
+        +confirmar()
+    }
+    class LineaPedido {
+        cantidad
+    }
+    Pedido "1" *-- "1..*" LineaPedido : contiene
+    note for Pedido "Ejemplo conceptual; reglas no verificadas en una aplicacion"

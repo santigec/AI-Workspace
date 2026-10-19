@@ -1,5 +1,12 @@
 # Historial
 
+## 0.5.3 — UML renderizable y mantenido por cambio (develop)
+
+- Integrados uml-modeling y uml-rendering0.1.0 con PlantUML1.2026.9, Mermaid CLI12.0.0 y runtime Java local compatible, con pins/checksums/lockfile.
+- Siete fuentes PlantUML y tres Mermaid de ejemplo, graficos locales SVG/PNG, inventario y estado ligero; los ejemplos no representan aplicaciones reales.
+- Render/check detecta deriva de fuentes, referencias, herramienta y artefactos. Codigo modificado con modelo sin cambios requiere revision explicita, no una aprobacion automatica.
+- SDD0.1.2 y perfiles incluyen revision de UML en cada cambio; actualizaciones de dependencias deliberadas y probadas, sin daemon ni tarea periodica.
+
 ## 0.5.2 — CodeGraph para las oficinas de software (develop)
 
 - @colbymchenry/codegraph 1.6.2 fijado con lockfile, launcher compartido y configurador Codex idempotente con respaldo/preservacion de ajustes.

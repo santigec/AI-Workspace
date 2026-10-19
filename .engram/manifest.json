@@ -56,6 +56,14 @@
       "sessions": 1,
       "memories": 1,
       "prompts": 0
+    },
+    {
+      "id": "b335b087",
+      "created_by": "sescobar",
+      "created_at": "2026-10-19T21:42:08.8541958Z",
+      "sessions": 1,
+      "memories": 1,
+      "prompts": 0
     }
   ]
 }

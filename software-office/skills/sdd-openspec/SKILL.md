@@ -9,6 +9,8 @@ Aplica al iniciar, implementar, revisar o retomar cambios de software de las ofi
 
 En exploracion estructural aplicar [CodeGraph](../../standards/codegraph.md) si esta disponible e indexado, con proyecto explicito y contexto acotado. No sustituye escenarios, pruebas ni lectura de configuracion/documentacion no cubierta.
 
+Evaluar UML afectado en cada cambio y aplicar [modelado](../uml-modeling/SKILL.md) y [renderizado](../uml-rendering/SKILL.md) cuando corresponda. Actualizar fuentes, referencias y graficos o justificar no afectacion; comprobar deriva y revisar semantica antes de completar tareas.
+
 1. Identifica repositorio y perfil, instrucciones existentes, estado Git, stack/versiones, OpenSpec instalado y specs/cambio activo. No inicies un cambio duplicado ni presentes conducta no inspeccionada como vigente. Si no hay acceso al repositorio de la aplicacion, prepara la especificacion y declara que la integracion de ese destino sigue pendiente.
 2. Antes de implementar, construye o revisa proposal, specs con IDs y escenarios, design proporcional y tasks. Especifica limites y resultados observables; resuelve con el usuario solo decisiones necesarias aun no autorizadas, mientras avanzas en lo independiente.
 3. En SITOP V2 enlaza F0-F5 y sus controles vigentes; en Tribe Sport usa expediente ligero, Django/Railway y direccion visual del proyecto. No conviertas los formularios de SITOP en requisito universal ni elimines trazabilidad por aligerar documentos.

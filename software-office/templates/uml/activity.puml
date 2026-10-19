@@ -1,0 +1,14 @@
+@startuml
+title Ejemplo - Validacion de solicitud
+skinparam backgroundColor white
+skinparam shadowing false
+start
+:Recibir solicitud;
+if (Datos validos?) then (si)
+  :Procesar solicitud;
+  :Informar resultado;
+else (no)
+  :Informar errores corregibles;
+endif
+stop
+@enduml
