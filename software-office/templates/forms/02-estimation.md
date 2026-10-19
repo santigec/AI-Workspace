@@ -59,4 +59,3 @@ Lista inicial y priorizada de requerimientos (product Backlog), acordada con del
 | | |
 
 Se conserva la numeración original. Horas, costo, puntos o intervalos de esfuerzo pueden adjuntarse como complemento técnico identificado; no son campos originales.
-

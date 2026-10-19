@@ -15,4 +15,3 @@ Consultar [proceso institucional](../../standards/institutional-process.md), [ba
 4. Entregar F4 y expediente trazable con observaciones, pendientes y firmas confirmadas cuando existan.
 
 Conservar numeración 3 duplicada. El nombre del archivo dice Requirente, pero la instancia fuente contiene cargos DTI: identificar explícitamente la representación del requirente sin inferirla. No reutilizar nombres, cargos, códigos, marcas x ni Validado/Resuelto del caso fuente. La declaración impresa no equivale a aceptación emitida ni autorización productiva.
-

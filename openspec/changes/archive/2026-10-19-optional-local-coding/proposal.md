@@ -1,6 +1,12 @@
 # Codificacion local opcional
 
+## Why
+
 El usuario autoriza LM Studio/Qwen solo para escribir codigo en este equipo. Codex conserva coordinacion, analisis, diseno, revision y pruebas. Otros equipos sin IA local deben continuar normalmente.
+
+## What Changes
+
+Adaptador de propuestas HTTP local, configuracion optativa por equipo, reglas de revision/fallback y evidencia de pruebas; preservar conocimiento pendiente sin promover sus borradores.
 
 ## Capabilities
 ### New Capabilities

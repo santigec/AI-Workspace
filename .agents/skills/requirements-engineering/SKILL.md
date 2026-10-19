@@ -6,4 +6,3 @@ description: Levantar y especificar solicitudes y requerimientos funcionales ins
 Usar las instrucciones canónicas de [requirements-engineering](../../../software-office/skills/requirements-engineering/SKILL.md). Leer ese archivo antes de actuar; sus referencias se resuelven respecto a su propia carpeta.
 
 Este wrapper descubre el skill del repositorio y no concede permisos adicionales ni acredita aprobaciones.
-

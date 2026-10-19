@@ -44,4 +44,3 @@ El código se registra por DTIC cuando el requerimiento haya sido priorizado par
 | Realizado por: | | |
 | Revisado por: | | |
 | Aprobado por: | | |
-

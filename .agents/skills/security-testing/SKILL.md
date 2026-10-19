@@ -8,4 +8,3 @@ description: Planifica y documenta pruebas de controles de seguridad con ASVS/WS
 Leer y aplicar la skill canónica [security-testing](../../../software-office/skills/security-testing/SKILL.md).
 Su alcance, evidencia obligatoria y límites se definen en ese archivo.
 Este wrapper permite descubrir la misma skill; no añade otra skill ni concede aprobación.
-

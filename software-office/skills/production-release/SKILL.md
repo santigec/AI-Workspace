@@ -16,4 +16,3 @@ Leer [proceso institucional](../../standards/institutional-process.md), [baselin
 5. Entregar plan revisable y evidencia aplicable; versión/tag/hash del artefacto, migraciones y prueba de recuperación son complementos técnicos identificados.
 
 No confundir preparación del baseline con autorización para desplegar ahora. No producir firmas, inferir autorización de una casilla o aceptación F4, ni ejecutar si faltan autorizaciones aplicables. Si una autorización concreta sigue pendiente, completar toda preparación independiente y señalar la decisión pendiente. El texto original DOC se extrajo directamente y se cotejó con PDF auxiliar; la maquetación no está validada.
-

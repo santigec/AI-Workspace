@@ -23,4 +23,3 @@ Formulario F0. Representación Markdown vacía de los campos originales. Sin fir
 | | | |
 
 Nota de la fuente: el código lo ingresa la Unidad requirente. `Proceso del Módulo (documento adjunto):` requiere adjunto o referencia verificable.
-

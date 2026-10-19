@@ -46,4 +46,3 @@ Leer [testing](../../standards/testing.md) para gates y clasificación.
 Aplicar [evidence-policy](../../standards/evidence-policy.md) a reportes y conclusiones.
 Consultar [institutional-process](../../standards/institutional-process.md) para formularios y responsables.
 Usar [engineering-sources](../../knowledge/engineering-sources.md) para fuentes y vigencia.
-

@@ -41,4 +41,3 @@ Preparar respaldo identificado, procedimiento secuencial, rollback y verificaci�
 - Ningún PDF V1 establece versión de los originales. No se validó maquetación mediante render ni se incorporan logos, binarios ni extracciones personales al baseline.
 
 Las etiquetas exactas y controles específicos por formulario se comprueban con el manifiesto. Cuando falte un dato, consignar el pendiente en el expediente del caso; no completar con ejemplos prellenados, aprobaciones supuestas o valores inventados.
-

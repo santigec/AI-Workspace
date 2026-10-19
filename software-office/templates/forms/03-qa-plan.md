@@ -66,4 +66,3 @@ Resultados esperados
 | Revisado por: | Coordinador de Desarrollo de Sistemas | |
 
 Nota de fidelidad: se preserva el encabezado original de área requirente aunque los cargos impresos corresponden a Desarrollo. Los cargos anteriores son etiquetas de rol del formato, no personas asignadas ni firmas. Resultados reales y reportes automatizados se adjuntan como evidencia complementaria.
-

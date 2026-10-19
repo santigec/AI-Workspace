@@ -15,4 +15,3 @@ Leer [proceso institucional](../../standards/institutional-process.md), [baselin
 4. Analizar impactos de infraestructura, funcionalidad, seguridad, rendimiento y otros. Entregar F2 y fuentes que justifican estimaciones, con responsables y pendientes.
 
 El original no tiene campos de horas, costo o puntos. Cualquier cálculo numérico, rango, capacidad o reserva debe rotularse complemento técnico y conservar su método/supuestos. Una fecha estimada no es compromiso aprobado. Mantener vacías firmas sin evidencia real; conservar numeración original.
-

@@ -6,4 +6,3 @@ description: Preparar y verificar aceptación funcional institucional F4 por his
 Usar las instrucciones canónicas de [software-acceptance](../../../software-office/skills/software-acceptance/SKILL.md). Leer ese archivo antes de actuar; sus referencias se resuelven respecto a su propia carpeta.
 
 Este wrapper descubre el skill del repositorio y no concede permisos adicionales ni acredita aprobaciones.
-

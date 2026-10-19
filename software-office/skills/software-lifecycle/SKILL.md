@@ -15,4 +15,3 @@ Leer el [proceso institucional](../../standards/institutional-process.md) y el [
 4. Entregar expediente revisable con estado de cada etapa, evidencias existentes, bloqueos concretos y siguiente responsable.
 
 Las plantillas son vacías y no constituyen aprobaciones. No heredar datos ni marcas de los casos fuente, inventar firmas o llamar aceptado a un build exitoso. El baseline es una regla de trabajo solicitada por el usuario; no autoriza despliegue actual. Conservar las inconsistencias documentadas en F3/F4 y declarar que la maquetación original no fue validada.
-

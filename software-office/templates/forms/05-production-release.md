@@ -82,4 +82,3 @@ Ingresar al navegador y validar el acceso de los siguientes URLs:
 | ELABORADO POR: | | | |
 
 El texto fuente se obtuvo directamente del DOC binario y se cotejó con PDF auxiliar. No se certifica geometría ni representación de casillas. Versión/tag/hash del artefacto, migraciones y pruebas de rollback se adjuntan como complementos técnicos identificados. Esta plantilla y el baseline no autorizan una ejecución en producción. Aplicar [política de evidencia](../../standards/evidence-policy.md).
-

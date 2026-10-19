@@ -15,4 +15,3 @@ Consultar [proceso institucional](../../standards/institutional-process.md), [et
 4. Entregar F0/F1 completos hasta donde sostenga la evidencia y catálogo trazable de requisitos/criterios. Referencias técnicas adicionales se identifican como complementos.
 
 La guía de Involucrados repite la de módulos en el original; no corregir silenciosamente el formato. Obtener revisión/aprobación reales por el equipo conformado; nombres, cargos y firmas no se inventan ni se trasladan de otra solicitud. No afirmar cumplimiento legal ni aprobación por haber redactado la RFS.
-

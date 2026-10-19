@@ -51,4 +51,3 @@ Texto declarativo del original, pendiente de aceptación real del responsable au
 | Aprobado por: | | |
 
 Se preserva la numeración 3 duplicada. El archivo fuente se denomina Requirente pero la instancia prellenada contiene cargos DTI; identificar al representante requirente autorizado y adjuntar su aceptación sin inferirla de firmas técnicas. Personas, cargos de la instancia, códigos y marcas prellenados se omiten. La declaración anterior forma parte del texto del formato: no acredita aceptación hasta que exista evidencia real.
-
