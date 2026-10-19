@@ -48,6 +48,14 @@
       "sessions": 1,
       "memories": 1,
       "prompts": 0
+    },
+    {
+      "id": "db8edb42",
+      "created_by": "sescobar",
+      "created_at": "2026-10-19T21:20:09.8365657Z",
+      "sessions": 1,
+      "memories": 1,
+      "prompts": 0
     }
   ]
 }

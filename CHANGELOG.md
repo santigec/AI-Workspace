@@ -1,5 +1,12 @@
 # Historial
 
+## 0.5.2 — CodeGraph para las oficinas de software (develop)
+
+- @colbymchenry/codegraph 1.6.2 fijado con lockfile, launcher compartido y configurador Codex idempotente con respaldo/preservacion de ajustes.
+- Navegacion MCP acotada a codegraph_explore, telemetria desactivada e indices locales excluidos de Git.
+- codegraph-navigation 0.1.0 y sdd-openspec 0.1.1; politica y perfiles con consultas por proyecto, frescura y reutilizacion de contexto. No se atribuye un porcentaje de ahorro sin medirlo.
+- Conexion MCP y consultas reales probadas con proyectos sinteticos Python/Java/TypeScript, aislamiento entre indices y sync; no equivale a evaluar agentes ni a inicializar las aplicaciones externas.
+
 ## 0.5.1 — SDD con OpenSpec y caja de taza (develop)
 
 - SDD con OpenSpec como politica comun para SITOP V2 y Tribe Sport, con propuesta, escenarios, diseno, tareas y evidencia trazable.

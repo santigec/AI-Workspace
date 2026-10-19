@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "workspace_version": "0.5.1",
+  "workspace_version": "0.5.2",
   "skills": {
     "image-analysis": {
       "domain": "shared",
@@ -283,7 +283,7 @@
       "domain": "software-office",
       "owner": "software-office",
       "path": "software-office/skills/sdd-openspec/SKILL.md",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "status": "alpha",
       "requires_before": [],
       "recommends_next": [
@@ -292,6 +292,21 @@
       "evaluation_cases": [
         "sdd-openspec-001",
         "sdd-openspec-002"
+      ]
+    },
+    "codegraph-navigation": {
+      "domain": "software-office",
+      "owner": "software-office",
+      "path": "software-office/skills/codegraph-navigation/SKILL.md",
+      "version": "0.1.0",
+      "status": "alpha",
+      "requires_before": [],
+      "recommends_next": [
+        "sdd-openspec"
+      ],
+      "evaluation_cases": [
+        "codegraph-navigation-001",
+        "codegraph-navigation-002"
       ]
     }
   },
@@ -429,11 +444,13 @@
       "status": "alpha",
       "steps": [
         "sdd-openspec",
+        "codegraph-navigation",
         "research",
         "system-design",
         "technical-presentation"
       ],
       "conditional_steps": [
+        "codegraph-navigation",
         "research",
         "system-design",
         "technical-presentation"

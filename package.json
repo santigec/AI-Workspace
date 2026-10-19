@@ -5,9 +5,12 @@
   "scripts": {
     "openspec": "openspec",
     "openspec:check": "openspec validate --all --strict --no-interactive",
-    "test:openspec": "node --test tests/test_openspec.mjs"
+    "test:openspec": "node --test tests/test_openspec.mjs",
+    "codegraph": "node scripts/codegraph.mjs",
+    "test:codegraph": "node --test tests/test_codegraph.mjs"
   },
   "devDependencies": {
+    "@colbymchenry/codegraph": "1.6.2",
     "@fission-ai/openspec": "1.14.3"
   }
 }

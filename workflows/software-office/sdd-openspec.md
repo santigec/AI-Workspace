@@ -2,7 +2,7 @@
 
 Entrada: solicitud autorizada, repositorio objetivo y perfil SITOP V2 o Tribe Sport.
 
-1. **Explorar.** sdd-openspec identifica codigo, contratos y especificaciones actuales; research se usa solo para informacion externa necesaria. Recuperar memoria pertinente sin reemplazar evidencia del repo.
+1. **Explorar.** sdd-openspec identifica codigo, contratos y especificaciones actuales; codegraph-navigation apoya simbolos y relaciones con proyecto explicito cuando hay indice y acceso. research se usa solo para informacion externa necesaria. Recuperar memoria pertinente sin reemplazar evidencia del repo.
 2. **Especificar.** sdd-openspec prepara propuesta, deltas con escenarios y criterios, diseno proporcional y tareas trazables. system-design apoya arquitectura y diagramas cuando el cambio lo amerita.
 3. **Aplicar.** Implementar tareas usando el stack del producto. No iniciar codigo funcional sobre supuestos pendientes ni cambiar especificacion retrospectivamente para ocultar un fallo.
 4. **Verificar.** Validar OpenSpec y ejecutar pruebas relevantes del codigo; distinguir estructura, comportamiento, revision y aceptacion. Registrar fallos y omisiones; las tareas de pruebas no terminan por existir un archivo de plan.

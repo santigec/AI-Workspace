@@ -23,3 +23,9 @@ Para todo desarrollo gobernado por AI-Workspace, aplicar software-office/standar
 SITOP V2 conserva Java Spring Boot + Angular y formularios institucionales F0-F5; Tribe Sport usa Python Django + Railway con documentacion mas ligera y la misma trazabilidad. No imponer formularios de SITOP a Tribe Sport. Cada producto conserva openspec/ con su codigo y registra el commit de las reglas comunes consumidas. Este repo conserva reglas reutilizables; Engram conserva decisiones separadas por proyecto.
 
 OpenSpec valido no equivale a pruebas de aplicacion ni aceptacion o autorizacion de produccion. No marcar tareas o pruebas no realizadas como completas. No instalar Gentle-AI por inferencia. Consultar docs/sdd-openspec.md para adopcion; no afirmar instalacion o conexion de un destino no comprobado.
+
+## Exploracion de codigo con CodeGraph
+
+Para proyectos de software, leer software-office/standards/codegraph.md. Si CodeGraph esta disponible e indexado, usar consultas estructurales con projectPath de la aplicacion y maxFiles acotado; reutilizar contexto suficiente ya devuelto. Usar rg/lecturas dirigidas para texto exacto, formatos no soportados, fragmentos faltantes o evidencia contradictoria. Comprobar avisos de deriva; relaciones estaticas no sustituyen pruebas.
+
+El indice .codegraph y sus variantes son locales, fuera de Git. La configuracion de este equipo no se instala automaticamente en otros: seguir docs/codegraph.md, configurar Codex y generar indice por proyecto. No afirmar ahorro de tokens sin medicion comparable, ni acceso de subagentes al MCP por el solo hecho de darles instrucciones.

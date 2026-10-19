@@ -3,6 +3,7 @@ context: |
   Proyecto SITOP V2. Backend Java Spring Boot y frontend Angular.
   Detectar versiones, build, arquitectura y comandos reales antes de implementar.
   Usar la politica SDD de AI-Workspace en la revision registrada por el proyecto.
+  Para explorar codigo usar CodeGraph si hay indice/acceso, con projectPath explicito y contexto acotado; comprobar la raiz resuelta.
   Conservar formularios institucionales F0-F5 y responsables reales de cada aprobacion.
   Escribir artefactos en espanol preservando sintaxis normativa de OpenSpec.
 rules:

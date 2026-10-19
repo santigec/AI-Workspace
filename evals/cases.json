@@ -153,6 +153,18 @@
       "skill": "sdd-openspec",
       "path": "evals/software-office/sdd-openspec/case-002.md",
       "status": "NOT_RUN"
+    },
+    {
+      "id": "codegraph-navigation-001",
+      "skill": "codegraph-navigation",
+      "path": "evals/software-office/codegraph-navigation/case-001.md",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "codegraph-navigation-002",
+      "skill": "codegraph-navigation",
+      "path": "evals/software-office/codegraph-navigation/case-002.md",
+      "status": "NOT_RUN"
     }
   ]
 }

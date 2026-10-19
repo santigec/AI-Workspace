@@ -1,16 +1,18 @@
 # AI Workspace
 
+[CodeGraph para las oficinas de software](docs/codegraph.md): herramienta local 1.6.2, configuracion reproducible para Codex e indices propios por proyecto fuera de Git. [Skill de navegacion](software-office/skills/codegraph-navigation/SKILL.md). Consultas acotadas para reducir lecturas repetidas; ahorro de tokens aun sin medicion comparativa.
+
 Desarrollo de software: **SDD con OpenSpec** para SITOP V2 y Tribe Sport. [Guia de adopcion y continuidad](docs/sdd-openspec.md), [politica comun](software-office/standards/sdd-openspec.md) y [skill sdd-openspec](software-office/skills/sdd-openspec/SKILL.md). OpenSpec local 1.14.3; cada aplicacion mantiene sus propias especificaciones. Los perfiles especializados de agentes y la integracion de los otros skills de software siguen pendientes.
 
 Cajas de taza: [mug-box-design](tribe/skills/mug-box-design/SKILL.md), arte plano y continuo **150 × 200 mm**, centro inferior libre, artes inferiores laterales, tema principal a 120 mm desde la base y borde temático. [Invocación y workflow](workflows/tribe/mug-box-design.md). Skill alpha 0.1.0; evaluaciones visuales pendientes.
 
 Tomatodo 750 ml: [tumbler-750ml-sublimation](tribe/skills/tumbler-750ml-sublimation/SKILL.md), **232 × 182 mm**, arte plano y continuo. [Ejemplo de orden](tribe/templates/orders/tumbler-750ml.example.json).
 
-Repositorio central para capacidades de IA reutilizables. Versión de desarrollo: **0.5.1 — SDD con OpenSpec y cajas de taza**.
+Repositorio central para capacidades de IA reutilizables. Versión de desarrollo: **0.5.2 — CodeGraph para las oficinas de software**.
 
 Para usar dos equipos con GitHub: [guía de configuración y sincronización](docs/two-computers.md). Leer [estado para continuar](continuity/STATE.md). Se sincronizan skills y memoria `.engram` del proyecto `ai-workspace`; diseños y archivos pesados quedan locales.
 
-[Equipo operativo](docs/operating-team.md): coordinador, diseñador y revisor. Tres perfiles de agente para pedidos de Tribe, con entrega y revisión independientes. El registro comun contiene 23 skills.
+[Equipo operativo](docs/operating-team.md): coordinador, diseñador y revisor. Tres perfiles de agente para pedidos de Tribe, con entrega y revisión independientes. El registro comun contiene 24 skills.
 
 ## Áreas
 
@@ -50,7 +52,7 @@ Usa [la ficha de producto](tribe/templates/product-spec.md). Confirma dimensione
 Editar → probar con un caso real → revisar → commit → GitHub → instalar la versión estable en el entorno elegido.
 
 Lee [la guía de skills](shared/standards/skill-writing-guide.md) y [las reglas de calidad](shared/standards/quality-rules.md).
-Los 23 skills registrados conservan estado alpha. image-analysis, sublimation-layout y print-ready-qa tienen contratos en versión 0.2.0; product-specs integra el catálogo en 0.2.1. mug-sublimation 0.1.2 es la entrada desde chat. El registro indica la versión de cada skill.
+Los 24 skills registrados conservan estado alpha. image-analysis, sublimation-layout y print-ready-qa tienen contratos en versión 0.2.0; product-specs integra el catálogo en 0.2.1. mug-sublimation 0.1.2 es la entrada desde chat. El registro indica la versión de cada skill.
 
 Consulta [el registro](registry/skills.yaml), [los contratos](standards/skill-contract.md) y [la guía de evaluación](standards/evaluation-guide.md).
 

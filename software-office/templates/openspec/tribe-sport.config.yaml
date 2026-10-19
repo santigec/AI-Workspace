@@ -3,6 +3,7 @@ context: |
   Proyecto Tribe Sport. Backend Python Django y despliegue en Railway.
   Inspeccionar frontend, versiones, configuracion y comandos existentes; no asumir Angular.
   Usar la politica SDD de AI-Workspace en la revision registrada por el proyecto.
+  Para explorar codigo usar CodeGraph si hay indice/acceso, con projectPath explicito y contexto acotado; comprobar la raiz resuelta.
   Documentacion ligera con trazabilidad completa; no exigir los formularios F0-F5 de SITOP V2.
   Identidad deportiva vibrante con interfaz limpia; consultar referencia de marca del proyecto.
   Escribir artefactos en espanol preservando sintaxis normativa de OpenSpec.

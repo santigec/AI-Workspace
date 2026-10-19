@@ -33,6 +33,7 @@ Archivar el cambio cuando haya implementacion y revision suficientes, consolidan
 ## Repositorios, agentes y memoria
 
 Cada aplicacion conserva `openspec/` con su codigo y evidencia ligera. AI-Workspace conserva esta politica, skills y configuraciones de referencia. Registrar el commit de AI-Workspace utilizado; no copiar wrappers que pierdan sus referencias relativas ni suponer acceso automatico entre repositorios.
+Para explorar simbolos, llamadas e impacto antes de especificar, aplicar la [politica de CodeGraph](codegraph.md) cuando el indice sea adecuado. No confundir relaciones del grafo con pruebas de comportamiento ni disponibilidad global de configuracion con acceso efectivo en cada sesion.
 Coordinacion identifica el cambio y responsables; analisis prepara propuesta/specs; arquitectura prepara diseno; desarrollo aplica tareas; QA verifica escenarios y regresiones con independencia cuando el riesgo lo requiera. La existencia de esta politica no crea perfiles de agentes ni activa delegacion por si sola.
 Engram guarda decisiones comunes bajo `ai-workspace` y decisiones del producto bajo su proyecto correspondiente. Consultar codigo, specs y evidencia al reanudar; Git transporta archivos y exportaciones de memoria explicitamente, no sincroniza sesiones en segundo plano.
 

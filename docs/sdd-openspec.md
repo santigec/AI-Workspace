@@ -2,6 +2,8 @@
 
 SDD es el metodo: especificar antes de implementar y verificar contra esa especificacion. OpenSpec organiza los artefactos. AI-Workspace conserva las reglas comunes; cada producto conserva sus especificaciones junto al codigo. Gentle-AI no se instala ni se necesita para adoptar este flujo.
 
+La exploracion estructural se apoya en [CodeGraph](codegraph.md) cuando la herramienta y el indice del producto estan disponibles. Configurar MCP y construir cada indice son pasos locales distintos de leer las reglas de AI-Workspace.
+
 ## En AI-Workspace
 
 Dependencia local fijada a OpenSpec 1.14.3. Con Node compatible y npm:
