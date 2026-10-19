@@ -3,6 +3,8 @@ name: sql-review
 description: Revisa consultas SQL para detectar errores de lógica, rendimiento y efectos sobre datos.
 ---
 
+Si la revision deriva en cambios de software o datos, aplicar [SDD con OpenSpec](../../standards/sdd-openspec.md) para documentar comportamiento, tareas y pruebas antes de implementar. Una consulta explicativa no exige inventar un cambio.
+
 # sql-review
 
 Identifica motor y versión, esquema, volúmenes y objetivo de la consulta.

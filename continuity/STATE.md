@@ -15,6 +15,9 @@ Prueba de tres delegaciones reales completada el 2026-10-19: revisión de una ho
 
 ## Conocimiento
 
+- SDD + OpenSpec obligatorio para todo desarrollo de software por decision del usuario del 2026-10-19. Politica software-office/standards/sdd-openspec.md y entrada sdd-openspec 0.1.0; herramientas locales OpenSpec 1.14.3 con lockfile. SITOP V2 mantiene Spring Boot/Angular y F0-F5; Tribe Sport mantiene Django/Railway con documentacion ligera y la misma trazabilidad. Cada producto conserva openspec/ junto al codigo; AI-Workspace guarda reglas comunes. No se instala Gentle-AI por esta decision. Validacion estructural y archivo no equivalen a pruebas, aceptacion ni autorizacion de produccion. Instalacion/configuracion en aplicaciones y perfiles especializados siguen pendientes.
+- Registro ampliado a 23 skills alpha en v0.5.1 (mug-box-design y sdd-openspec agregados); los 18 borradores locales de software anteriores siguen fuera del registro y de esta publicacion. Los recuentos de 21 mas abajo describen la base v0.5.0.
+
 - Ampliación local 2026-10-19: mug-box-design 0.1.0 para cajas de taza 150 × 200 mm, composición plana continua, artes inferiores laterales y reserva central inferior sin protagonistas (solo fondo discreto). Tema anclado a 120 mm desde base/80 mm desde arriba, borde completo temático, paleta y lettering del tema. Reserva exacta y plantilla física pendientes por pedido; dos casos visuales NOT_RUN. Registro local ampliado; no confundir los cambios sin publicar con la versión v0.5.0.
 - 21 skills de dominio, wrappers .agents/skills no contados dos veces. Todos alpha. Registro registry/skills.yaml. Agenda-design0.1.4, última revisión visual v0.3.4.
 - Engram guarda decisiones, correcciones e índice de skills; las instrucciones completas permanecen en SKILL.md. continuity/memory-topics.json es la instantánea de carga inicial; no resembrar de rutina si las memorias evolucionaron.

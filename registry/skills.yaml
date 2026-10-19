@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "workspace_version": "0.5.0",
+  "workspace_version": "0.5.1",
   "skills": {
     "image-analysis": {
       "domain": "shared",
@@ -164,7 +164,7 @@
       "domain": "software-office",
       "owner": "software-office",
       "path": "software-office/skills/sql-review/SKILL.md",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "status": "alpha",
       "requires_before": [],
       "recommends_next": [],
@@ -178,7 +178,7 @@
       "domain": "software-office",
       "owner": "software-office",
       "path": "software-office/skills/system-design/SKILL.md",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "status": "alpha",
       "requires_before": [],
       "recommends_next": [],
@@ -277,6 +277,21 @@
       "evaluation_cases": [
         "mug-box-design-001",
         "mug-box-design-002"
+      ]
+    },
+    "sdd-openspec": {
+      "domain": "software-office",
+      "owner": "software-office",
+      "path": "software-office/skills/sdd-openspec/SKILL.md",
+      "version": "0.1.0",
+      "status": "alpha",
+      "requires_before": [],
+      "recommends_next": [
+        "system-design"
+      ],
+      "evaluation_cases": [
+        "sdd-openspec-001",
+        "sdd-openspec-002"
       ]
     }
   },
@@ -407,6 +422,21 @@
         "image-generation",
         "image-editing",
         "resize-to-print"
+      ]
+    },
+    "sdd-openspec": {
+      "path": "workflows/software-office/sdd-openspec.md",
+      "status": "alpha",
+      "steps": [
+        "sdd-openspec",
+        "research",
+        "system-design",
+        "technical-presentation"
+      ],
+      "conditional_steps": [
+        "research",
+        "system-design",
+        "technical-presentation"
       ]
     }
   }

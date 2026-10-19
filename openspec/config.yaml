@@ -1,0 +1,17 @@
+schema: spec-driven
+context: |
+  AI-Workspace almacena conocimiento y herramientas reutilizables, no el codigo de SITOP V2 ni Tribe Sport.
+  Idioma de artefactos: espanol; conservar encabezados y palabras normativas requeridos por OpenSpec.
+  Aplicar software-office/standards/sdd-openspec.md a todo desarrollo de software.
+  Las especificaciones de cada producto viven junto a su codigo; Engram guarda decisiones, no sustituye specs.
+  No incorporar imagenes, PDF, ZIP, SQLite, node_modules ni credenciales al repositorio.
+rules:
+  proposal:
+    - Identificar alcance, exclusiones, capacidades afectadas y criterios observables sin inventar decisiones del usuario.
+  specs:
+    - Usar requisitos SHALL o MUST y escenarios verificables con WHEN y THEN; incluir errores y permisos cuando apliquen.
+    - Mantener identificadores estables para relacionar requisitos con tareas y pruebas.
+  design:
+    - Documentar decisiones, compatibilidad, impacto, riesgos y UML cuando aporte claridad; justificar lo no aplicable.
+  tasks:
+    - Relacionar cada tarea con requisitos y verificacion; marcar completada solo con trabajo y evidencia reales.

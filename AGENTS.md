@@ -15,3 +15,11 @@ El segundo equipo requiere instalar Engram y acceder al repo privado; importar t
 ## Equipo operativo de Tribe
 
 Cuando el usuario pida usar el equipo operativo, coordinar los roles coordinador, disenador y revisor definidos en .codex/agents y seguir workflows/tribe/operating-team.md. La petición actual de crear/probar el equipo autoriza delegación para esta prueba; no implica activar agentes en todos los pedidos futuros. Cargar perfiles explícitamente si esta sesión no los descubre y declarar ese alcance. No generar equipos anidados ni editar el mismo archivo simultáneamente. Delegar ejecución y después revisión independiente, mostrar etapas y guardar solo el conocimiento resultante.
+
+## Desarrollo de software: SDD y OpenSpec
+
+Para todo desarrollo gobernado por AI-Workspace, aplicar software-office/standards/sdd-openspec.md y workflows/software-office/sdd-openspec.md: explorar, especificar con escenarios verificables antes de implementar, disenar proporcionalmente, ejecutar tareas, probar y revisar antes de archivar. La autorizacion y alcance existentes del usuario permiten avanzar; aclarar solo decisiones pendientes necesarias.
+
+SITOP V2 conserva Java Spring Boot + Angular y formularios institucionales F0-F5; Tribe Sport usa Python Django + Railway con documentacion mas ligera y la misma trazabilidad. No imponer formularios de SITOP a Tribe Sport. Cada producto conserva openspec/ con su codigo y registra el commit de las reglas comunes consumidas. Este repo conserva reglas reutilizables; Engram conserva decisiones separadas por proyecto.
+
+OpenSpec valido no equivale a pruebas de aplicacion ni aceptacion o autorizacion de produccion. No marcar tareas o pruebas no realizadas como completas. No instalar Gentle-AI por inferencia. Consultar docs/sdd-openspec.md para adopcion; no afirmar instalacion o conexion de un destino no comprobado.

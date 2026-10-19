@@ -141,6 +141,18 @@
       "skill": "mug-box-design",
       "path": "evals/tribe/mug-box-design/case-002.md",
       "status": "NOT_RUN"
+    },
+    {
+      "id": "sdd-openspec-001",
+      "skill": "sdd-openspec",
+      "path": "evals/software-office/sdd-openspec/case-001.md",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "sdd-openspec-002",
+      "skill": "sdd-openspec",
+      "path": "evals/software-office/sdd-openspec/case-002.md",
+      "status": "NOT_RUN"
     }
   ]
 }

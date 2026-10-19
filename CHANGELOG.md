@@ -1,6 +1,10 @@
 # Historial
 
-## Sin publicar — Caja de taza
+## 0.5.1 — SDD con OpenSpec y caja de taza (develop)
+
+- SDD con OpenSpec como politica comun para SITOP V2 y Tribe Sport, con propuesta, escenarios, diseno, tareas y evidencia trazable.
+- Skill sdd-openspec 0.1.0, perfiles documentales separados, guia de adopcion, OpenSpec local 1.14.3 y lockfile; sin instalar Gentle-AI ni modificar aplicaciones externas.
+- Seis pruebas reales del CLI y validacion estricta del cambio; evaluaciones del comportamiento del nuevo skill pendientes. SQL/system-design 0.1.1 enlazan la politica comun.
 
 - mug-box-design 0.1.0: arte plano y continuo de 150 × 200 mm, reserva inferior central, artes inferiores laterales, tipografía y borde temáticos.
 - Referencia de tema principal a 120 mm desde la base (80 mm desde arriba); extensión de reserva ajustable a la plantilla física.

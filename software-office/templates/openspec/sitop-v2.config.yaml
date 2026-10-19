@@ -1,0 +1,18 @@
+schema: spec-driven
+context: |
+  Proyecto SITOP V2. Backend Java Spring Boot y frontend Angular.
+  Detectar versiones, build, arquitectura y comandos reales antes de implementar.
+  Usar la politica SDD de AI-Workspace en la revision registrada por el proyecto.
+  Conservar formularios institucionales F0-F5 y responsables reales de cada aprobacion.
+  Escribir artefactos en espanol preservando sintaxis normativa de OpenSpec.
+rules:
+  proposal:
+    - Identificar solicitud F0, alcance, exclusiones, responsables y decisiones pendientes.
+  specs:
+    - Relacionar requisitos con F1 y escenarios verificables con F3; mantener IDs estables.
+    - Incluir permisos, errores y requisitos no funcionales aplicables; no inventar aprobaciones.
+  design:
+    - Documentar contratos Angular/backend, dominio, datos, seguridad y UML pertinentes al cambio.
+  tasks:
+    - Relacionar tareas con requisitos, estimacion F2, pruebas y evidencia de la version candidata.
+    - Incluir revision de aceptacion F4 y preparacion de produccion F5 sin marcar firmas inexistentes.

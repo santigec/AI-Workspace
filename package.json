@@ -1,0 +1,13 @@
+{
+  "name": "ai-workspace-knowledge",
+  "private": true,
+  "description": "Herramientas de desarrollo del repositorio de conocimiento AI-Workspace",
+  "scripts": {
+    "openspec": "openspec",
+    "openspec:check": "openspec validate --all --strict --no-interactive",
+    "test:openspec": "node --test tests/test_openspec.mjs"
+  },
+  "devDependencies": {
+    "@fission-ai/openspec": "1.14.3"
+  }
+}

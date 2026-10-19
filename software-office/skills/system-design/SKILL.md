@@ -3,6 +3,8 @@ name: system-design
 description: Diseña un sistema a partir de requisitos y restricciones explícitos.
 ---
 
+Para desarrollo de software, aplicar tambien [SDD con OpenSpec](../../standards/sdd-openspec.md): vincular el diseno con escenarios del cambio antes de implementar y conservar evidencia de verificacion.
+
 # system-design
 
 Establece flujos de uso, escala esperada, disponibilidad, seguridad, presupuesto y dependencias.
