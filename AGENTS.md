@@ -11,3 +11,7 @@ Rama compartida develop, no main. No force push ni descartes automáticos. Únic
 No versionar design-runs, imágenes/PDF/ZIP, bases SQLite, binarios, credenciales ni .env. SQLite de Engram permanece local; intercambiar config, manifiesto y chunks en .engram. No usar --all ni --include-prompts sin petición expresa. No copiar la base en vivo. No heredar nombres personales de otros pedidos.
 
 El segundo equipo requiere instalar Engram y acceder al repo privado; importar tras cada pull. No afirmar conexión, instalación MCP ni sincronización automática sin comprobarlas. Resolver rutas respecto al repositorio, sin asumir unidad F: o C:\ai-workspace.
+
+## Equipo operativo de Tribe
+
+Cuando el usuario pida usar el equipo operativo, coordinar los roles coordinador, disenador y revisor definidos en .codex/agents y seguir workflows/tribe/operating-team.md. La petición actual de crear/probar el equipo autoriza delegación para esta prueba; no implica activar agentes en todos los pedidos futuros. Cargar perfiles explícitamente si esta sesión no los descubre y declarar ese alcance. No generar equipos anidados ni editar el mismo archivo simultáneamente. Delegar ejecución y después revisión independiente, mostrar etapas y guardar solo el conocimiento resultante.

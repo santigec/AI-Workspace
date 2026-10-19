@@ -2,9 +2,11 @@
 
 Tomatodo 750 ml: [tumbler-750ml-sublimation](tribe/skills/tumbler-750ml-sublimation/SKILL.md), **232 × 182 mm**, arte plano y continuo. [Ejemplo de orden](tribe/templates/orders/tumbler-750ml.example.json).
 
-Repositorio central para capacidades de IA reutilizables. Versión de desarrollo: **0.4.1 — Memoria Engram entre equipos**.
+Repositorio central para capacidades de IA reutilizables. Versión de desarrollo: **0.5.0 — Primer equipo operativo de Tribe**.
 
 Para usar dos equipos con GitHub: [guía de configuración y sincronización](docs/two-computers.md). Leer [estado para continuar](continuity/STATE.md). Se sincronizan skills y memoria `.engram` del proyecto `ai-workspace`; diseños y archivos pesados quedan locales.
+
+[Equipo operativo](docs/operating-team.md): coordinador, diseñador y revisor. Tres perfiles de agente que aplican los 21 skills existentes, con entrega y revisión independientes.
 
 ## Áreas
 

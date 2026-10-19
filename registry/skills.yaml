@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "workspace_version": "0.4.1",
+  "workspace_version": "0.5.0",
   "skills": {
     "image-analysis": {
       "domain": "shared",

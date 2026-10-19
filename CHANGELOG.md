@@ -1,5 +1,11 @@
 # Historial
 
+## 0.5.0 — Primer equipo operativo de Tribe (develop)
+
+- Perfiles coordinador, disenador y revisor en .codex/agents, sin imponer modelos ni permisos diferentes a la sesión.
+- Brief, ejecución, revisión independiente y correcciones acotadas con estados visibles y evidencia.
+- Workflow e instrucciones de activación, sin nuevos skills ni archivos pesados.
+
 ## 0.4.1 — Conocimiento y memoria Engram entre equipos (develop)
 
 - Prioridad corregida por el usuario: skills, decisiones y memoria; trabajos pesados excluidos.

@@ -1,9 +1,17 @@
-# Continuidad — 2026-10-15
+# Continuidad — 2026-10-19
 
 ## Prioridad
 Sincronizar conocimiento: skills, reglas, pruebas técnicas y memoria Engram, no trabajos pesados. Repo privado santigec/AI-Workspace, rama develop. Proyecto Engram fijo ai-workspace. Importar .engram después del pull, consultar contexto y guardar decisiones antes de exportar/push. No se sincroniza todo el chat automáticamente.
 
 Versión ligera v0.4.1 reemplaza la incorporación pesada v0.4.0 retirada del historial a petición expresa. design-runs se conserva local e ignorado. Los objetos LFS ya recibidos por GitHub pueden seguir ocupando cuota aunque no sean alcanzables; no se elimina ni recrea el repositorio.
+
+## Equipo operativo v0.5.0
+
+Primer equipo de Tribe definido en .codex/agents: coordinador, disenador y revisor. Se aplican los 21 skills existentes, no se añaden skills por cada rol. Workflow: workflows/tribe/operating-team.md; explicación: docs/operating-team.md. Activación por petición del usuario para una tarea concreta; no es una oficina autónoma en segundo plano ni dashboard web.
+
+El hilo principal coordina brief -> ejecución -> revisión independiente y correcciones. Los perfiles heredan modelo/permisos, sin imponer otros. Para la prueba inicial los perfiles se cargan explícitamente por encargo; no afirmar validación del descubrimiento nativo hasta abrir una sesión que los detecte. Memoria centralizada en el padre puede pasarse a los subagentes sin volver a abrir SQLite bloqueada por sandbox. Solo conocimiento/informes ligeros a Git y Engram.
+
+Prueba de tres delegaciones reales completada el 2026-10-19: revisión de una hoja cuadriculada K-pop existente, sin editar/generar. Coordinador entregó brief, diseñador midió/inspeccionó y revisor verificó independientemente: PASS digital de esa pieza sin correcciones obligatorias. Informe: evals/teams/operating-team-2026-10-19.md. No valida descubrimiento nativo de perfiles, otras diez piezas ni impresión. Tres TOML parseados, estructura del workspace y 43 pruebas técnicas PASS.
 
 ## Conocimiento
 - 21 skills de dominio, wrappers .agents/skills no contados dos veces. Todos alpha. Registro registry/skills.yaml. Agenda-design0.1.4, última revisión visual v0.3.4.
