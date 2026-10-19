@@ -10,6 +10,12 @@ Crear una agenda temática con referencias, nombre exacto con tildes y años 202
 - Entrega portada frontal/posterior, ambos reversos interiores, datos, dos calendarios, actividades y cuadrícula.
 - No convierte las etiquetas en A4 ni deforma portadas para obtenerlas.
 - Mantiene fondo blanco en datos, calendarios, actividades y cuadrícula; colores temáticos en cabeceras, pies y acentos.
+- Traduce la intensidad de las referencias a todos los interiores: la temática se reconoce sin depender del título.
+- Cada interior presenta al menos tres capas temáticas: cabecera expresiva, estructura funcional tematizada y marco/pie/acento distribuido.
+- No acepta la fórmula título plano + miniatura aislada + líneas genéricas ni páginas cuya energía visual se concentre solo en la cabecera.
+- Datos importantes usa iconos o contenedores temáticos, marco y marca de agua tenue, manteniendo todos los valores vacíos.
+- Calendarios conservan fechas deterministas dentro de módulos tematizados con lettering, esquinas/marco y pie coordinado.
+- Actividades integra prioridades, tabla y seguimiento como un sistema visual coherente, con espacio cómodo para escritura.
 - Cuadrícula con marca de agua central tenue y líneas regulares.
 - Cuadrícula con banda ilustrada de cabecera, lettering/emblema de carácter y motivos integrados; pie coordinado. Un título en fuente genérica más miniatura no satisface el criterio, aunque el calendario y dimensiones sean correctos.
 - Calendarios con fechas calculadas, texto correcto y sin feriados inventados.

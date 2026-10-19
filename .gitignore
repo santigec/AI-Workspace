@@ -20,3 +20,5 @@ outputs/
 .engram/*.sqlite*
 /design-runs/
 /continuity/design-manifest.json
+# Local AI runtime state
+/.atl/

@@ -3,6 +3,13 @@
 - Pedido, versión de AI-Workspace y tema:
 - Personalización solicitada y texto comprobado:
 - Portadas y etiquetas: sin «Agenda», años o eslóganes no solicitados; etiquetas vivas y acordes a referencia/estilo.
+- Portada frontal: escena ilustrada unitaria y a sangre; personaje/grupo como primer foco y nombre exacto como segundo foco en el tercio inferior.
+- Nombre de portada: lettering temático tratado, 45–75 % del ancho útil, legible en miniatura y al 100 %; sin placa blanca, tarjeta o rótulo genérico salvo requisito explícito de la referencia.
+- Integración de portada: personaje apoyado mediante suelo, sombra o luz; motivos distribuidos arriba, centro y abajo; sin recorte flotante, fondo ampliado sin detalle ni collage de stickers.
+- Seguridad de portada: fondo extendido al sangrado y rostro, nombre, emblema y detalles esenciales dentro del área segura; sin guías de producción impresas.
+- Portada posterior exterior: variación coherente de la frontal, no copia ni espejo; mismo fondo, paleta, iluminación, motivos y tratamiento del nombre.
+- Jerarquía posterior: logo/emblema como foco superior o central y nombre exacto como segundo foco en el tercio inferior; composición activa arriba, centro y abajo sin personaje principal dominante por defecto.
+- Contenido posterior: sin placa genérica, fondo vacío, collage de stickers ni redes, QR, créditos, marcas, precio o código de barras inventados; no confundir con el reverso interior.
 - Cuadrícula: solo nombre solicitado y elementos temáticos en cabecera/pie; sin títulos funcionales o campos no pedidos.
 - Cuadrícula: cabecera ilustrada con lettering/emblema y motivos integrados, pie coordinado y acentos proporcionados; no texto genérico con miniatura aislada. Área blanca de escritura conservada.
 - Calendarios: título «Calendario» y año correcto, con composición temática profesional.
@@ -13,12 +20,19 @@
 - Etiquetas: 205 × 165 mm y 205 × 95 mm.
 - Píxeles y resolución efectiva de cada archivo:
 - Coherencia temática, tipográfica y de color:
-- Composición profesional por hoja: jerarquía, agrupación funcional, motivos temáticos visibles y blancos intencionales; sin sensación de plantilla vacía ni decoración de relleno.
+- Sistema visual documentado: paleta, lettering, motivos, marco, ilustración y componentes reutilizables.
+- Perfil de intensidad aplicado: balanced-vibrant / vibrant / otro solicitado.
+- Tres capas temáticas por interior: cabecera expresiva + estructura funcional tematizada + marco, pie o acento distribuido.
+- Composición profesional por hoja: jerarquía, agrupación funcional, iconografía, marca de agua cuando corresponda y blancos intencionales; sin sensación de plantilla vacía ni decoración de relleno.
+- Reconocimiento temático sin depender del título; sin miniaturas aisladas ni tipografía común simulando lettering o logo.
 - Legibilidad revisada a tamaño real y en vista individual, además del conjunto; escritura cómoda, líneas con contraste suficiente y personajes proporcionados.
 - Datos/calendarios/actividades/cuadrícula: base blanca y escritura legible.
 - Cuadrícula: líneas regulares, marca de agua central tenue, cabecera y pie temáticos.
 - Actividades: columnas y filas útiles para escribir.
 - Calendarios: días, mes, día de semana y bisiestos verificados para ambos años.
+- Datos: campos agrupados con iconos o contenedores y todos los valores vacíos salvo solicitud expresa.
+- Calendarios: lettering, módulos mensuales tematizados, marco o esquinas y pie coordinado sin reducir legibilidad.
+- Actividades: prioridades, tabla y seguimiento compuestos como sistema; no líneas genéricas debajo de una cabecera.
 - Feriados: no incluidos / región y fuente:
 - Márgenes, sangrado, perforación y encuadernación confirmados:
 - Archivos faltantes o correcciones:
