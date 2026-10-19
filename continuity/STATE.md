@@ -15,6 +15,8 @@ Prueba de tres delegaciones reales completada el 2026-10-19: revisión de una ho
 
 ## Conocimiento
 
+- Sincronización del 2026-10-19: `develop` quedó sobre workspace 0.5.4 y conserva las mejoras locales de `agenda-design` 0.2.0 (interiores vibrantes y criterios profesionales de portada frontal/posterior). Registro vigente: 43 skills de dominio, 26 alpha y 17 experimentales; el índice local deduplicado `.atl/skill-registry.md` contiene 44 skills al incluir herramientas globales del usuario. Engram local actualizado a la versión verificada 3.4.0 e importados 11 chunks/43 observaciones. `design-runs/` continúa local e ignorado.
+
 - Conocimiento completo publicado en develop mediante8f17a05 (65archivos, sin pendientes sin seguimiento); validacion de registro43skills y71Python+6OpenSpec PASS. Cambio optional-local-coding completado y archivado2026-10-19, especificacion vigente en openspec/specs/optional-local-coding. La conexion local esta probada; adopcion de aplicaciones/segundoequipo sigue pendiente.
 
 - Peticion de versionar todo el conocimiento: incorporados17borradores anteriores de software y wrappers, estandares Java/Angular/testing/proceso, formularios vacios F0-F5 y referencia de marca. Registro43skills:26alpha+17experimental0.0.1. Ver continuity/PENDING.md; no declarar evaluados ni instalado parser/validador QA inexistente. Sin modelos/imagenes/bases/credenciales. Esta incorporacion sustituye el pendiente de conservar esos borradores sin seguimiento descrito en notas historicas.
