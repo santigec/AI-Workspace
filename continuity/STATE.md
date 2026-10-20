@@ -15,6 +15,8 @@ Prueba de tres delegaciones reales completada el 2026-10-19: revisión de una ho
 
 ## Conocimiento
 
+- v0.5.5 publicada en `develop` mediante `6ee96c9`: nueva skill `adhesivo-tarrito` 0.1.0 para tarritos cuadrados de 45 × 45 × 80 mm. Define una banda plana continua de 180 × 80 mm con cuatro paneles conceptuales de 45 × 80 mm, foco centrado por cara, fondo coordinado y contenido critico fuera de las uniones x = 45, 90 y 135 mm. Registro vigente: 44 skills (27 alpha y 17 experimentales). Cuatro pruebas enfocadas, validacion del workspace y orden sintetica DRAFT_ALLOWED pasaron; los dos casos visuales, la plantilla fisica, sangrado, solape y tolerancias siguen pendientes.
+
 - Sincronización del 2026-10-19: `develop` quedó sobre workspace 0.5.4 y conserva las mejoras locales de `agenda-design` 0.2.0 (interiores vibrantes y criterios profesionales de portada frontal/posterior). Registro vigente: 43 skills de dominio, 26 alpha y 17 experimentales; el índice local deduplicado `.atl/skill-registry.md` contiene 44 skills al incluir herramientas globales del usuario. Engram local actualizado a la versión verificada 3.4.0 e importados 11 chunks/43 observaciones. `design-runs/` continúa local e ignorado.
 
 - Conocimiento completo publicado en develop mediante8f17a05 (65archivos, sin pendientes sin seguimiento); validacion de registro43skills y71Python+6OpenSpec PASS. Cambio optional-local-coding completado y archivado2026-10-19, especificacion vigente en openspec/specs/optional-local-coding. La conexion local esta probada; adopcion de aplicaciones/segundoequipo sigue pendiente.
