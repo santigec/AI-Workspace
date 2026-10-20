@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "order_id": "order-2026-10-19-001",
+  "domain": "tribe",
+  "mode": "draft",
+  "workspace_ref": null,
+  "workflow": "adhesivo-tarrito",
+  "product": {
+    "id": "square_jar_45x45x80_label"
+  },
+  "requested_dimensions": {
+    "width_mm": 180,
+    "height_mm": 80
+  },
+  "theme": {
+    "name": "Tematica de demostracion"
+  },
+  "content": {
+    "main_name": null,
+    "additional_text": null
+  },
+  "artwork": {
+    "operation": "generate",
+    "source": null,
+    "reference_images": []
+  },
+  "style": {
+    "tone": [
+      "professional",
+      "clean",
+      "creative"
+    ],
+    "preserve_typography": true,
+    "preserve_graphic_details": true
+  },
+  "output": {
+    "format": "png",
+    "background": "themed",
+    "resolution_ppi": null,
+    "background_description": "Fondo tematico continuo coordinado a traves de los cuatro paneles."
+  },
+  "constraints": [
+    {
+      "key": "flat_and_continuous",
+      "value": true,
+      "priority": "hard"
+    },
+    {
+      "key": "panel_count",
+      "value": 4,
+      "priority": "hard"
+    },
+    {
+      "key": "panel_width_mm",
+      "value": 45,
+      "priority": "hard"
+    },
+    {
+      "key": "critical_content_across_seams",
+      "value": false,
+      "priority": "hard"
+    }
+  ],
+  "resilience": {
+    "allow_draft_on_missing_specs": true,
+    "adaptable_elements": [
+      "distribution",
+      "secondary_decorations",
+      "scale"
+    ]
+  }
+}

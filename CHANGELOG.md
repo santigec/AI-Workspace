@@ -1,5 +1,13 @@
 # Historial
 
+## 0.5.5 — Adhesivo para tarrito cuadrado (develop)
+
+- Nueva skill adhesivo-tarrito 0.1.0 para una banda plana y continua de 180 × 80 mm, dividida conceptualmente en cuatro paneles de 45 × 80 mm.
+- Cada cara conserva un foco temático centrado, motivos coordinados y fondo continuo; texto, rostros, logos y detalles críticos quedan fuera de las uniones x = 45, 90 y 135 mm.
+- Añadidos wrapper de descubrimiento, reglas de composición, workflow, checklist QA, orden sintética, catálogo no verificado y dos evaluaciones visuales pendientes.
+- No se inventan sangrado, solape, margen seguro, tolerancias ni plantilla física; PRINT_READY exige parámetros confirmados y revisión del archivo final.
+- Registro actualizado a 44 skills: 27 alpha y 17 experimentales.
+
 ## 0.5.3 — UML renderizable y mantenido por cambio (develop)
 
 - Integrados uml-modeling y uml-rendering0.1.0 con PlantUML1.2026.9, Mermaid CLI12.0.0 y runtime Java local compatible, con pins/checksums/lockfile.

@@ -53,14 +53,16 @@
             "tumbler",
             "shirt",
             "sticker",
-            "notebook"
+            "notebook",
+            "jar"
           ]
         },
         "technique": {
           "enum": [
             "sublimation",
             "dtf",
-            "unspecified"
+            "unspecified",
+            "adhesive"
           ]
         },
         "width_mm": {

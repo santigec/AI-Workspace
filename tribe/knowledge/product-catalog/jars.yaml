@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "products": [
+    {
+      "id": "square_jar_45x45x80_label",
+      "label": "Adhesivo para tarrito cuadrado 45 x 45 x 80 mm",
+      "family": "jar",
+      "technique": "adhesive",
+      "width_mm": 180,
+      "height_mm": 80,
+      "proposal_source": "Usuario, 2026-10-19: tarrito cuadrado de cuatro caras de 45 mm y 80 mm de alto; lienzo plano continuo de 180 x 80 mm dividido en cuatro paneles de 45 x 80 mm. Parametros de produccion pendientes.",
+      "supplier": null,
+      "model": null,
+      "verification": {
+        "status": "unverified",
+        "source": null,
+        "verified_by": null,
+        "verified_at": null
+      },
+      "production": {
+        "print_area": null,
+        "safe_margin_mm": null,
+        "bleed_mm": null,
+        "resolution_ppi": null,
+        "color_profile": null,
+        "format": null,
+        "background": null,
+        "mirror": null,
+        "excluded_zones": []
+      },
+      "style_defaults": [
+        "professional",
+        "clean",
+        "creative",
+        "flat_and_continuous",
+        "four_centered_panels"
+      ],
+      "workflow": "adhesivo-tarrito"
+    }
+  ]
+}

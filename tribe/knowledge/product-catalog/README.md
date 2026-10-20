@@ -6,6 +6,8 @@ El 2026-10-15 el usuario confirmó el lienzo de diseño para su tomatodo de 500 
 También confirmó el lienzo de **600 ml: 232 × 142 mm**, plano y continuo. Ambas confirmaciones corresponden al tamaño de su flujo de diseño; el registro de producción conserva unverified por los parámetros aún pendientes.
 Para **750 ml confirmó 232 × 182 mm**, también plano y continuo. La misma distinción entre lienzo definido y ficha de producción completa aplica a las tres capacidades.
 
+El 2026-10-19 el usuario definió para su tarrito cuadrado de 45 × 45 × 80 mm un adhesivo plano continuo de **180 × 80 mm**, organizado en cuatro paneles de 45 × 80 mm. El registro permanece `unverified` porque faltan proveedor, plantilla, sangrado, solape, tolerancias y parámetros de impresión.
+
 Para verificar un modelo completa supplier, model, verification.source, verified_by, verified_at, dimensiones y todos los campos production. Solo entonces cambia status a verified. La aprobación corresponde a un modelo y proveedor concretos.
 print_area describe el rectángulo disponible dentro del lienzo; excluded_zones enumera restricciones. El ejecutor debe comprobar geometría y zonas excluidas; el validador no inspecciona imágenes.
 

@@ -10,13 +10,15 @@ Desarrollo de software: **SDD con OpenSpec** para SITOP V2 y Tribe Sport. [Guia 
 
 Cajas de taza: [mug-box-design](tribe/skills/mug-box-design/SKILL.md), arte plano y continuo **150 × 200 mm**, centro inferior libre, artes inferiores laterales, tema principal a 120 mm desde la base y borde temático. [Invocación y workflow](workflows/tribe/mug-box-design.md). Skill alpha 0.1.0; evaluaciones visuales pendientes.
 
+Adhesivos para tarritos cuadrados: [adhesivo-tarrito](tribe/skills/adhesivo-tarrito/SKILL.md), banda plana y continua de **180 × 80 mm** para cuatro caras de 45 × 80 mm, con un foco centrado por panel y contenido crítico fuera de las uniones. [Workflow](workflows/tribe/adhesivo-tarrito.md). Skill alpha 0.1.0; evaluaciones visuales pendientes.
+
 Tomatodo 750 ml: [tumbler-750ml-sublimation](tribe/skills/tumbler-750ml-sublimation/SKILL.md), **232 × 182 mm**, arte plano y continuo. [Ejemplo de orden](tribe/templates/orders/tumbler-750ml.example.json).
 
-Repositorio central para capacidades de IA reutilizables. Versión de desarrollo: **0.5.4 — Codificacion local opcional con revision de Codex**.
+Repositorio central para capacidades de IA reutilizables. Versión de desarrollo: **0.5.5 — Adhesivo para tarrito cuadrado**.
 
 Para usar dos equipos con GitHub: [guía de configuración y sincronización](docs/two-computers.md). Leer [estado para continuar](continuity/STATE.md). Se sincronizan skills y memoria `.engram` del proyecto `ai-workspace`; diseños y archivos pesados quedan locales.
 
-[Equipo operativo](docs/operating-team.md): coordinador, diseñador y revisor. Tres perfiles de agente para pedidos de Tribe, con entrega y revisión independientes. El registro comun contiene 43 skills:26alpha y17borradores experimentales de software preservados. [Pendientes y limites](continuity/PENDING.md).
+[Equipo operativo](docs/operating-team.md): coordinador, diseñador y revisor. Tres perfiles de agente para pedidos de Tribe, con entrega y revisión independientes. El registro común contiene 44 skills: 27 alpha y 17 borradores experimentales de software preservados. [Pendientes y límites](continuity/PENDING.md).
 
 ## Áreas
 
@@ -56,7 +58,7 @@ Usa [la ficha de producto](tribe/templates/product-spec.md). Confirma dimensione
 Editar → probar con un caso real → revisar → commit → GitHub → instalar la versión estable en el entorno elegido.
 
 Lee [la guía de skills](shared/standards/skill-writing-guide.md) y [las reglas de calidad](shared/standards/quality-rules.md).
-Los 26 skills previos conservan estado alpha; los 17 borradores de software se registran como experimental0.0.1, sin afirmar evaluacion de comportamiento. image-analysis, sublimation-layout y print-ready-qa tienen contratos en versión 0.2.0; product-specs integra el catálogo en 0.2.1. mug-sublimation 0.1.2 es la entrada desde chat. El registro indica la versión de cada skill.
+Los 27 skills activos conservan estado alpha; los 17 borradores de software se registran como experimental 0.0.1, sin afirmar evaluación de comportamiento. image-analysis, sublimation-layout y print-ready-qa tienen contratos en versión 0.2.0; product-specs integra el catálogo en 0.2.1. mug-sublimation 0.1.2 y adhesivo-tarrito 0.1.0 son entradas desde chat. El registro indica la versión de cada skill.
 
 Consulta [el registro](registry/skills.yaml), [los contratos](standards/skill-contract.md) y [la guía de evaluación](standards/evaluation-guide.md).
 
@@ -75,10 +77,10 @@ develop contiene la base v0.2; main mantiene la última versión publicada. El s
 AI-Workspace almacena conocimiento, skills y reglas. Un pedido es una ejecución que consume esa base; no necesita otro repositorio por diseño.
 Los pedidos reales, outputs y logs pertenecen a un futuro design-runner separado. Este repositorio contiene solo ejemplos sintéticos; todavía no ejecuta pedidos ni genera arte por sí mismo.
 
-- [Catálogo de productos](tribe/knowledge/product-catalog/README.md): cuatro variantes con medidas propuestas y tres familias pendientes.
+- [Catálogo de productos](tribe/knowledge/product-catalog/README.md): taza, tres tomatodos, adhesivo para tarrito cuadrado y familias pendientes; todos conservan su estado de verificación explícito.
 - [Schema de pedidos](tribe/schemas/README.md): producto, workflow, contenido, salida, restricciones hard/soft y referencia al commit.
 - [Principios de diseño](tribe/standards/design-principles.md) y [generación no bloqueante](tribe/policies/non-blocking-generation.md).
-- Workflows: [taza](workflows/tribe/mug-sublimation.md), [tomatodo](workflows/tribe/tumbler-sublimation.md) y [camiseta DTF](workflows/tribe/dtf-shirt.md).
+- Workflows: [taza](workflows/tribe/mug-sublimation.md), [tomatodo](workflows/tribe/tumbler-sublimation.md), [adhesivo para tarrito](workflows/tribe/adhesivo-tarrito.md) y [camiseta DTF](workflows/tribe/dtf-shirt.md).
 
 Invocación manual: "Usa tumbler-sublimation con tumbler_600ml, modo draft, esta temática y las restricciones del pedido".
 Todos los productos están unverified. La resiliencia permite un borrador claramente identificado; no relaja restricciones hard ni certifica impresión.

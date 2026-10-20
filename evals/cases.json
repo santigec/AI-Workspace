@@ -189,6 +189,22 @@
       "skill": "uml-rendering",
       "path": "evals/software-office/uml-rendering/case-002.md",
       "status": "NOT_RUN"
+    },
+    {
+      "id": "adhesivo-tarrito-001",
+      "skill": "adhesivo-tarrito",
+      "workflow": "adhesivo-tarrito",
+      "scope": "behavioral",
+      "path": "evals/tribe/adhesivo-tarrito/case-001.md",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "adhesivo-tarrito-002",
+      "skill": "adhesivo-tarrito",
+      "workflow": "adhesivo-tarrito",
+      "scope": "behavioral",
+      "path": "evals/tribe/adhesivo-tarrito/case-002.md",
+      "status": "NOT_RUN"
     }
   ]
 }

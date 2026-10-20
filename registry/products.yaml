@@ -7,7 +7,8 @@
     "tribe/knowledge/product-catalog/tumblers.yaml",
     "tribe/knowledge/product-catalog/shirts.yaml",
     "tribe/knowledge/product-catalog/stickers.yaml",
-    "tribe/knowledge/product-catalog/notebooks.yaml"
+    "tribe/knowledge/product-catalog/notebooks.yaml",
+    "tribe/knowledge/product-catalog/jars.yaml"
   ],
   "agenda_order_schema": "tribe/schemas/agenda-order.schema.json"
 }

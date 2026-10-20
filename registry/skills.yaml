@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "workspace_version": "0.5.4",
+  "workspace_version": "0.5.5",
   "skills": {
     "image-analysis": {
       "domain": "shared",
@@ -510,6 +510,21 @@
       "requires_before": [],
       "recommends_next": [],
       "evaluation_cases": []
+    },
+    "adhesivo-tarrito": {
+      "domain": "tribe",
+      "owner": "tribe",
+      "path": "tribe/skills/adhesivo-tarrito/SKILL.md",
+      "version": "0.1.0",
+      "status": "alpha",
+      "requires_before": [],
+      "recommends_next": [
+        "print-ready-qa"
+      ],
+      "evaluation_cases": [
+        "adhesivo-tarrito-001",
+        "adhesivo-tarrito-002"
+      ]
     }
   },
   "workflows": {
@@ -660,6 +675,24 @@
         "technical-presentation",
         "uml-modeling",
         "uml-rendering"
+      ]
+    },
+    "adhesivo-tarrito": {
+      "path": "workflows/tribe/adhesivo-tarrito.md",
+      "status": "alpha",
+      "steps": [
+        "adhesivo-tarrito",
+        "image-analysis",
+        "image-generation",
+        "image-editing",
+        "resize-to-print",
+        "print-ready-qa"
+      ],
+      "conditional_steps": [
+        "image-analysis",
+        "image-generation",
+        "image-editing",
+        "resize-to-print"
       ]
     }
   }
