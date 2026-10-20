@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "workspace_version": "0.5.5",
+  "workspace_version": "0.5.6",
   "skills": {
     "image-analysis": {
       "domain": "shared",
@@ -525,6 +525,16 @@
         "adhesivo-tarrito-001",
         "adhesivo-tarrito-002"
       ]
+    },
+    "sitop-mit-software-docs": {
+      "domain": "software-office",
+      "owner": "software-office",
+      "path": "software-office/skills/sitop-mit-software-docs/SKILL.md",
+      "version": "0.1.0",
+      "status": "alpha",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": []
     }
   },
   "workflows": {

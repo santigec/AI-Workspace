@@ -49,3 +49,12 @@ Prueba de tres delegaciones reales completada el 2026-10-19: revisión de una ho
 Última muestra local: agenda-kpop-2026-10-15-v2; cabecera HUNTR/X ilustrada2172x724px (~284ppp al ancho194mm). Portadas ~127ppp originales. No arrastrar Cele: fue otro pedido. Muestras y scripts de pedidos permanecen locales y no se transfieren al clonar esta versión ligera.
 
 La validación técnica no certifica impresión. Casos visuales formales siguen NOT_RUN. Faltan prueba física, sangrado y encuadernación antes de PRINT_READY. En el segundo equipo seguir docs/two-computers.md; falta ejecutarse allí, no afirmar conexión ni MCP activo.
+
+
+## Documentación SITOP/MIT centralizada — 2026-10-20
+
+Solicitud del usuario: conservar en AI-Workspace, oficina de software SITOP, la capacidad reutilizable creada al documentar SPI Generator y versionarla en GitHub de AI-Workspace. Nueva skill software-office/skills/sitop-mit-software-docs, 0.1.0 alpha; acceso .agents y registro. Workspace 0.5.6. Integra análisis, diseño, trazabilidad F0-F5, CU/SEQ, diccionario, índices navegables, membretes y controles MIT. SPI es un ejemplo consumidor, no una dependencia del skill. No cambia el programa ni otro repo SITOP.
+
+Git transporta conocimiento, helper y manifiesto SHA256; membretes vertical/horizontal restaurados localmente en .tools/sitop-mit, ignorados. El segundo equipo requiere aportar originales autorizados y verificar hashes; publicación no instala recursos ni skills globales automáticamente. Las skills personales de plantilla pueden seguir como adaptadores, pero la autoridad de software es AI-Workspace. Prueba previa del perfil: expediente SPI 0.3 con 29 páginas revisadas, 235 enlaces y 31 TOC; no certifica otro producto. Evaluación conductual de la nueva skill en un segundo proyecto NOT_RUN. La publicación y los checks se registran en docs/sitop-mit-software-docs.md.
+
+Verificación 0.5.6: registro y enlaces PASS, quick_validate PASS, cuatro specs OpenSpec PASS tras archivo 2026-10-20-add-sitop-mit-software-docs. Manifiesto SHA256 y smoke del helper PASS; evaluación en segundo producto NOT_RUN. Memoria ai-workspace #81/chunk 8968183c exportado sin prompts. Publicación autorizada sobre origin/develop; no se crean tags ni releases por inferencia.

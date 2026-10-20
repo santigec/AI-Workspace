@@ -14,11 +14,11 @@ Adhesivos para tarritos cuadrados: [adhesivo-tarrito](tribe/skills/adhesivo-tarr
 
 Tomatodo 750 ml: [tumbler-750ml-sublimation](tribe/skills/tumbler-750ml-sublimation/SKILL.md), **232 × 182 mm**, arte plano y continuo. [Ejemplo de orden](tribe/templates/orders/tumbler-750ml.example.json).
 
-Repositorio central para capacidades de IA reutilizables. Versión de desarrollo: **0.5.5 — Adhesivo para tarrito cuadrado**.
+Repositorio central para capacidades de IA reutilizables. Versión de desarrollo: **0.5.6 — Documentación de software SITOP/MIT**.
 
 Para usar dos equipos con GitHub: [guía de configuración y sincronización](docs/two-computers.md). Leer [estado para continuar](continuity/STATE.md). Se sincronizan skills y memoria `.engram` del proyecto `ai-workspace`; diseños y archivos pesados quedan locales.
 
-[Equipo operativo](docs/operating-team.md): coordinador, diseñador y revisor. Tres perfiles de agente para pedidos de Tribe, con entrega y revisión independientes. El registro común contiene 44 skills: 27 alpha y 17 borradores experimentales de software preservados. [Pendientes y límites](continuity/PENDING.md).
+[Equipo operativo](docs/operating-team.md): coordinador, diseñador y revisor. Tres perfiles de agente para pedidos de Tribe, con entrega y revisión independientes. El registro común contiene 45 skills: 28 alpha y 17 borradores experimentales de software preservados. [Pendientes y límites](continuity/PENDING.md).
 
 ## Áreas
 
@@ -58,7 +58,7 @@ Usa [la ficha de producto](tribe/templates/product-spec.md). Confirma dimensione
 Editar → probar con un caso real → revisar → commit → GitHub → instalar la versión estable en el entorno elegido.
 
 Lee [la guía de skills](shared/standards/skill-writing-guide.md) y [las reglas de calidad](shared/standards/quality-rules.md).
-Los 27 skills activos conservan estado alpha; los 17 borradores de software se registran como experimental 0.0.1, sin afirmar evaluación de comportamiento. image-analysis, sublimation-layout y print-ready-qa tienen contratos en versión 0.2.0; product-specs integra el catálogo en 0.2.1. mug-sublimation 0.1.2 y adhesivo-tarrito 0.1.0 son entradas desde chat. El registro indica la versión de cada skill.
+Los 28 skills activos conservan estado alpha; los 17 borradores de software se registran como experimental 0.0.1, sin afirmar evaluación de comportamiento. image-analysis, sublimation-layout y print-ready-qa tienen contratos en versión 0.2.0; product-specs integra el catálogo en 0.2.1. mug-sublimation 0.1.2 y adhesivo-tarrito 0.1.0 son entradas desde chat. El registro indica la versión de cada skill.
 
 Consulta [el registro](registry/skills.yaml), [los contratos](standards/skill-contract.md) y [la guía de evaluación](standards/evaluation-guide.md).
 
@@ -131,3 +131,6 @@ python scripts/build_agenda_plan.py tribe/templates/orders/agenda-a4.example.jso
 ```
 
 El plan no es arte final ni aprobación de impresión. Los dos casos visuales de agenda están NOT_RUN.
+
+
+Documentación de software SITOP/MIT: [skill reutilizable 0.1.0](software-office/skills/sitop-mit-software-docs/SKILL.md), [uso y portabilidad](docs/sitop-mit-software-docs.md). Análisis, diseño y trazabilidad con membretes, controles e índices. [Lista de skills y versiones](docs/skills-inventory.md).

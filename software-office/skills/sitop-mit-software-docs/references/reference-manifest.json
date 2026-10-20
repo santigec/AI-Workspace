@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "local_directory": ".tools/sitop-mit",
+  "references": {
+    "vertical": {
+      "local_path": ".tools/sitop-mit/mit-vertical.docx",
+      "sha256": "0e98db740439ca503f2f0eb51e1db98b2f11a5761b69aa02fa18012ab7681455",
+      "source_filename": "HOJA MEMBRETADA Vertical MIT(1).docx"
+    },
+    "horizontal": {
+      "local_path": ".tools/sitop-mit/mit-horizontal.docx",
+      "sha256": "066170e6d591298f11ea9ecc07b4863ccb6e0f35a0689f433f5a811c9b0ff40b",
+      "source_filename": "HOJA MEMBRETADA Horizontal MIT.docx"
+    }
+  }
+}

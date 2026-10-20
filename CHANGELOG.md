@@ -1,5 +1,12 @@
 # Historial
 
+## 0.5.6 — Documentación de software SITOP/MIT (develop)
+
+- Skill central sitop-mit-software-docs 0.1.0 alpha, reutilizable por proyecto: análisis, diseño, proceso e impacto con Word/Markdown navegables.
+- Perfil MIT vertical/horizontal, portada sin número, control documental y PAGE continuo; helper y hashes versionables, originales locales ignorados.
+- Registro, acceso Codex e inventario de skills/versiones; evaluación en segundo proyecto pendiente.
+
+
 ## 0.5.5 — Adhesivo para tarrito cuadrado (develop)
 
 - Nueva skill adhesivo-tarrito 0.1.0 para una banda plana y continua de 180 × 80 mm, dividida conceptualmente en cuatro paneles de 45 × 80 mm.
