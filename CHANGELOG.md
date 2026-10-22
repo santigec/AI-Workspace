@@ -1,5 +1,11 @@
 # Historial
 
+## mug-box-design 0.2.1 — Pilas laterales compactas (2026-10-22)
+
+- Muchos motivos pequeños por lateral se apilan verticalmente con rostros derechos, sin rotar 90°; con pocos sigue siendo válida una disposición horizontal que quepa, sin umbral numérico inventado.
+- Escala proporcional dentro de la envolvente inferior previa, sin aumentar altura hacia cortes; si falta referencia se registra propuesta pendiente de plantilla.
+- Conservados logo central único, reservas y borde. Reglas, workflow, QA, evaluaciones y pruebas estructurales actualizados; no equivale a validación visual ni de producción.
+
 ## mug-box-design 0.2.0 — Reservas centrales corregidas (2026-10-21)
 
 - Sustituido el anclaje ambiguo por una caja central de máximo 30 mm: y = 50–80 mm; 50 mm superiores y 120 mm inferiores con solo fondo discreto.

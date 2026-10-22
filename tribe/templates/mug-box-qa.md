@@ -11,6 +11,9 @@ Resultado: DRAFT / REQUIERE_CORRECCIÓN / PRINT_READY
 - [ ] Columna central con 50 mm superiores y 120 mm inferiores de solo fondo discreto; variante explícita nunca menos de 40 mm superiores.
 - [ ] Caja delimitadora real del motivo comprobada, no solo su anclaje: ____________________.
 - [ ] Artes temáticas en inferior izquierda e inferior derecha.
+- [ ] Muchos motivos pequeños: pilas verticales compactas con rostros derechos, sin girar 90° ni filas horizontales largas; pocos pueden quedar horizontales si caben. Sin umbral numérico inventado.
+- [ ] Envolvente inferior previa y final registradas: ____________________. Motivos reducidos proporcionalmente, sin aumentar altura hacia cortes, subir el grupo ni invadir centro/borde. Si no hay referencia, propuesta inferior explícita pendiente de plantilla.
+- [ ] Un único logo central, sin duplicados laterales; reservas y borde conservados.
 - [ ] Centro inferior libre de texto, personajes, logos y adornos protagonistas; fondo discreto.
 - [ ] Ambas reservas registradas en mm (x, y, ancho, alto); ancho propuesto x = 45–105 mm pendiente de plantilla: ____________________.
 - [ ] Borde temático completo y equilibrado, compatible con la reserva.

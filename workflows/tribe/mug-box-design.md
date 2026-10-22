@@ -3,6 +3,8 @@
 1. Ejecutar mug-box-design para recoger temática, textos solicitados y medidas de 150 × 200 mm. Registrar como propuesta cualquier extensión de reserva central que no esté confirmada por una plantilla.
 2. Usar image-analysis si hay referencias: identificar paleta, lettering, emblemas y relación con la taza, excluyendo UI comercial.
 3. Usar image-generation para arte nuevo o image-editing para modificar arte existente. Producir una sola composición plana vertical, fondo continuo, motivo central completo en y = 50–80 mm (máximo 30 mm), artes inferiores laterales y reservas centrales superior de 50 mm e inferior de 120 mm. Usar x = 45–105 mm como ancho central propuesto; solo fondo discreto en las reservas. La variante y = 40–80 mm requiere solicitud explícita.
+Antes de maquetar: si hay muchos motivos pequeños por lateral, usar pilas verticales compactas con rostros derechos, sin girar 90°. Con pocos pueden quedar horizontales si caben. Registrar la envolvente inferior previa y reducir proporcionalmente para no aumentar su altura hacia cortes; si falta referencia, registrar una propuesta pendiente de plantilla. Mantener un único logo central, reservas y borde. No inventar un umbral numérico.
+
 4. Aplicar resize-to-print cuando sea necesario para maquetación física, conservando proporción, legibilidad y resolución efectiva; no convertir un reescalado en una afirmación de detalle nativo.
 5. Revisar con print-ready-qa y el checklist tribe/templates/mug-box-qa.md. Mostrar imagen y archivo; indicar DRAFT si faltan parámetros de producción.
 

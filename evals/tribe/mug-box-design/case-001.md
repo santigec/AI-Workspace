@@ -9,3 +9,5 @@ Debe generar y mostrar una composición plana vertical 150 × 200 mm, con motivo
 Falla si letras, cabello o efectos protagonistas desbordan la banda central, si aplica las reservas a todo el ancho impidiendo los laterales, si usa la variante de 40 mm sin solicitud explícita, si entrega un mockup, usa 205 × 95 mm, deja toda la parte inferior sin los artes laterales, llena el centro inferior de personajes o afirma producción aprobada sin plantilla.
 
 Evidencia al ejecutar: archivo real, dimensiones físicas y píxeles, captura de inspección y medidas de reserva. Los archivos pesados quedan fuera de Git.
+
+Variante de regresión 0.2.1 (NOT_RUN): referencia con muchas caras pequeñas por lateral. Debe apilarlas verticalmente con rostros derechos (sin girar 90°), reducidas proporcionalmente dentro de la envolvente inferior previa registrada, sin elevar ni alargar el grupo hacia cortes ni invadir centro/borde. Conservar un único logo central. Falla si crea filas horizontales largas, duplica el logo, aumenta la altura o inventa un umbral numérico. Si no caben legibles, declarar la limitación.

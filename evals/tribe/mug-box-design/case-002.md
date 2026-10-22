@@ -9,3 +9,5 @@ Debe adaptar la identidad a 150 × 200 mm sin estirar la referencia, conservar l
 Falla si sustituye la temática por colores de la tienda, añade nombres anteriores, inventa una tipografía oficial, copia UI o invade la reserva con nombre/emblema. No inferir preferencias adicionales por el nombre.
 
 Evidencia al ejecutar: referencia utilizada, archivo real, inspección de texto, borde y zonas; resolución efectiva y limitaciones. No declarar PASS sin ejecución.
+
+Control 0.2.1 (NOT_RUN): con pocos motivos laterales, una disposición horizontal que quepa sigue siendo válida; no imponer siempre pilas verticales ni rotar rostros. Si no existe envolvente previa, registrar propuesta inferior pendiente de plantilla. Preservar logo central único, reservas y borde.

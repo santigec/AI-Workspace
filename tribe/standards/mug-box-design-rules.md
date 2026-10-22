@@ -23,6 +23,14 @@ La caja delimitadora COMPLETA del motivo central incluye lettering, emblema, per
 
 Registrar x, y, ancho y alto en mm de ambas reservas y del motivo central. Para el borrador predeterminado: superior (45, 0, 60, 50), motivo dentro de (45, 50, 60, 30), inferior (45, 80, 60, 120). Estas anchuras son propuestas hasta contrastarlas con la plantilla física. No imprimir sus guías en el arte.
 
+## Grupos laterales compactos (0.2.1)
+
+Cuando muchos rostros o personajes pequeños deban compartir un lateral inferior, apilarlos verticalmente, uno sobre otro, con rostros derechos (sin girar 90°); no extenderlos en una fila horizontal larga. Con pocos motivos, una disposición horizontal es válida si cabe. La elección depende del espacio y legibilidad, no de un umbral numérico inventado.
+
+Mantener la envolvente inferior previa de cada grupo lateral: registrar su caja delimitadora de referencia y la del resultado. Reducir proporcionalmente los motivos pequeños para que quepan dentro de la misma envolvente; no aumentar la altura hacia los cortes del cartón ni desplazar el grupo hacia arriba para resolver el apilado. Si falta una referencia, proponer y registrar la envolvente inferior sin inventar medidas de cortes. Preservar la legibilidad; si no cabe, informar la limitación en lugar de desbordar o deformar.
+
+Conservar un único logo central y las reservas centrales existentes; no repetir el logo en cada lateral. El borde temático permanece intacto y las pilas no lo invaden. Esta regla reorganiza los motivos laterales, no amplía su zona disponible ni valida la plantilla física.
+
 ## Acabado
 
 Componer un conjunto profesional, limpio y vibrante: jerarquía de tema, artes y borde; contraste suficiente; espacio de respiración y detalles acordes a los personajes, emblemas y tipografía. Mantener la identidad visual de la taza si existe referencia, adaptando el diseño al formato vertical.
