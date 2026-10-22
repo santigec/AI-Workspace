@@ -1,5 +1,12 @@
 # Historial
 
+## mug-box-design 0.2.0 — Reservas centrales corregidas (2026-10-21)
+
+- Sustituido el anclaje ambiguo por una caja central de máximo 30 mm: y = 50–80 mm; 50 mm superiores y 120 mm inferiores con solo fondo discreto.
+- Variante explícita: reserva superior mínima 40 mm y motivo máximo 40 mm; laterales conservados fuera de la columna central.
+- Ancho central propuesto x = 45–105 mm, sujeto a plantilla; QA exige caja delimitadora completa, incluidos cabello, lettering y efectos protagonistas.
+- Reglas, workflow, registro y evaluaciones actualizados; pruebas estructurales no equivalen a aprobación visual o de producción.
+
 ## 0.5.6 — Documentación de software SITOP/MIT (develop)
 
 - Skill central sitop-mit-software-docs 0.1.0 alpha, reutilizable por proyecto: análisis, diseño, proceso e impacto con Word/Markdown navegables.
