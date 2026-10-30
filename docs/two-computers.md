@@ -2,6 +2,14 @@
 
 Se comparten skills, reglas, pruebas de código y memoria del proyecto **ai-workspace**. Los diseños e imágenes/PDF/ZIP se ignoran y quedan locales. La versión ligera no requiere Git LFS.
 
+## Alcance confirmado el 2026-10-30
+
+El versionado abarca el proyecto AI-Workspace: instrucciones, skills, workflows, registro, plantillas fuente, scripts, dependencias declaradas y memoria exportada. El objetivo es poder continuar las tareas desde esta información en otro chat o equipo. Las carpetas externas al repositorio no forman parte de esta sincronización.
+
+Para continuar una tarea, abrir el checkout actualizado, seguir AGENTS.md, consultar continuity/STATE.md y continuity/PENDING.md, importar Engram y leer el SKILL.md correspondiente con sus referencias. Los ejemplos de invocación están en [chat-invocation.md](chat-invocation.md).
+
+Cada equipo debe instalar las dependencias que exija la tarea y configurar sus propias conexiones. Para las herramientas Node usar `npm ci`; para validaciones Python consultar requirements-dev.txt. Los originales de membretes SITOP MIT se aportan localmente y se verifican como indica [sitop-mit-software-docs.md](sitop-mit-software-docs.md). Las referencias visuales de cada pedido también deben estar disponibles. Guardar este conocimiento permite retomar el procedimiento; no instala herramientas ni reproduce por sí solo archivos de salida.
+
 ## Segundo equipo Windows
 
 Instalar Git y Python3.11+, entrar a GitHub con acceso al repositorio privado:
