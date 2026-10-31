@@ -37,6 +37,45 @@
         "corrugation_safe"
       ],
       "workflow": "drawstring-backpack-sublimation"
+    },
+    {
+      "id": "drawstring_backpack_coloring_a3",
+      "label": "Mochila de cordón para colorear — plantilla A3 vertical 297 × 420 mm",
+      "family": "backpack",
+      "technique": "sublimation",
+      "width_mm": 297,
+      "height_mm": 420,
+      "proposal_source": "Usuario, 2026-10-31: solicita plantilla A3 para mochila de cordón con line art negro sobre blanco, apta para colorear y con el 25% superior corrugable sin contenido crítico.",
+      "supplier": null,
+      "model": null,
+      "verification": {
+        "status": "unverified",
+        "source": null,
+        "verified_by": null,
+        "verified_at": null
+      },
+      "production": {
+        "print_area": null,
+        "safe_margin_mm": null,
+        "bleed_mm": null,
+        "resolution_ppi": null,
+        "color_profile": null,
+        "format": null,
+        "background": "white",
+        "mirror": null,
+        "excluded_zones": [
+          "y = 0–105 mm: franja corrugable; sin contenido crítico y solo ornamentos delineados dispersos"
+        ]
+      },
+      "style_defaults": [
+        "professional",
+        "a3_portrait",
+        "black_and_white",
+        "line_art",
+        "coloring_page",
+        "corrugation_safe"
+      ],
+      "workflow": "bolsitos-colorear-a3"
     }
   ]
 }

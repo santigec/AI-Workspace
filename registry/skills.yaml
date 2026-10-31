@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "workspace_version": "0.5.7",
+  "workspace_version": "0.5.8",
   "skills": {
     "image-analysis": {
       "domain": "shared",
@@ -547,6 +547,18 @@
         "print-ready-qa"
       ],
       "evaluation_cases": []
+    },
+    "bolsitos-colorear-a3": {
+      "domain": "tribe",
+      "owner": "tribe",
+      "path": "tribe/skills/bolsitos-colorear-a3/SKILL.md",
+      "version": "0.1.0",
+      "status": "alpha",
+      "requires_before": [],
+      "recommends_next": [
+        "print-ready-qa"
+      ],
+      "evaluation_cases": []
     }
   },
   "workflows": {
@@ -722,6 +734,24 @@
       "status": "alpha",
       "steps": [
         "drawstring-backpack-sublimation",
+        "image-analysis",
+        "image-generation",
+        "image-editing",
+        "resize-to-print",
+        "print-ready-qa"
+      ],
+      "conditional_steps": [
+        "image-analysis",
+        "image-generation",
+        "image-editing",
+        "resize-to-print"
+      ]
+    },
+    "bolsitos-colorear-a3": {
+      "path": "workflows/tribe/bolsitos-colorear-a3.md",
+      "status": "alpha",
+      "steps": [
+        "bolsitos-colorear-a3",
         "image-analysis",
         "image-generation",
         "image-editing",
