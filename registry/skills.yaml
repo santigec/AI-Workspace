@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "workspace_version": "0.5.6",
+  "workspace_version": "0.5.7",
   "skills": {
     "image-analysis": {
       "domain": "shared",
@@ -535,6 +535,18 @@
       "requires_before": [],
       "recommends_next": [],
       "evaluation_cases": []
+    },
+    "drawstring-backpack-sublimation": {
+      "domain": "tribe",
+      "owner": "tribe",
+      "path": "tribe/skills/drawstring-backpack-sublimation/SKILL.md",
+      "version": "0.1.0",
+      "status": "alpha",
+      "requires_before": [],
+      "recommends_next": [
+        "print-ready-qa"
+      ],
+      "evaluation_cases": []
     }
   },
   "workflows": {
@@ -692,6 +704,24 @@
       "status": "alpha",
       "steps": [
         "adhesivo-tarrito",
+        "image-analysis",
+        "image-generation",
+        "image-editing",
+        "resize-to-print",
+        "print-ready-qa"
+      ],
+      "conditional_steps": [
+        "image-analysis",
+        "image-generation",
+        "image-editing",
+        "resize-to-print"
+      ]
+    },
+    "drawstring-backpack-sublimation": {
+      "path": "workflows/tribe/drawstring-backpack-sublimation.md",
+      "status": "alpha",
+      "steps": [
+        "drawstring-backpack-sublimation",
         "image-analysis",
         "image-generation",
         "image-editing",
