@@ -13,11 +13,11 @@ spec.loader.exec_module(validator)
 
 class WorkspaceValidationTests(unittest.TestCase):
     def setUp(self):
-        self.temp = tempfile.TemporaryDirectory(prefix="ai-workspace-validation-", dir=ROOT.parent)
-        assert Path(self.temp.name).resolve().parent == ROOT.parent.resolve()
+        self.temp = tempfile.TemporaryDirectory(prefix="ai-workspace-validation-")
+        assert not Path(self.temp.name).resolve().is_relative_to(ROOT.resolve())
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name) / "repo"
-        shutil.copytree(ROOT, self.root, ignore=shutil.ignore_patterns(".git", "__pycache__", "design-runs", ".venv", "outputs"))
+        shutil.copytree(ROOT, self.root, ignore=shutil.ignore_patterns(".git", ".codegraph", ".engram", ".tools", "__pycache__", "design-runs", ".venv", "node_modules", "output", "outputs", "tmp"))
         self.registry_path = self.root / "registry/skills.yaml"
         self.registry = json.loads(self.registry_path.read_text(encoding="utf-8"))
 
@@ -26,6 +26,9 @@ class WorkspaceValidationTests(unittest.TestCase):
 
     def test_current_workspace_is_valid(self):
         self.assertEqual([], validator.validate(self.root))
+
+    def test_marketing_office_is_registered_domain(self):
+        self.assertIn("marketing-office", validator.DOMAINS)
 
     def test_missing_skill_blocks_validation(self):
         (self.root / self.registry["skills"]["image-analysis"]["path"]).unlink()

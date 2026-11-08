@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "workspace_version": "0.5.8",
+  "workspace_version": "0.6.0",
   "skills": {
     "image-analysis": {
       "domain": "shared",
@@ -559,6 +559,54 @@
         "print-ready-qa"
       ],
       "evaluation_cases": []
+    },
+    "linkedin-marketing": {
+      "domain": "marketing-office",
+      "owner": "marketing-office",
+      "path": "marketing-office/skills/linkedin-marketing/SKILL.md",
+      "version": "0.1.0",
+      "status": "alpha",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": [
+        "linkedin-marketing-001"
+      ]
+    },
+    "seo-operations": {
+      "domain": "marketing-office",
+      "owner": "marketing-office",
+      "path": "marketing-office/skills/seo-operations/SKILL.md",
+      "version": "0.1.0",
+      "status": "alpha",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": [
+        "seo-operations-001"
+      ]
+    },
+    "local-lead-research": {
+      "domain": "marketing-office",
+      "owner": "marketing-office",
+      "path": "marketing-office/skills/local-lead-research/SKILL.md",
+      "version": "0.1.0",
+      "status": "alpha",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": [
+        "local-lead-research-001"
+      ]
+    },
+    "agency-role-selection": {
+      "domain": "marketing-office",
+      "owner": "marketing-office",
+      "path": "marketing-office/skills/agency-role-selection/SKILL.md",
+      "version": "0.1.0",
+      "status": "alpha",
+      "requires_before": [],
+      "recommends_next": [],
+      "evaluation_cases": [
+        "agency-role-selection-001"
+      ]
     }
   },
   "workflows": {
@@ -763,6 +811,22 @@
         "image-generation",
         "image-editing",
         "resize-to-print"
+      ]
+    },
+    "marketing-operations": {
+      "path": "marketing-office/workflows/marketing-operations.md",
+      "status": "alpha",
+      "steps": [
+        "linkedin-marketing",
+        "seo-operations",
+        "local-lead-research",
+        "agency-role-selection"
+      ],
+      "conditional_steps": [
+        "linkedin-marketing",
+        "seo-operations",
+        "local-lead-research",
+        "agency-role-selection"
       ]
     }
   }

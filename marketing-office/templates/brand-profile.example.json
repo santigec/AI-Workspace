@@ -1,0 +1,18 @@
+{
+  "brand_id": "example-brand",
+  "name": "Example Brand",
+  "value_proposition": "A concise, factual value proposition.",
+  "audience": ["defined customer segment"],
+  "territories": ["EC"],
+  "voice": {
+    "attributes": ["clear", "helpful", "credible"],
+    "preferred_terms": [],
+    "forbidden_terms": []
+  },
+  "authorized_channels": [],
+  "objectives": [],
+  "approval": {
+    "content_reviewer": "assigned-by-consumer",
+    "publisher": "assigned-by-consumer"
+  }
+}

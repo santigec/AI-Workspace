@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-08",
+  "tools": {
+    "google-maps-scraper": {
+      "source": "https://github.com/gosom/google-maps-scraper",
+      "revision": "e0c1d501e49cdcd5c6b2cecd2a032831f6ee9ba8",
+      "license": "MIT",
+      "capability": "local business research and structured export",
+      "installed": false,
+      "dependencies": ["Docker", "Node.js", "optional proxy infrastructure"],
+      "risks": ["terms of service", "privacy", "anti-spam", "data minimization"]
+    },
+    "agency-agents": {
+      "source": "https://github.com/msitarzewski/agency-agents",
+      "revision": "b859c515d813efcfc4755d3471dd9e7686c7706d",
+      "license": "MIT",
+      "capability": "catalog of specialized agent instructions",
+      "installed": false,
+      "dependencies": [],
+      "risks": ["instruction conflicts", "context bloat", "unreviewed role behavior"]
+    },
+    "linkedin-skills": {
+      "source": "https://github.com/sergebulaev/linkedin-skills",
+      "revision": "8f8bc4b40a2d5419b2dcf898772b85712cfbdf41",
+      "license": "MIT",
+      "capability": "LinkedIn content and approval workflows",
+      "installed": false,
+      "dependencies": ["optional Publora", "optional Apify", "optional Pixfaro"],
+      "risks": ["account permissions", "third-party credentials", "publishing authorization"]
+    },
+    "open-seo": {
+      "source": "https://github.com/every-app/open-seo",
+      "revision": "46b815be34723e46ceeefe9b2b907bb62b62fd76",
+      "license": "MIT",
+      "capability": "SEO research, auditing and rank tracking",
+      "installed": false,
+      "dependencies": ["DataForSEO API key for live data"],
+      "risks": ["usage costs", "API credential scope", "external data retention"]
+    }
+  }
+}

@@ -4,7 +4,7 @@ import json
 import re
 from pathlib import Path
 
-DOMAINS = {"shared", "tribe", "image-studio", "software-office"}
+DOMAINS = {"shared", "tribe", "image-studio", "software-office", "marketing-office"}
 STATES = {"experimental", "alpha", "beta", "stable", "deprecated"}
 
 def validate(root):

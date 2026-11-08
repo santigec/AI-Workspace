@@ -205,6 +205,34 @@
       "scope": "behavioral",
       "path": "evals/tribe/adhesivo-tarrito/case-002.md",
       "status": "NOT_RUN"
+    },
+    {
+      "id": "linkedin-marketing-001",
+      "skill": "linkedin-marketing",
+      "scope": "behavioral",
+      "path": "evals/marketing-office/linkedin-marketing/case-001.md",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "seo-operations-001",
+      "skill": "seo-operations",
+      "scope": "behavioral",
+      "path": "evals/marketing-office/seo-operations/case-001.md",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "local-lead-research-001",
+      "skill": "local-lead-research",
+      "scope": "behavioral",
+      "path": "evals/marketing-office/local-lead-research/case-001.md",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "agency-role-selection-001",
+      "skill": "agency-role-selection",
+      "scope": "behavioral",
+      "path": "evals/marketing-office/agency-role-selection/case-001.md",
+      "status": "NOT_RUN"
     }
   ]
 }
