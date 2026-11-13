@@ -13,7 +13,8 @@ Resultado: DRAFT / REQUIERE_CORRECCIÓN / PRINT_READY
 - [ ] Artes temáticas en inferior izquierda e inferior derecha.
 - [ ] Muchos motivos pequeños: pilas verticales compactas con rostros derechos, sin girar 90° ni filas horizontales largas; pocos pueden quedar horizontales si caben. Sin umbral numérico inventado.
 - [ ] Envolvente inferior previa y final registradas: ____________________. Motivos reducidos proporcionalmente, sin aumentar altura hacia cortes, subir el grupo, invadir el centro ni quedar cortados por el límite. Si no hay referencia, propuesta inferior explícita pendiente de plantilla.
-- [ ] Un único logo central, sin duplicados laterales; reservas conservadas.
+- [ ] Un único logo central protagonista, sin logos laterales flotantes; emblemas naturales en banderas, camisetas u objetos solo cuando corresponden a la identidad verificada.
+- [ ] Coherencia temática integral: banderas, uniformes, utilería, trofeos, patrones, arquitectura, emblemas y textos pertenecen al tema; no hay sustitutos genéricos.
 - [ ] Centro inferior libre de texto, personajes, logos y adornos protagonistas; fondo discreto.
 - [ ] Ambas reservas registradas en mm (x, y, ancho, alto); ancho propuesto x = 45–105 mm pendiente de plantilla: ____________________.
 - [ ] Sin borde ni marco decorativo: no hay rectángulos, filetes, líneas perimetrales, esquinas ornamentales ni punteado en los límites; el fondo llega limpio a los cuatro lados.

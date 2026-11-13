@@ -1,6 +1,6 @@
 ---
 name: mug-box-design
-description: Diseña arte temático plano y continuo de 150 × 200 mm para cajas de tazas, con reservas centrales, motivo acotado y sin marco decorativo.
+description: Diseña arte temático plano y continuo de 150 × 200 mm para cajas, con reservas, sin marco y coherencia temática integral.
 ---
 
 # Mug box design en AI-Workspace

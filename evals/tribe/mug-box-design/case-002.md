@@ -10,4 +10,4 @@ Falla si sustituye la temática por colores de la tienda, añade nombres anterio
 
 Evidencia al ejecutar: referencia utilizada, archivo real, inspección de texto, ausencia de marco y zonas; resolución efectiva y limitaciones. No declarar PASS sin ejecución.
 
-Control 0.2.1 (NOT_RUN): con pocos motivos laterales, una disposición horizontal que quepa sigue siendo válida; no imponer siempre pilas verticales ni rotar rostros. Si no existe envolvente previa, registrar propuesta inferior pendiente de plantilla. Preservar logo central único y reservas, sin añadir marco decorativo.
+Control 0.2.1 (NOT_RUN): con pocos motivos laterales, una disposición horizontal que quepa sigue siendo válida; no imponer siempre pilas verticales ni rotar rostros. Si no existe envolvente previa, registrar propuesta inferior pendiente de plantilla. Preservar logo central único y reservas, sin añadir marco decorativo. Todo objeto secundario reconocible debe conservar identidad temática; no aceptar sustitutos genéricos.

@@ -1,6 +1,6 @@
 # Composición de cajas de taza
 
-Especificación inicial del 2026-10-19, corregida por el usuario el 2026-10-21 y el 2026-11-13 (skill 0.2.2). Lienzo vertical de 150 × 200 mm, con fondo temático continuo y sin marco decorativo. Estas medidas describen el arte; no certifican el tamaño de una caja montada ni sus pliegues.
+Especificación inicial del 2026-10-19, corregida por el usuario el 2026-10-21 y el 2026-11-13 (skill 0.2.3). Lienzo vertical de 150 × 200 mm, con fondo temático continuo y sin marco decorativo. Estas medidas describen el arte; no certifican el tamaño de una caja montada ni sus pliegues.
 
 ## Mapa de composición
 
@@ -29,7 +29,11 @@ Cuando muchos rostros o personajes pequeños deban compartir un lateral inferior
 
 Mantener la envolvente inferior previa de cada grupo lateral: registrar su caja delimitadora de referencia y la del resultado. Reducir proporcionalmente los motivos pequeños para que quepan dentro de la misma envolvente; no aumentar la altura hacia los cortes del cartón ni desplazar el grupo hacia arriba para resolver el apilado. Si falta una referencia, proponer y registrar la envolvente inferior sin inventar medidas de cortes. Preservar la legibilidad; si no cabe, informar la limitación en lugar de desbordar o deformar.
 
-Conservar un único logo central y las reservas centrales existentes; no repetir el logo en cada lateral. Las pilas no deben quedar cortadas por el límite del lienzo. Esta regla reorganiza los motivos laterales, no amplía su zona disponible ni valida la plantilla física.
+Conservar un único logo central protagonista y las reservas centrales existentes; no repetir logos como emblemas flotantes en cada lateral. Los emblemas integrados naturalmente en objetos temáticos —banderas, camisetas u otra utilería— son válidos cuando la identidad verificada los requiera. Las pilas no deben quedar cortadas por el límite del lienzo. Esta regla reorganiza los motivos laterales, no amplía su zona disponible ni valida la plantilla física.
+
+## Coherencia temática integral (0.2.3)
+
+Todo elemento reconocible debe pertenecer al tema solicitado. Verificar banderas, uniformes, utilería, trofeos, patrones, arquitectura, emblemas y textos contra la referencia o una fuente de identidad confiable. No reemplazar un objeto temático por una versión genérica para simplificar la composición o evitar una repetición de marca; mantener el objeto y corregir su identidad. Si no puede verificarse un detalle relevante, omitirlo o declarar la limitación en vez de inventarlo.
 
 ## Acabado
 
