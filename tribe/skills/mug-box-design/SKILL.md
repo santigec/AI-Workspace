@@ -1,6 +1,6 @@
 ---
 name: mug-box-design
-description: Diseña arte plano y continuo para cajas de taza de 150 × 200 mm con motivo central acotado entre reservas superior e inferior, borde decorado y motivos laterales.
+description: Diseña arte plano y continuo para cajas de taza de 150 × 200 mm con motivo central acotado, reservas, motivos laterales y sin marco decorativo.
 ---
 
 # mug-box-design
@@ -16,20 +16,20 @@ Consulta [reglas de composición](../../standards/mug-box-design-rules.md), [wor
 - Mantén un fondo temático continuo en todo el lienzo, también bajo el centro inferior libre. Continuo significa una composición sin cortes visuales, no una repetición de mosaico ni una unión lateral perfecta salvo solicitud expresa.
 - Coloca artes reconocibles de la temática en las zonas **inferior izquierda e inferior derecha**, con escala y contraste equilibrados.
 - Si hay muchas caras o personajes pequeños por lateral, distribúyelos en **pilas verticales compactas**, uno sobre otro, con rostros derechos: no girarlos 90° ni formar una fila horizontal larga. Con pocos motivos puede conservarse una disposición horizontal si cabe. No fijes un umbral numérico universal.
-- Conserva la envolvente inferior del grupo lateral de referencia: reduce proporcionalmente los motivos pequeños para que la pila quepa sin aumentar su altura hacia los cortes del cartón, invadir el centro ni tocar el borde. Si no hay envolvente de referencia, delimita y registra una propuesta inferior pendiente de plantilla. Mantén un único logo central; no lo dupliques en las pilas.
-- Reserva el **centro inferior sin textos, personajes, emblemas ni ornamentos protagonistas**; permite solamente el fondo de baja complejidad. Evita que los motivos laterales o el borde invadan esta reserva.
+- Conserva la envolvente inferior del grupo lateral de referencia: reduce proporcionalmente los motivos pequeños para que la pila quepa sin aumentar su altura hacia los cortes del cartón, invadir el centro ni quedar cortada por el límite del lienzo. Si no hay envolvente de referencia, delimita y registra una propuesta inferior pendiente de plantilla. Mantén un único logo central; no lo dupliques en las pilas.
+- Reserva el **centro inferior sin textos, personajes, emblemas ni ornamentos protagonistas**; permite solamente el fondo de baja complejidad. Evita que los motivos laterales invadan esta reserva.
 - Limita TODO el motivo central (título, logo, personaje, cabello y efectos protagonistas incluidos) a la banda **y = 50–80 mm desde arriba**, de **30 mm de alto máximo**. Reserva los **50 mm superiores** y los **120 mm inferiores** de la columna central exclusivamente para fondo discreto. No uses y = 80 mm como anclaje que permita desbordar la banda.
 - Solo por variante explícita puede reducirse la reserva superior a **40 mm**, dejando la banda y = 40–80 mm de **40 mm de alto máximo**; nunca menos de 40 mm libres arriba. Las reservas centrales NO prohíben los motivos laterales.
 - Para borrador usa columna central propuesta **x = 45–105 mm** (60 mm de ancho), pendiente de plantilla física. Ajusta su ancho a la plantilla confirmada; nunca lo presentes como medida del cartón validada.
-- Decora **todo el perímetro** con un borde coherente con el tema, manteniendo el centro inferior despejado. El borde inferior puede ser discreto para respetar la reserva.
+- **Sin borde ni marco decorativo:** no generes trazos perimetrales, rectángulos, filetes, esquinas ornamentales ni efectos punteados en los límites. El grid físico aporta el cuadrado final. Extiende el fondo temático de forma limpia y continua hasta los cuatro límites del arte.
 - Integra tipografía, colores, emblemas y detalles propios del tema. Usa colores vibrantes con jerarquía profesional, limpieza y legibilidad; no llenes cada espacio de adornos.
 
-Las alturas de las reservas centrales sí están definidas; el ancho central x = 45–105 mm es una propuesta. No se han definido grosor del borde, cortes, pliegues, pestañas ni sangrado. Registra las reservas superior e inferior y la caja delimitadora del motivo central; para producción ajústala a la plantilla física confirmada. No inventes esos parámetros ni presentes esta composición como un troquel validado.
+Las alturas de las reservas centrales sí están definidas; el ancho central x = 45–105 mm es una propuesta. No se han definido cortes, pliegues, pestañas ni sangrado. Registra las reservas superior e inferior y la caja delimitadora del motivo central; para producción ajústala a la plantilla física confirmada. No inventes esos parámetros ni presentes esta composición como un troquel validado.
 
 ## Identidad y referencias
 
 Conserva la tipografía o lettering de la temática cuando esté disponible; si se exige fidelidad exacta, usa el recurso original accesible o declara la limitación. No afirmes que una fuente genérica reproduce un logo. Personaliza nombres respetando escritura y acentos solo cuando se soliciten; no heredes nombres de otros pedidos ni agregues frases genéricas.
-Adapta borde, energía y motivos al estilo pedido, incluido femenino o masculino cuando se indique. No deduzcas género por el nombre ni impongas colores estereotipados. La paleta pertenece a la temática del pedido; no a la marca de la tienda por defecto.
+Adapta la energía, la composición y los motivos al estilo pedido, incluido femenino o masculino cuando se indique. No deduzcas género por el nombre ni impongas colores estereotipados. La paleta pertenece a la temática del pedido; no a la marca de la tienda por defecto.
 Clasifica las imágenes como original, contenido, estilo o fondo. Una captura comercial no autoriza copiar UI, precios, QR, teléfonos ni elementos ajenos al arte.
 
 ## Ejecución y entrega

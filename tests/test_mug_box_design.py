@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 class MugBoxDesignTests(unittest.TestCase):
     def test_version_is_registered(self):
         registry = json.loads((ROOT / 'registry/skills.yaml').read_text(encoding='utf-8'))
-        self.assertEqual('0.2.1', registry['skills']['mug-box-design']['version'])
+        self.assertEqual('0.2.2', registry['skills']['mug-box-design']['version'])
 
     def test_geometry_contract_is_consistent(self):
         for name in ('tribe/skills/mug-box-design/SKILL.md',
@@ -43,6 +43,17 @@ class MugBoxDesignTests(unittest.TestCase):
                              'proporcionalmente', 'único logo central',
                              'umbral numérico'):
                     self.assertIn(text, content.lower())
+
+    def test_art_has_no_decorative_perimeter_frame(self):
+        for name in ('tribe/skills/mug-box-design/SKILL.md',
+                     'tribe/standards/mug-box-design-rules.md',
+                     'tribe/templates/mug-box-qa.md',
+                     'workflows/tribe/mug-box-design.md'):
+            with self.subTest(path=name):
+                content = (ROOT / name).read_text(encoding='utf-8').lower()
+                self.assertIn('sin borde', content)
+                self.assertIn('marco', content)
+                self.assertIn('fondo', content)
 
 
 

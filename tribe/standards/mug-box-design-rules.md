@@ -1,6 +1,6 @@
 # Composición de cajas de taza
 
-Especificación inicial del 2026-10-19, corregida por el usuario el 2026-10-21 (skill 0.2.0). Lienzo vertical de 150 × 200 mm, con fondo temático continuo. Estas medidas describen el arte; no certifican el tamaño de una caja montada ni sus pliegues.
+Especificación inicial del 2026-10-19, corregida por el usuario el 2026-10-21 y el 2026-11-13 (skill 0.2.2). Lienzo vertical de 150 × 200 mm, con fondo temático continuo y sin marco decorativo. Estas medidas describen el arte; no certifican el tamaño de una caja montada ni sus pliegues.
 
 ## Mapa de composición
 
@@ -13,7 +13,7 @@ Origen de coordenadas de maquetación: esquina superior izquierda, x hacia la de
 | Inferior izquierda | Arte secundario de la temática con fondo integrado |
 | Inferior derecha | Arte secundario de la temática con fondo integrado |
 | Centro inferior, y = 80–200 mm | Reserva de 120 mm sin texto, personajes, logos ni adornos protagonistas; solo fondo discreto |
-| Perímetro completo | Borde temático coordinado, sin invadir las reservas centrales |
+| Perímetro completo | Fondo continuo hasta el límite; sin borde, marco, filete ni esquinas ornamentales |
 
 La columna central propuesta para borrador es **x = 45–105 mm**, ancho 60 mm; su ancho requiere confirmación de plantilla física. Las alturas sí son obligatorias: 50 mm libres arriba + 30 mm de motivo + 120 mm libres abajo = 200 mm. Los motivos laterales permanecen permitidos fuera de la columna central; no convertir las reservas en franjas vacías a todo lo ancho.
 
@@ -29,10 +29,11 @@ Cuando muchos rostros o personajes pequeños deban compartir un lateral inferior
 
 Mantener la envolvente inferior previa de cada grupo lateral: registrar su caja delimitadora de referencia y la del resultado. Reducir proporcionalmente los motivos pequeños para que quepan dentro de la misma envolvente; no aumentar la altura hacia los cortes del cartón ni desplazar el grupo hacia arriba para resolver el apilado. Si falta una referencia, proponer y registrar la envolvente inferior sin inventar medidas de cortes. Preservar la legibilidad; si no cabe, informar la limitación en lugar de desbordar o deformar.
 
-Conservar un único logo central y las reservas centrales existentes; no repetir el logo en cada lateral. El borde temático permanece intacto y las pilas no lo invaden. Esta regla reorganiza los motivos laterales, no amplía su zona disponible ni valida la plantilla física.
+Conservar un único logo central y las reservas centrales existentes; no repetir el logo en cada lateral. Las pilas no deben quedar cortadas por el límite del lienzo. Esta regla reorganiza los motivos laterales, no amplía su zona disponible ni valida la plantilla física.
 
 ## Acabado
 
-Componer un conjunto profesional, limpio y vibrante: jerarquía de tema, artes y borde; contraste suficiente; espacio de respiración y detalles acordes a los personajes, emblemas y tipografía. Mantener la identidad visual de la taza si existe referencia, adaptando el diseño al formato vertical.
+Componer un conjunto profesional, limpio y vibrante: jerarquía de tema y artes, contraste suficiente, espacio de respiración y detalles acordes a los personajes, emblemas y tipografía. Mantener la identidad visual de la taza si existe referencia, adaptando el diseño al formato vertical.
+No dibujar un contorno alrededor del rectángulo de 150 × 200 mm. Quedan prohibidos los bordes decorativos, marcos, filetes, líneas perimetrales, esquinas ornamentales y texturas punteadas que simulen un marco. El fondo debe llegar limpio a los cuatro límites porque el grid físico de la caja define el cuadrado final.
 Estilo femenino, masculino u otro solo cuando se solicite o esté definido por la referencia; no inferirlo del nombre. Evitar sobrecargar el centro inferior con destellos, tramas fuertes o ilustraciones que anulen el espacio libre.
 No introducir sangrado, pliegues ni cortes por defecto. Si el fabricante aporta plantilla, verificar compatibilidad del lienzo y registrar cualquier ajuste necesario antes de producir.
